@@ -1,0 +1,21 @@
+{
+  "name": "osmoz",
+  "displayName": "osmoz themes",
+  "description": "Themes for Visual Studio code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Osmoz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Osmoz-color-theme.json"
+      }
+    ]
+  }
+}
