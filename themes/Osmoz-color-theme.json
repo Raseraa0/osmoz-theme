@@ -1,174 +1,1727 @@
 {
-    "name": "Osmoz Dark",
-    "type": "dark",
-    "author": "Osmoz",
-    "colorSpaceName": "sRGB",
-	"colors": {
-        
-        // Color formats
+  "name": "Osmoz Dark",
+  "type": "dark",
+  "author": "Osmoz",
+  "colorSpaceName": "sRGB",
+  "colors": {
+    // ==============================
+    // Base colors
+    // ==============================
+    // Overall border color for focused elements. This color is only used if not overridden by a component.
+    // "focusBorder": "#22d3ee",
 
+    // Overall foreground color. This color is only used if not overridden by a component.
+    // "foreground": "#f0f9ff",
 
-        // Contrast colors
+    // Overall foreground for disabled elements. This color is only used if not overridden by a component.
+    // "disabledForeground": "#FF0000",
 
+    // Border color of widgets such as Find/Replace inside the editor.
+    // "widget.border": "#",
 
-        // Base colors
+    // Shadow color of widgets such as Find/Replace inside the editor.
+    // "widget.shadow": "#",
 
+    // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
+    // "selection.background": "#",
 
-        // Window border
+    // Foreground color for description text providing additional information, for example for a label.
+    // "descriptionForeground": "#",
 
+    // Overall foreground color for error messages (this color is only used if not overridden by a component).
+    // "errorForeground": "#",
 
-        // Text colors
+    // The default color for icons in the workbench.
+    // "icon.foreground": "#",
 
+    // The hover border color for draggable sashes.
+    // "sash.hoverBorder": "#",
 
-        // Action colors
+    // The hover border color for draggable sashes.
+    // "sash.hoverBorder": "#",
 
+    // ==============================
+    // Window border
+    // ==============================
 
-        // Button control
+    // Border color for the active (focused) window.
+    // "window.activeBorder" : "#",
 
+    // Border color for the inactive (unfocused) windows.
+    // "window.inactiveBorder" : "#",
 
-        // Dropdown control
+    // ==============================
+    // Text colors
+    // ==============================
 
+    // ==============================
+    // Action colors
+    // ==============================
 
-        // Input control
+    // ==============================
+    // Button control
+    // ==============================
 
+    // ==============================
+    // Dropdown control
+    // ==============================
 
-        // Scrollbar control
+    // ==============================
+    // Input control
+    // ==============================
 
+    // ==============================
+    // Scrollbar control
+    // ==============================
 
-        // Badge
+    // ==============================
+    // Badge
+    // ==============================
 
+    // ==============================
+    // Progress bar
+    // ==============================
 
-        // Progress bar
+    // ==============================
+    // Lists and trees
+    // ==============================
 
+    // ==============================
+    // Activity Bar
+    // ==============================
 
-        // Lists and trees
+    // ==============================
+    // Profiles
+    // ==============================
 
+    // ==============================
+    // Side Bar
+    // ==============================
 
-        // Activity Bar
+    // Side Bar background color.
+    "sideBar.background": "#262047",
 
+    // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
+    "sideBar.foreground": "#c8c4e0",
 
-        // Profiles
+    // Side Bar border color on the side separating the editor.
+    "sideBar.border": "#403777",
 
+    // Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through.
+    "sideBar.dropBackground": "#60569933",
 
-        // Side Bar
+    // Side Bar title foreground color.
+    "sideBarTitle.foreground": "#b9afff",
 
+    // Side Bar section header background color.
+    "sideBarSectionHeader.background": "#1e193b",
 
-        // Minimap
+    // Side Bar section header foreground color.
+    "sideBarSectionHeader.foreground": "#e5e2f8",
 
+    // Side bar section header border color.
+    "sideBarSectionHeader.border": "#403777",
 
-        // Editor Groups & Tabs
+    // Border color between the activity bar at the top/bottom and the views.
+    "sideBarActivityBarTop.border": "#403777",
 
+    // Side bar title background color. The side bar is the container for views like explorer and search.
+    "sideBarTitle.background": "#191431",
 
-        // Editor colors
+    // Background color of sticky scroll in the side bar.
+    "sideBarStickyScroll.background": "#2c2650",
 
+    // Border color of sticky scroll in the side bar.
+    "sideBarStickyScroll.border": "#403777",
 
-        // Diff editor colors
+    // Shadow color of sticky scroll in the side bar.
+    "sideBarStickyScroll.shadow": "#403777",
 
+    // ==============================
+    // Minimap
+    // ==============================
 
-        // Chat colors
+    // ==============================
+    // Editor Groups & Tabs
+    // ==============================
 
+    // Color to separate multiple editor groups from each other.
+    // "editorGroup.border": "#",
 
-        // Inline Chat colors
+    // Background color when dragging editors around.
+    // "editorGroup.dropBackground": "#",
 
+    // Background color of the editor group title header when using single Tab (set "workbench.editor.showTabs": "single").
+    // "editorGroupHeader.noTabsBackground": "#",
 
-        // Panel Chat colors
+    // Background color of the Tabs container.
+    // "editorGroupHeader.tabsBackground": "#",
 
+    // Border color below the editor tabs control when tabs are enabled.
+    // "editorGroupHeader.tabsBorder": "#",
 
-        // Editor widget colors
+    // Border color between editor group header and editor (below breadcrumbs if enabled).
+    // "editorGroupHeader.border": "#",
 
+    // Background color of an empty editor group.
+    // "editorGroup.emptyBackground": "#",
 
-        // Peek view colors
+    // Border color of an empty editor group that is focused.
+    // "editorGroup.focusedEmptyBorder": "#",
 
+    // Foreground color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+    // "editorGroup.dropIntoPromptForeground": "#",
 
-        // Merge conflicts colors
+    // Background color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+    // "editorGroup.dropIntoPromptBackground": "#",
 
+    // Border color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+    // "editorGroup.dropIntoPromptBorder": "#",
 
-        // Panel colors
+    // Active Tab background color in an active group.
+    // "tab.activeBackground": "#",
 
+    // Active Tab background color in an inactive editor group.
+    // "tab.unfocusedActiveBackground": "#",
 
-        // Status Bar colors
+    // Active Tab foreground color in an active group.
+    // "tab.activeForeground": "#",
 
+    // Border to separate Tabs from each other.
+    // "tab.border": "#",
 
-        // Title Bar colors
+    // Bottom border for the active tab.
+    // "tab.activeBorder": "#",
 
+    // Border to the top of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+    // "tab.selectedBorderTop": "#",
 
-        // Menu Bar colors
+    // Background of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+    // "tab.selectedBackground": "#",
 
+    // Foreground of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+    // "tab.selectedForeground": "#",
 
-        // Command Center colors
+    // Border between tabs to indicate that a tab can be inserted between two tabs. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+    // "tab.dragAndDropBorder": "#",
 
+    // Bottom border for the active tab in an inactive editor group.
+    // "tab.unfocusedActiveBorder": "#",
 
-        // Notification colors
+    // Top border for the active tab.
+    // "tab.activeBorderTop": "#",
 
+    // Top border for the active tab in an inactive editor group
+    // "tab.unfocusedActiveBorderTop": "#",
 
-        // Banner colors
+    // Border on the right of the last pinned editor to separate from unpinned editors.
+    // "tab.lastPinnedBorder": "#",
 
+    // Inactive Tab background color.
+    // "tab.inactiveBackground": "#",
 
-        // Extensions colors
+    // Inactive Tab background color in an unfocused group
+    // "tab.unfocusedInactiveBackground": "#",
 
+    // Inactive Tab foreground color in an active group.
+    // "tab.inactiveForeground": "#",
 
-        // Quick picker colors
+    // Active tab foreground color in an inactive editor group.
+    // "tab.unfocusedActiveForeground": "#",
 
+    // Inactive tab foreground color in an inactive editor group.
+    // "tab.unfocusedInactiveForeground": "#",
 
-        // Keybinding label colors
+    // Tab background color when hovering
+    // "tab.hoverBackground": "#",
 
+    // Tab background color in an unfocused group when hovering
+    // "tab.unfocusedHoverBackground": "#",
 
-        // Keyboard shortcut table colors
+    // Tab foreground color when hovering
+    // "tab.hoverForeground": "#",
 
+    // Tab foreground color in an unfocused group when hovering
+    // "tab.unfocusedHoverForeground": "#",
 
-        // Integrated Terminal colors
+    // Border to highlight tabs when hovering
+    // "tab.hoverBorder": "#",
 
+    // Border to highlight tabs in an unfocused group when hovering
+    // "tab.unfocusedHoverBorder": "#",
 
-        // Debug colors
+    // Border on the top of modified (dirty) active tabs in an active group.
+    // "tab.activeModifiedBorder": "#",
 
+    // Border on the top of modified (dirty) inactive tabs in an active group.
+    // "tab.inactiveModifiedBorder": "#",
 
-        // Testing colors
+    // Border on the top of modified (dirty) active tabs in an unfocused group.
+    // "tab.unfocusedActiveModifiedBorder": "#",
 
+    // Border on the top of modified (dirty) inactive tabs in an unfocused group.
+    // "tab.unfocusedInactiveModifiedBorder": "#",
 
-        // Welcome page colors
+    // Background color of the editor pane visible on the left and right side of the centered editor layout.
+    // "editorPane.background": "#",
 
+    // Color to separate two editors from each other when shown side by side in an editor group from top to bottom.
+    // "sideBySideEditor.horizontalBorder": "#",
 
-        // Git colors
+    // Color to separate two editors from each other when shown side by side in an editor group from left to right.
+    // "sideBySideEditor.verticalBorder": "#",
 
+    // ==============================
+    // Editor colors
+    // ==============================
 
-        // Source Control Graph colors
+    // Editor background color.
+    "editor.background": "#1e1a3a",
 
+    // Editor default foreground color.
+    "editor.foreground": "#b9b5cf",
 
-        // Settings Editor colors
+    // Color of editor line numbers.
+    "editorLineNumber.foreground": "#5648a0",
 
+    // Color of the active editor line number.
+    "editorLineNumber.activeForeground": "#8c7dd3",
 
-        // Breadcrumbs colors
+    // Color of the final editor line when editor.renderFinalNewline is set to dimmed.
+    "editorLineNumber.dimmedForeground": "#5648a0",
 
+    // Color of the editor cursor.
+    "editorCursor.foreground": "#aba5d0",
 
-        // Snippets colors
+    // The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
+    "editorCursor.background": "#1e1a3a",
 
+    // Color of the primary editor cursor when multiple cursors are present.
+    //   "editorMultiCursor.primary.foreground": "#",
 
-        // Symbol Icons colors
+    // The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
+    //   "editorMultiCursor.primary.background": "#",
 
+    // Color of secondary editor cursors when multiple cursors are present.
+    "editorMultiCursor.secondary.foreground": "#948fb4",
 
-        // Debug Icons colors
+    // The background color of secondary editor cursors when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
+    "editorMultiCursor.secondary.background": "#1e1a3a",
 
+    // Foreground color of the placeholder text in the editor.
+    //   "editor.placeholder.foreground": "#",
 
-        // Notebook colors
+    // The border color for an IME composition.
+    "editor.compositionBorder": "#aba5d0",
 
+    // Color of the editor selection.
+    "editor.selectionBackground": "#4568db50",
 
-        // Chart colors
+    // Color of the selected text for high contrast.
+    // "editor.selectionForeground": "#",
 
+    // Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
+    // "editor.inactiveSelectionBackground": "#,
 
-        // Ports colors
+    // Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.
+    "editor.selectionHighlightBackground": "#a77ce730",
 
+    // Border color for regions with the same content as the selection.
+    // "editor.selectionHighlightBorder": "#",
 
-        // Comments View colors
+    // Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque so as not to hide underlying decorations.
+    "editor.wordHighlightBackground": "#a77ce730",
 
+    // Border color of a symbol during read-access, for example when reading a variable.
+    // "editor.wordHighlightBorder" : "#",
 
-        // Action Bar colors
+    // Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque so as not to hide underlying decorations.
+    "editor.wordHighlightStrongBackground": "#a77ce730",
 
+    // Border color of a symbol during write-access, for example when writing to a variable.
+    // "editor.wordHighlightStrongBorder" : "#",
 
-        // Simple Find Widget colors
+    // Background color of a textual occurrence for a symbol. The color must not be opaque so as not to hide underlying decorations.
+    "editor.wordHighlightTextBackground": "#a77ce730",
 
+    // Border color of a textual occurrence for a symbol.
+    // "editor.wordHighlightTextBorder" : "#",
 
-        // Gauge colors
+    // Color of the current search match.
+    "editor.findMatchBackground": "#4568db80",
 
+    // Text color of the current search match.
+    // "editor.findMatchForeground" : "#",
 
-	}
+    // Foreground color of the other search matches.
+    // "editor.findMatchHighlightForeground" : "#",
+
+    // Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
+    "editor.findMatchHighlightBackground": "#a77ce740",
+
+    // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque so as not to hide underlying decorations.
+    "editor.findRangeHighlightBackground": "#2a244e44"
+
+    // Border color of the current search match.
+    // "editor.findMatchBorder" : "#",
+
+    // Border color of the other search matches.
+    // "editor.findMatchHighlightBorder" : "#",
+
+    // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
+    // "editor.findRangeHighlightBorder" : "#",
+
+    //-----------------------------------------------------------------------------------------------------------------
+
+    // Color of the text in the search viewlet's completion message.
+    // "search.resultsInfoForeground" : "#",
+
+    // Color of the editor's results.
+    // "searchEditor.findMatchBackground" : "#",
+
+    // Border color of the editor's results.
+    // "searchEditor.findMatchBorder" : "#",
+
+    // Search editor text input box border.
+    // "searchEditor.textInputBorder" : "#",
+
+    // Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.
+    // "editor.hoverHighlightBackground" : "#",
+
+    // Background color for the highlight of line at the cursor position.
+    // "editor.lineHighlightBackground" : "#",
+
+    // Background color for the border around the line at the cursor position.
+    // "editor.lineHighlightBorder" : "#",
+
+    // Foreground color for the labels in the editor watermark.
+    // "editorWatermark.foreground" : "#",
+
+    // Border color used to highlight unicode characters.
+    // "editorUnicodeHighlight.border" : "#",
+
+    // Background color used to highlight unicode characters.
+    // "editorUnicodeHighlight.background" : "#",
+
+    // Color of active links.
+    // "editorLink.activeForeground" : "#",
+
+    // Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
+    // "editor.rangeHighlightBackground" : "#",
+
+    // Background color of the border around highlighted ranges.
+    // "editor.rangeHighlightBorder" : "#",
+
+    // Background color of highlighted symbol. The color must not be opaque so as not to hide underlying decorations.
+    // "editor.symbolHighlightBackground" : "#",
+
+    // Background color of the border around highlighted symbols.
+    // "editor.symbolHighlightBorder" : "#",
+
+    // Color of whitespace characters in the editor.
+    // "editorWhitespace.foreground" : "#",
+
+    // Color of the editor indentation guides.
+    // "editorIndentGuide.background" : "#",
+
+    // Color of the editor indentation guides (1).
+    // "editorIndentGuide.background1" : "#",
+
+    // Color of the editor indentation guides (2).
+    // "editorIndentGuide.background2" : "#",
+
+    // Color of the editor indentation guides (3).
+    // "editorIndentGuide.background3" : "#",
+
+    // Color of the editor indentation guides (4).
+    // "editorIndentGuide.background4" : "#",
+
+    // Color of the editor indentation guides (5).
+    // "editorIndentGuide.background5" : "#",
+
+    // Color of the editor indentation guides (6).
+    // "editorIndentGuide.background6" : "#",
+
+    // Color of the active editor indentation guide.
+    // "editorIndentGuide.activeBackground" : "#",
+
+    // Color of the active editor indentation guides (1).
+    // "editorIndentGuide.activeBackground1" : "#",
+
+    // Color of the active editor indentation guides (2).
+    // "editorIndentGuide.activeBackground2" : "#",
+
+    // Color of the active editor indentation guides (3).
+    // "editorIndentGuide.activeBackground3" : "#",
+
+    // Color of the active editor indentation guides (4).
+    // "editorIndentGuide.activeBackground4" : "#",
+
+    // Color of the active editor indentation guides (5).
+    // "editorIndentGuide.activeBackground5" : "#",
+
+    // Color of the active editor indentation guides (6).
+    // "editorIndentGuide.activeBackground6" : "#",
+
+    // Background color of inline hints.
+    // "editorInlayHint.background" : "#",
+
+    // Foreground color of inline hints.
+    // "editorInlayHint.foreground" : "#",
+
+    // Foreground color of inline hints for types
+    // "editorInlayHint.typeForeground" : "#",
+
+    // Background color of inline hints for types
+    // "editorInlayHint.typeBackground" : "#",
+
+    // Foreground color of inline hints for parameters
+    // "editorInlayHint.parameterForeground" : "#",
+
+    // Background color of inline hints for parameters
+    // "editorInlayHint.parameterBackground" : "#",
+
+    // Background color when the editor is in linked editing mode.
+    // "editor.linkedEditingBackground" : "#",
+
+    // Foreground color of an editor CodeLens.
+    // "editorCodeLens.foreground" : "#",
+
+    // The color used for the lightbulb actions icon.
+    // "editorLightBulb.foreground" : "#",
+
+    // The color used for the lightbulb auto fix actions icon.
+    // "editorLightBulbAutoFix.foreground" : "#",
+
+    // The color used for the lightbulb AI icon.
+    // "editorLightBulbAi.foreground" : "#",
+
+    // Background color behind matching brackets.
+    // "editorBracketMatch.background" : "#",
+
+    // Color for matching brackets boxes.
+    // "editorBracketMatch.border" : "#",
+
+    // Foreground color of brackets (1). Requires enabling bracket pair colorization.
+    // "editorBracketHighlight.foreground1" : "#",
+
+    // Foreground color of brackets (2). Requires enabling bracket pair colorization.
+    // "editorBracketHighlight.foreground2" : "#",
+
+    // Foreground color of brackets (3). Requires enabling bracket pair colorization.
+    // "editorBracketHighlight.foreground3" : "#",
+
+    // Foreground color of brackets (4). Requires enabling bracket pair colorization.
+    // "editorBracketHighlight.foreground4" : "#",
+
+    // Foreground color of brackets (5). Requires enabling bracket pair colorization.
+    // "editorBracketHighlight.foreground5" : "#",
+
+    // Foreground color of brackets (6). Requires enabling bracket pair colorization.
+    // "editorBracketHighlight.foreground6" : "#",
+
+    // Foreground color of unexpected brackets.
+    // "editorBracketHighlight.unexpectedBracket.foreground" : "#",
+
+    // Background color of active bracket pair guides (1). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.activeBackground1" : "#",
+
+    // Background color of active bracket pair guides (2). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.activeBackground2" : "#",
+
+    // Background color of active bracket pair guides (3). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.activeBackground3" : "#",
+
+    // Background color of active bracket pair guides (4). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.activeBackground4" : "#",
+
+    // Background color of active bracket pair guides (5). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.activeBackground5" : "#",
+
+    // Background color of active bracket pair guides (6). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.activeBackground6" : "#",
+
+    // Background color of inactive bracket pair guides (1). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.background1" : "#",
+
+    // Background color of inactive bracket pair guides (2). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.background2" : "#",
+
+    // Background color of inactive bracket pair guides (3). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.background3" : "#",
+
+    // Background color of inactive bracket pair guides (4). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.background4" : "#",
+
+    // Background color of inactive bracket pair guides (5). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.background5" : "#",
+
+    // Background color of inactive bracket pair guides (6). Requires enabling bracket pair guides.
+    // "editorBracketPairGuide.background6" : "#",
+
+    // Background color for folded ranges. The color must not be opaque so as not to hide underlying decorations.
+    // "editor.foldBackground" : "#",
+
+    // Color of the collapsed text after the first line of a folded range.
+    // "editor.foldPlaceholderForeground" : "#",
+
+    // Background color of the editor overview ruler. Only used when the minimap is enabled and placed on the right side of the editor.
+    // "editorOverviewRuler.background" : "#",
+
+    // Color of the overview ruler border.
+    // "editorOverviewRuler.border" : "#",
+
+    // Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
+    // "editorOverviewRuler.findMatchForeground" : "#",
+
+    // Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
+    // "editorOverviewRuler.rangeHighlightForeground" : "#",
+
+    // Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.
+    // "editorOverviewRuler.selectionHighlightForeground" : "#",
+
+    // Overview ruler marker color for symbol highlights. The color must not be opaque so as not to hide underlying decorations.
+    // "editorOverviewRuler.wordHighlightForeground" : "#",
+
+    // Overview ruler marker color for write-access symbol highlights. The color must not be opaque so as not to hide underlying decorations.
+    // "editorOverviewRuler.wordHighlightStrongForeground" : "#",
+
+    // Overview ruler marker color of a textual occurrence for a symbol. The color must not be opaque so as not to hide underlying decorations.
+    // "editorOverviewRuler.wordHighlightTextForeground" : "#",
+
+    // Overview ruler marker color for modified content.
+    // "editorOverviewRuler.modifiedForeground" : "#",
+
+    // Overview ruler marker color for added content.
+    // "editorOverviewRuler.addedForeground" : "#",
+
+    // Overview ruler marker color for deleted content.
+    // "editorOverviewRuler.deletedForeground" : "#",
+
+    // Overview ruler marker color for errors.
+    // "editorOverviewRuler.errorForeground" : "#",
+
+    // Overview ruler marker color for warnings.
+    // "editorOverviewRuler.warningForeground" : "#",
+
+    // Overview ruler marker color for infos.
+    // "editorOverviewRuler.infoForeground" : "#",
+
+    // Overview ruler marker color for matching brackets.
+    // "editorOverviewRuler.bracketMatchForeground" : "#",
+
+    // Overview ruler marker color for inline chat inserted content.
+    // "editorOverviewRuler.inlineChatInserted" : "#",
+
+    // Overview ruler marker color for inline chat removed content.
+    // "editorOverviewRuler.inlineChatRemoved" : "#",
+
+    // Foreground color of error squiggles in the editor.
+    // "editorError.foreground" : "#",
+
+    // Border color of error boxes in the editor.
+    // "editorError.border" : "#",
+
+    // Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.
+    // "editorError.background" : "#",
+
+    // Foreground color of warning squiggles in the editor.
+    // "editorWarning.foreground" : "#",
+
+    // Border color of warning boxes in the editor.
+    // "editorWarning.border" : "#",
+
+    // Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.
+    // "editorWarning.background" : "#",
+
+    // Foreground color of info squiggles in the editor.
+    // "editorInfo.foreground" : "#",
+
+    // Border color of info boxes in the editor.
+    // "editorInfo.border" : "#",
+
+    // Background color of info text in the editor. The color must not be opaque so as not to hide underlying decorations.
+    // "editorInfo.background" : "#",
+
+    // Foreground color of hints in the editor.
+    // "editorHint.foreground" : "#",
+
+    // Border color of hint boxes in the editor.
+    // "editorHint.border" : "#",
+
+    // The color used for the problems error icon.
+    // "problemsErrorIcon.foreground" : "#",
+
+    // The color used for the problems warning icon.
+    // "problemsWarningIcon.foreground" : "#",
+
+    // The color used for the problems info icon.
+    // "problemsInfoIcon.foreground" : "#",
+
+    // Border color of unnecessary (unused) source code in the editor.
+    // "editorUnnecessaryCode.border" : "#",
+
+    // Opacity of unnecessary (unused) source code in the editor. For example, "#000000c0" will render the code with 75% opacity. For high contrast themes, use the "editorUnnecessaryCode.border" theme color to underline unnecessary code instead of fading it out.
+    // "editorUnnecessaryCode.opacity" : "#",
+
+    // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+    // "editorGutter.background" : "#",
+
+    // Editor gutter background color for lines that are modified.
+    // "editorGutter.modifiedBackground" : "#",
+
+    // Editor gutter background color for lines that are added.
+    // "editorGutter.addedBackground" : "#",
+
+    // Editor gutter background color for lines that are deleted.
+    // "editorGutter.deletedBackground" : "#",
+
+    // Editor gutter decoration color for commenting ranges.
+    // "editorGutter.commentRangeForeground" : "#",
+
+    // Editor gutter decoration color for commenting glyphs.
+    // "editorGutter.commentGlyphForeground" : "#",
+
+    // Editor gutter decoration color for commenting glyphs for unresolved comment threads.
+    // "editorGutter.commentUnresolvedGlyphForeground" : "#",
+
+    // Color of the folding control in the editor gutter.
+    // "editorGutter.foldingControlForeground" : "#",
+
+    // Editor gutter decoration color for gutter item glyphs.
+    // "editorGutter.itemGlyphForeground" : "#",
+
+    // Editor gutter decoration color for gutter item background. This color should be opaque.
+    // "editorGutter.itemBackground" : "#",
+
+    // Color of borders and arrow for resolved comments.
+    // "editorCommentsWidget.resolvedBorder" : "#",
+
+    // Color of borders and arrow for unresolved comments.
+    // "editorCommentsWidget.unresolvedBorder" : "#",
+
+    // Color of background for comment ranges.
+    // "editorCommentsWidget.rangeBackground" : "#",
+
+    // Color of background for currently selected or hovered comment range.
+    // "editorCommentsWidget.rangeActiveBackground" : "#",
+
+    // Background color for comment reply input box.
+    // "editorCommentsWidget.replyInputBackground" : "#",
+
+    // Border color for the primary inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.primaryBorder" : "#",
+
+    // Foreground color for the primary inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.primaryForeground" : "#",
+
+    // Background color for the primary inline edit gutter indicator. inlineEdit.gutterIndicator.secondaryBorder: Border color for the secondary inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.primaryBackground" : "#",
+
+    // Foreground color for the secondary inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.secondaryForeground" : "#",
+
+    // Background color for the secondary inline edit gutter indicator. inlineEdit.gutterIndicator.successfulBorder: Border color for the successful inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.secondaryBackground" : "#",
+
+    // Foreground color for the successful inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.successfulForeground" : "#",
+
+    // Background color for the successful inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.successfulBackground" : "#",
+
+    // Background color for the inline edit gutter indicator.
+    // "inlineEdit.gutterIndicator.background" : "#",
+
+    // Background color for the original text in inline edits.
+    // "inlineEdit.originalBackground" : "#",
+
+    // Background color for the modified text in inline edits.
+    // "inlineEdit.modifiedBackground" : "#",
+
+    // Background color for the changed lines in the original text of inline edits.
+    // "inlineEdit.originalChangedLineBackground" : "#",
+
+    // Overlay color for the changed text in the original text of inline edits.
+    // "inlineEdit.originalChangedTextBackground" : "#",
+
+    // Background color for the changed lines in the modified text of inline edits.
+    // "inlineEdit.modifiedChangedLineBackground" : "#",
+
+    // Overlay color for the changed text in the modified text of inline edits.
+    // "inlineEdit.modifiedChangedTextBackground" : "#",
+
+    // Border color for the original text in inline edits.
+    // "inlineEdit.originalBorder" : "#",
+
+    // Border color for the modified text in inline edits. inlineEdit.tabWillAcceptModifiedBorder: Modified border color for the inline edits widget when tab will accept it. inlineEdit.tabWillAcceptOriginalBorder: Original border color for the inline edits widget over the original text when tab will accept it.
+    // "inlineEdit.modifiedBorder" : "#",
+
+    // =======================
+    // Diff editor colors
+    // ==============================
+
+    // ==============================
+    // Chat colors
+    // ==============================
+
+    // ==============================
+    // Inline Chat colors
+    // ==============================
+
+    // ==============================
+    // Panel Chat colors
+    // ==============================
+
+    // ==============================
+    // Editor widget colors
+    // ==============================
+
+    // ==============================
+    // Peek view colors
+    // ==============================
+
+    // ==============================
+    // Merge conflicts colors
+    // ==============================
+
+    // ==============================
+    // Panel colors
+    // ==============================
+
+    // ==============================
+    // Status Bar colors
+    // ==============================
+
+    // ==============================
+    // Title Bar colors
+    // ==============================
+
+    // ==============================
+    // Menu Bar colors
+    // ==============================
+
+    // ==============================
+    // Command Center colors
+    // ==============================
+
+    // ==============================
+    // Notification colors
+    // ==============================
+
+    // ==============================
+    // Banner colors
+    // ==============================
+
+    // ==============================
+    // Extensions colors
+    // ==============================
+
+    // ==============================
+    // Quick picker colors
+    // ==============================
+
+    // ==============================
+    // Keybinding label colors
+    // ==============================
+
+    // ==============================
+    // Keyboard shortcut table colors
+    // ==============================
+
+    // ==============================
+    // Integrated Terminal colors
+    // ==============================
+
+    // ==============================
+    // Debug colors
+    // ==============================
+
+    // ==============================
+    // Testing colors
+    // ==============================
+
+    // ==============================
+    // Welcome page colors
+    // ==============================
+
+    // ==============================
+    // Git colors
+    // ==============================
+
+    // ==============================
+    // Source Control Graph colors
+    // ==============================
+
+    // ==============================
+    // Settings Editor colors
+    // ==============================
+
+    // ==============================
+    // Breadcrumbs colors
+    // ==============================
+
+    // ==============================
+    // Snippets colors
+    // ==============================
+
+    // ==============================
+    // Symbol Icons colors
+    // ==============================
+
+    // ==============================
+    // Debug Icons colors
+    // ==============================
+
+    // ==============================
+    // Notebook colors
+    // ==============================
+
+    // ==============================
+    // Chart colors
+    // ==============================
+
+    // ==============================
+    // Ports colors
+    // ==============================
+
+    // ==============================
+    // Comments View colors
+    // ==============================
+
+    // ==============================
+    // Action Bar colors
+    // ==============================
+
+    // ==============================
+    // Simple Find Widget colors
+    // ==============================
+
+    // ==============================
+    // Gauge colors
+    // ==============================
+  },
+  "tokenColors": [
+    {
+      "name": "COMMENT",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "punctuation.definition.tag",
+        "comment.block.documentation punctuation.definition.bracket",
+        "source.ocaml comment constant.regexp meta.separator",
+        "markup.other.anchor support.constant",
+        "markup.fenced_code",
+        "markup.fenced_code punctuation.definition",
+        "punctuation.definition.heading",
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.strikethrough.markdown"
+      ],
+      "settings": {
+        "foreground": "#716c93"
+      }
+    },
+    {
+      "name": "TEXT",
+      "scope": [
+        "constant.character",
+        "constant.escape",
+        "text.html.markdown",
+        "punctuation.definition.list_item",
+        "keyword.begin.tag.ejs",
+        "constant.name.attribute.tag.pug",
+        "source.clojure meta.symbol",
+        "constant.other.description.jsdoc",
+        "keyword.other.array.phpdoc.php",
+        "keyword.operator.other.powershell",
+        "meta.link.inline punctuation.definition.string",
+        "source.sql",
+        "source meta.brace",
+        "source punctuation",
+        "text.html punctuation",
+        "markup meta punctuation.definition",
+        "meta.bracket.julia",
+        "meta.array.julia",
+        "entity.name.footnote",
+        "source.ocaml punctuation.definition.tag",
+        "source.ocaml entity.name.filename",
+        "source.reason entity.name.filename",
+        "entity.other.attribute-name strong",
+        "binding.fsharp keyword.symbol.fsharp",
+        "entity.name.record.field.elm",
+        "entity.name.record.field.accessor.elm",
+        "storage.modifier.array.bracket",
+        "source.css entity.other",
+        "meta.attribute-selector punctuation.definition.entity",
+        "markup.other.anchor string",
+        "punctuation.separator",
+        "punctuation.section",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#c5c2d6"
+      }
+    },
+    {
+      "name": "KEYWORD",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "storage.modifier",
+        "meta.tag.sgml",
+        "punctuation.accessor",
+        "constant.other.color",
+        "entity.name.section",
+        "markup.heading",
+        "markup.heading punctuation.definition",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "storage.type.function.pug",
+        "text.pug storage.type",
+        "text.pug meta.tag.other",
+        "source.clojure storage.control",
+        "meta.expression.clojure",
+        "punctuation.separator.slice.python",
+        "punctuation.separator.question-mark.cs",
+        "punctuation.definition.parameters.varargs",
+        "source.go keyword.operator",
+        "punctuation.separator.pointer-access",
+        "punctuation.separator.other.ruby",
+        "keyword.package",
+        "keyword.import",
+        "punctuation.definition.keyword",
+        "punctuation.separator.hash.cs",
+        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.kotlin storage.type.import",
+        "source.kotlin storage.type.package",
+        "constant.string.documentation.powershell",
+        "punctuation.section.directive",
+        "storage.type.rust",
+        "punctuation.definition.attribute",
+        "punctuation.definition.preprocessor",
+        "punctuation.separator.namespace",
+        "punctuation.separator.method",
+        "keyword.control punctuation.definition.function",
+        "source.ocaml variable.interpolation string",
+        "source.reason variable.interpolation",
+        "punctuation.definition.directive",
+        "storage.type.modifier",
+        "keyword.other.class.fileds",
+        "source.toml entity.other.attribute-name",
+        "source.css entity.name.tag.custom",
+        "sharing.modifier",
+        "keyword.control.class.ruby",
+        "keyword.control.def.ruby"
+      ],
+      "settings": {
+        "foreground": "#df769b"
+      }
+    },
+    {
+      "name": "VARIABLE",
+      "scope": [
+        "variable",
+        "variable.object",
+        "variable.other",
+        "variable.parameter",
+        "support",
+        "entity.name.module",
+        "variable.import.parameter",
+        "variable.other.class",
+        "meta.toc-list.id.html",
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "meta.var.clojure",
+        "entity.name.variable",
+        "source.java meta.class.body.java",
+        "entity.name.package.go",
+        "source.c",
+        "source.cpp",
+        "source.go",
+        "source.python",
+        "meta.function-call.arguments.python",
+        "source.ruby",
+        "source.coffee.embedded.source",
+        "source.coffee",
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "storage.type.annotation",
+        "punctuation.definition.annotation",
+        "source.groovy.embedded.source",
+        "punctuation.definition.variable",
+        "source.powershell",
+        "string.quoted.interpolated.vala constant.character.escape.vala",
+        "source.apacheconf",
+        "source.objc",
+        "source.crystal",
+        "string.quoted.double.kotlin entity.string.template.element.kotlin",
+        "entity.name.package.kotlin",
+        "meta.template.expression.kotlin",
+        "parameter.variable.function",
+        "variable.other.constant.elixir",
+        "source.elixir.embedded.source",
+        "source.sql.embedded",
+        "punctuation.definition.placeholder",
+        "source.swift",
+        "source.julia",
+        "source.shell",
+        "variable.other.normal punctuation.definition.variable.shell",
+        "source.reason variable.language",
+        "source.reason variable.language string.other.link",
+        "source.elm meta.value",
+        "source.elm meta.declaration.module",
+        "meta.embedded.block variable punctuation.definition.variable.php",
+        "string.quoted.double.class.other",
+        "source.toml keyword",
+        "support.type.nim",
+        "source.tf meta.template.expression",
+        "source.scala entity.name.import",
+        "markup.code",
+        "markup.fenced_code.block"
+      ],
+      "settings": {
+        "foreground": "#e4b781"
+      }
+    },
+    {
+      "name": "ANNOTATION",
+      "scope": [
+        "support.variable.property",
+        "constant.other.symbol.hashkey.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "entity.other.attribute-name.id",
+        "entity.other.attribute-name.id punctuation.definition.entity",
+        "entity.name.type.annotation.kotlin",
+        "support.type.primitive",
+        "meta.type.parameters entity.name.type",
+        "meta.type.annotation entity.name.type",
+        "punctuation.definition.typeparameters",
+        "source.python support.type.python",
+        "comment.block.documentation.phpdoc.php keyword.other.type.php",
+        "storage.type.php",
+        "keyword.type",
+        "storage.type.cs",
+        "storage.type.c",
+        "storage.type.objc",
+        "punctuation.definition.storage.type.objc",
+        "markup punctuation.definition",
+        "storage.type.powershell",
+        "comment.block.documentation entity.name.type",
+        "source.java storage.type",
+        "storage.type.primitive",
+        "source.groovy storage.type",
+        "storage.type.r",
+        "source.haskell storage.type",
+        "punctuation.separator.clause-head-body",
+        "source.go storage.type",
+        "storage.type.core.rust",
+        "storage.class.std.rust",
+        "storage.modifier.lifetime.rust",
+        "entity.name.lifetime.rust",
+        "support.type.vb",
+        "support.type.julia",
+        "constant.other.reference",
+        "source.graphql support.type",
+        "source.reason support.type string",
+        "source.elm storage.type",
+        "storage.type.user-defined",
+        "storage.type.built-in",
+        "support.type.builtin",
+        "source.swift support.type",
+        "support.class.crystal",
+        "storage.type.integral",
+        "source.cpp storage.type.cpp",
+        "source.vala storage.type",
+        "source.hlsl storage.type.basic",
+        "source.hlsl support.type.other",
+        "source.apex storage.type",
+        "source.nim storage.type",
+        "support.class.builtin",
+        "source.tf meta.keyword.string",
+        "source.tf meta.keyword.number",
+        "source.scala entity.name.class",
+        "markup.raw.monospace",
+        "markup.mark",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#d67e5c"
+      }
+    },
+    {
+      "name": "CONSTANT",
+      "scope": [
+        "constant",
+        "variable.other.constant",
+        "support.constant",
+        "punctuation.definition.entity",
+        "constant.character.entity",
+        "support.variable.magic",
+        "markup.quote",
+        "entity.name.type.type-parameter.cs",
+        "punctuation.bracket.angle",
+        "entity.name.function.preprocessor.c",
+        "storage.type.scala",
+        "entity.helper.apacheconf",
+        "variable.language.crystal",
+        "punctuation.definition.constant",
+        "support.constant punctuation.definition.variable",
+        "constant.character.math",
+        "support.class.math",
+        "source.graphql constant.character",
+        "source.reason constant.language.list",
+        "source.cpp variable.other.enummember",
+        "support.variable.class.hideshow",
+        "entity.other.attribute-name.class",
+        "meta.attribute.id entity.other.attribute-name",
+        "text.html entity.other.attribute-name",
+        "meta.tag.attributes entity.other.attribute-name",
+        "text.xml entity.other.attribute-name",
+        "source.cs entity.other.attribute-name",
+        "constant.character.format.placeholder",
+        "constant.other.placeholder",
+        "source.vue entity.other.attribute-name",
+        "entity.other.attribute-name.mjml",
+        "source.vue meta.directive punctuation.separator.key-value",
+        "meta.definition.attribute-entry punctuation.separator"
+      ],
+      "settings": {
+        "foreground": "#d5971a"
+      }
+    },
+    {
+      "name": "TAG",
+      "scope": [
+        "variable.language",
+        "variable.parameter.function.language.special",
+        "punctuation.definition.italic",
+        "punctuation.definition.bold",
+        "entity.name.tag",
+        "variable.language punctuation.definition.variable",
+        "keyword.control.clojure",
+        "support.type.exception.python",
+        "keyword.other.this.cs",
+        "keyword.other.base.cs",
+        "keyword.other.var.cs",
+        "storage.modifier.super",
+        "source.go keyword",
+        "keyword.function.go",
+        "meta.separator",
+        "keyword.other.fn.rust",
+        "storage.modifier.static.rust",
+        "source.r meta.function.r keyword.control.r",
+        "storage.type.def",
+        "meta.class.identifier storage.modifier",
+        "source.scala keyword.declaration",
+        "storage.type",
+        "comment.block.documentation punctuation.definition.block.tag",
+        "comment.block.documentation punctuation.definition.inline.tag",
+        "entity.tag.apacheconf",
+        "keyword.other.julia",
+        "source.julia storage.modifier",
+        "constant.language.empty-list.haskell",
+        "meta.function.powershell storage.type.powershell",
+        "keyword.control.fun",
+        "punctuation.terminator.function",
+        "keyword.other.rust",
+        "keyword.other.declaration-specifier.swift",
+        "keyword.control.class",
+        "keyword.control.def",
+        "source.ocaml keyword markup.underline",
+        "source.ocaml storage.type markup.underline",
+        "binding.fsharp keyword",
+        "function.anonymous keyword",
+        "function.anonymous keyword.symbol.fsharp",
+        "meta.embedded.block variable.language punctuation.definition.variable.php",
+        "keyword.declaration.dart",
+        "source.wsd keyword.other.class",
+        "source.wsd keyword.other.linebegin",
+        "keyword.other.skinparam.keyword",
+        "keyword.other.nim",
+        "markup.deleted.diff",
+        "source.tf support.class.variable",
+        "meta.function.lua keyword.control.lua",
+        "markup.block entity.name.tag",
+        "markup.meta.attribute-list",
+        "source.zig keyword.default",
+        "source.zig keyword.structure"
+      ],
+      "settings": {
+        "foreground": "#e66533"
+      }
+    },
+    {
+      "name": "STRING",
+      "scope": [
+        "string",
+        "punctuation.definition.string",
+        "source.css support.constant",
+        "entity.name.import.go",
+        "markup.raw.texttt",
+        "markup.inserted.diff",
+        "source.scala punctuation.definition.character",
+        "constant.character.literal.scala",
+        "source.tf entity.name"
+      ],
+      "settings": {
+        "foreground": "#49e9a6"
+      }
+    },
+    {
+      "name": "STRINGINTERPOLATED",
+      "scope": [
+        "string.template",
+        "punctuation.definition.string.template",
+        "string.interpolated.python string.quoted.single.python",
+        "string.quoted.double.heredoc",
+        "string.quoted.interpolated.vala",
+        "string.quoted.interpolated.vala punctuation.definition.string",
+        "string.regexp.apacheconf",
+        "markup.inline.raw.string",
+        "markup.inline.raw punctuation.definition.raw",
+        "string.quoted.double.interpolated.crystal",
+        "string.quoted.double.interpolated.crystal punctuation.definition.string",
+        "text.tex markup.raw"
+      ],
+      "settings": {
+        "foreground": "#16b673"
+      }
+    },
+    {
+      "name": "NUMBER",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "punctuation.separator.decimal.period.php",
+        "keyword.operator.null-conditional.cs",
+        "punctuation.separator.question-mark.cs",
+        "constant.integer.apacheconf",
+        "keyword.operator.nullable-type",
+        "constant.language punctuation.definition.variable",
+        "constant.others.fsharp",
+        "keyword.other.unit",
+        "string.quoted.double.skinparam.value",
+        "source.toml constant",
+        "source.zig keyword.constant.bool",
+        "source.zig keyword.constant.default"
+      ],
+      "settings": {
+        "foreground": "#7060eb"
+      }
+    },
+    {
+      "name": "FUNCTION",
+      "scope": [
+        "variable.function",
+        "support.type.property-name",
+        "entity.name.function",
+        "string.other.link",
+        "markup.link",
+        "support.type.vendored",
+        "support.other.variable",
+        "meta.function-call.generic.python",
+        "meta.method-call.groovy meta.method.groovy",
+        "meta.class.body.groovy meta.method.body.java storage.type.groovy",
+        "punctuation.definition.decorator",
+        "support.function.any-method",
+        "text.tex support.function",
+        "text.tex punctuation.definition.function",
+        "entity.name.section.fsharp entity.name.section.fsharp",
+        "support.variable.class.function",
+        "keyword.control.cucumber.table",
+        "punctuation.decorator",
+        "source.tf support.class"
+      ],
+      "settings": {
+        "foreground": "#16a3b6"
+      }
+    },
+    {
+      "name": "SUPPORT",
+      "scope": [
+        "entity.name",
+        "entity.other",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "support.type",
+        "support.class",
+        "punctuation.definition.parameters",
+        "support.function",
+        "support.function.construct",
+        "markup.changed.git_gutter",
+        "markup.underline.link",
+        "markup.underline.link.image",
+        "markup.underline",
+        "meta.symbol.namespace.clojure",
+        "entity.mime-type.apacheconf",
+        "keyword.operator.function.infix",
+        "entity.name.function.infix",
+        "entity.name.function.call.kotlin",
+        "text.tex support.function.verb",
+        "text.tex support.function.texttt",
+        "source.reason constant.language.unit",
+        "source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
+        "source.reason entity.other.attribute-name constant.language constant.numeric",
+        "constant.language.unit.fsharp",
+        "source.wsd support.class.preprocessings",
+        "keyword.language.gherkin.feature.scenario",
+        "source.nim keyword.other.common.function",
+        "entity.name.scope-resolution.function.call"
+      ],
+      "settings": {
+        "foreground": "#49d6e9"
+      }
+    },
+    {
+      "name": "MISC",
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js",
+        "source.js punctuation.section.embedded",
+        "punctuation.definition.template-expression",
+        "support.class",
+        "storage.type.string.python",
+        "string.interpolated.pug",
+        "support.constant.handlebars",
+        "source.clojure punctuation.section.set",
+        "source.clojure punctuation.section.metadata",
+        "entity.global.clojure",
+        "source.python meta.function-call.python support.type.python",
+        "entity.other.inherited-class.python",
+        "punctuation.definition.interpolation",
+        "punctuation.section.embedded.begin.ruby",
+        "punctuation.section.embedded.end.ruby source.ruby",
+        "support.constant.math",
+        "entity.namespace.r",
+        "meta.method-call.groovy storage.type.groovy",
+        "source.scala entity.name.class.declaration",
+        "constant.character.escape",
+        "support.function.macro.julia",
+        "string.replacement.apacheconf",
+        "storage.modifier.using.vala",
+        "constant.other.haskell",
+        "source.objc entity.name.tag",
+        "string.quoted.other.literal.upper.crystal punctuation.definition.string",
+        "meta.embedded.line.crystal punctuation.section.embedded",
+        "meta.embedded.line.crystal punctuation.section.embedded source.crystal",
+        "punctuation.section.embedded",
+        "punctuation.section.tag",
+        "punctuation.section.embedded source.swift",
+        "variable.other.bracket punctuation.definition.variable",
+        "string.interpolated.dollar punctuation.definition.string",
+        "constant.character.escape punctuation.definition.keyword",
+        "source.ocaml entity.name.class constant.numeric",
+        "source.reason entity.name.class",
+        "keyword.format.specifier.fsharp",
+        "support.module.elm",
+        "meta.embedded.block.php punctuation.definition.variable.php",
+        "source.vala storage.type",
+        "support.variable.class.group",
+        "entity.name.type.class",
+        "source.tf meta.keyword.list",
+        "source.tf meta.keyword.map",
+        "entity.name.class.lua",
+        "markup.substitution",
+        "source.cs entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#49ace9"
+      }
+    },
+    {
+      "name": "INVALID",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#e3541c"
+      }
+    },
+    {
+      "name": "ITALIC",
+      "scope": [
+        "comment",
+        "storage.modifier",
+        "punctuation.definition.comment",
+        "entity.other",
+        "variable.language",
+        "support.type.vendored",
+        "support.constant.vendored",
+        "markup.quote",
+        "markup.italic",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "keyword.control.clojure",
+        "source.clojure meta.symbol.dynamic",
+        "keyword.other.this.cs",
+        "keyword.other.base.cs",
+        "variable.other.member.c",
+        "support.type.core.rust",
+        "variable.other.object.property",
+        "variable.other.property",
+        "source.r meta.function.r keyword.control.r",
+        "comment.line.roxygen.r keyword",
+        "comment.line.roxygen.r variable.parameter.r",
+        "keyword.control.inheritance.coffee",
+        "comment.block.documentation.phpdoc.php keyword",
+        "keyword.other.array.phpdoc.php",
+        "storage.type.modifier",
+        "comment.block.javadoc.java keyword",
+        "comment.block.javadoc.java variable.parameter.java",
+        "keyword.operator.documentation.powershell",
+        "storage.type.scala",
+        "variable.parameter.function.language.special",
+        "comment.block.documentation.scala keyword",
+        "comment.block.documentation.scala variable.parameter",
+        "support.function.builtin.go",
+        "constant.other.symbol.hashkey.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "constant.other.symbol.ruby",
+        "source.vala storage.type.generic",
+        "constant.other.table-name",
+        "constant.other.placeholder",
+        "variable.other.field",
+        "entity.alias.import.go",
+        "source.swift keyword.other.declaration-specifier",
+        "support.variable.swift",
+        "keyword.other.capture-specifier",
+        "text.tex support.function.emph",
+        "constant.other.math",
+        "support.function.textit",
+        "entity.name.footnote",
+        "entity.name.function.directive.graphql",
+        "source.graphql support.type.enum",
+        "source.ocaml entity.name.filename",
+        "source.reason entity.name.filename",
+        "abstract.definition.fsharp keyword",
+        "abstract.definition.fsharp entity",
+        "function.anonymous keyword",
+        "entity.name.record.field.accessor.elm",
+        "support.type.primitive",
+        "support.type.builtin",
+        "storage.type.built-in",
+        "storage.type.primitive",
+        "source.python support.type.python",
+        "storage.type.core.rust",
+        "source.swift support.type",
+        "source.go storage.type",
+        "storage.type.php",
+        "storage.type.function.kotlin",
+        "entity.name.type.kotlin",
+        "support.type.julia",
+        "variable.other.member",
+        "keyword.other.import",
+        "keyword.package",
+        "keyword.import",
+        "source.wsd keyword.control.diagram",
+        "keyword.language.gherkin.feature.step",
+        "source.hlsl storage.type.basic",
+        "source.apex keyword.type",
+        "sharing.modifier",
+        "source.nim storage.type.concrete",
+        "meta.preprocessor.pragma.nim",
+        "storage.type.integral",
+        "entity.name.scope-resolution.function.call",
+        "support.class.builtin",
+        "comment.block.documentation storage.type.class",
+        "source.tf meta.keyword.string",
+        "source.tf meta.keyword.number",
+        "source.scala entity.name.class",
+        "meta.import keyword.control",
+        "keyword.control.export",
+        "source.vue meta.directive punctuation.separator.key-value",
+        "keyword.local.lua",
+        "markup.mark.constrained markup.mark",
+        "markup.block.open",
+        "entity.name.type.primitive",
+        "entity.name.type.numeric",
+        "source.zig keyword.type",
+        "source.zig keyword.storage",
+        "source.zig keyword.structure",
+        "source.cs keyword.type"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "BOLD",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "storage.type.function.arrow",
+        "constant.other.color",
+        "punctuation.accessor",
+        "entity.name.section",
+        "markdown.heading",
+        "markup.inline.raw punctuation.definition.raw",
+        "markup.heading",
+        "storage.type.function.pug",
+        "storage.type.function.python",
+        "storage.type.annotation",
+        "punctuation.bracket.angle",
+        "keyword.other.new",
+        "storage.type.generic.wildcard",
+        "source.go keyword.operator",
+        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+        "variable.parameter",
+        "support.function.builtin.rust",
+        "storage.type.function.coffee",
+        "entity.name.variable.parameter",
+        "punctuation.separator.hash.cs",
+        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "meta.function.parameters variable.other",
+        "entity.name.type.annotation.kotlin",
+        "storage.type.objc",
+        "parameter.variable.function",
+        "markup punctuation.definition",
+        "punctuation.section.directive",
+        "punctuation.definition.preprocessor",
+        "source.ruby punctuation.definition.variable",
+        "support.function.textbf",
+        "source.graphql support.type.builtin",
+        "source.ocaml variable.interpolation string",
+        "entity.name.function.definition.special.constructor",
+        "entity.name.function.definition.special.member.destructor.",
+        "meta.function.parameters variable punctuation.definition.variable.php",
+        "source.wsd keyword.other.activity",
+        "keyword.control.class.ruby",
+        "keyword.control.def.ruby",
+        "keyword.function.go",
+        "keyword.other.fn.rust",
+        "markup.other.anchor",
+        "markup.list.bullet",
+        "markup.list punctuation.definition",
+        "keyword.control.default",
+        "punctuation.section",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "markup.bold.markdown",
+        "source.zig storage.type.function"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "BOLD-ITALIC",
+      "scope": [
+        "markup.quote markup.bold",
+        "text.html punctuation.section.embedded",
+        "variable.other.c",
+        "storage.modifier.lifetime.rust",
+        "entity.name.lifetime.rust",
+        "source.rust meta.attribute.rust",
+        "meta.attribute.id entity.other.attribute-name",
+        "source.ocaml punctuation.definition.tag emphasis",
+        "source.tf entity.name",
+        "markup.quote punctuation.definition",
+        "markup.fenced_code punctuation.definition",
+        "fenced_code.block.language"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "NORMAL",
+      "scope": [
+        "keyword.begin.tag.ejs",
+        "source.python meta.function.decorator.python support.type.python",
+        "source.cs keyword.other",
+        "keyword.other.var.cs",
+        "source.go keyword",
+        "storage.modifier.static.rust",
+        "variable.parameter.r",
+        "variable.parameter.handlebars",
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "meta.class.identifier storage.modifier",
+        "keyword.operator.other.powershell",
+        "source.css variable.parameter",
+        "string.interpolated variable.parameter",
+        "source.apacheconf keyword",
+        "keyword.other.julia",
+        "storage.modifier.using.vala",
+        "source.objc keyword.other.property.attribute",
+        "source.sql keyword.other",
+        "keyword.other.using.vala",
+        "keyword.operator.function.infix",
+        "keyword.control.directive",
+        "keyword.other.rust",
+        "keyword.other.declaration-specifier.swift",
+        "entity.name.function.swift",
+        "keyword.control.class",
+        "keyword.control.def",
+        "punctuation.definition.variable",
+        "entity.name.section.latex",
+        "source.ocaml keyword markup.underline",
+        "source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
+        "source.reason entity.other.attribute-name constant.language constant.numeric",
+        "keyword.format.specifier.fsharp",
+        "entity.name.section.fsharp",
+        "binding.fsharp keyword",
+        "binding.fsharp keyword.symbol",
+        "record.fsharp keyword",
+        "keyword.symbol.fsharp",
+        "entity.name.section.fsharp keyword",
+        "namespace.open.fsharp keyword",
+        "namespace.open.fsharp entity",
+        "storage.type",
+        "source.cpp keyword.other",
+        "source.c keyword.other",
+        "keyword.other.unit",
+        "storage.modifier.array.bracket",
+        "meta.import.haskell keyword",
+        "keyword.declaration.dart",
+        "source.wsd keyword.other",
+        "keyword.other.skinparam",
+        "source.css keyword.control",
+        "source.css keyword.operator",
+        "keyword.language.gherkin.feature.scenario",
+        "keyword.control.cucumber.table",
+        "source.toml entity.other.attribute-name",
+        "source.toml keyword",
+        "keyword.other.nim",
+        "source.nim keyword.other.common.function",
+        "source.nim keyword.other",
+        "source.scala keyword.declaration",
+        "source.scala entity.name.class.declaration",
+        "keyword.control.lua",
+        "source.css punctuation.section",
+        "punctuation.section.embedded",
+        "source.c punctuation.section",
+        "source.cpp punctuation.section",
+        "source.java punctuation.section",
+        "source.php punctuation.section",
+        "source.powershell punctuation.section",
+        "source.r punctuation.section",
+        "source.ruby punctuation.section",
+        "source.swift punctuation.section",
+        "source.objc punctuation.section",
+        "source.zig keyword.constant.bool",
+        "source.zig keyword.default",
+        "source.zig keyword.statement",
+        "source.zig keyword.constant.default"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "STRIKETHROUGH",
+      "scope": ["markup.strikethrough"],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    }
+  ]
 }
+
