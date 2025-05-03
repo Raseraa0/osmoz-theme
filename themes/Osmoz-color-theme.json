@@ -102,10 +102,10 @@
     "sideBar.background": "#262047",
 
     // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
-    "sideBar.foreground": "#c8c4e0",
+    "sideBar.foreground": "#b5b1ca",
 
     // Side Bar border color on the side separating the editor.
-    "sideBar.border": "#403777",
+    "sideBar.border": "#332c5f",
 
     // Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through.
     "sideBar.dropBackground": "#60569933",
@@ -120,10 +120,10 @@
     "sideBarSectionHeader.foreground": "#e5e2f8",
 
     // Side bar section header border color.
-    "sideBarSectionHeader.border": "#403777",
+    "sideBarSectionHeader.border": "#332c5f",
 
     // Border color between the activity bar at the top/bottom and the views.
-    "sideBarActivityBarTop.border": "#403777",
+    "sideBarActivityBarTop.border": "#332c5f",
 
     // Side bar title background color. The side bar is the container for views like explorer and search.
     "sideBarTitle.background": "#191431",
@@ -132,10 +132,10 @@
     "sideBarStickyScroll.background": "#2c2650",
 
     // Border color of sticky scroll in the side bar.
-    "sideBarStickyScroll.border": "#403777",
+    "sideBarStickyScroll.border": "#332c5f",
 
     // Shadow color of sticky scroll in the side bar.
-    "sideBarStickyScroll.shadow": "#403777",
+    "sideBarStickyScroll.shadow": "#332c5f",
 
     // ==============================
     // Minimap
@@ -146,82 +146,82 @@
     // ==============================
 
     // Color to separate multiple editor groups from each other.
-    // "editorGroup.border": "#",
+    "editorGroup.border": "#332c5f",
 
     // Background color when dragging editors around.
-    // "editorGroup.dropBackground": "#",
+    "editorGroup.dropBackground": "#b9afff60",
 
     // Background color of the editor group title header when using single Tab (set "workbench.editor.showTabs": "single").
-    // "editorGroupHeader.noTabsBackground": "#",
+   //  "editorGroupHeader.noTabsBackground": "#",
 
     // Background color of the Tabs container.
-    // "editorGroupHeader.tabsBackground": "#",
+    "editorGroupHeader.tabsBackground": "#262047",
 
     // Border color below the editor tabs control when tabs are enabled.
-    // "editorGroupHeader.tabsBorder": "#",
+    "editorGroupHeader.tabsBorder": "#33245f80",
 
     // Border color between editor group header and editor (below breadcrumbs if enabled).
-    // "editorGroupHeader.border": "#",
+    "editorGroupHeader.border": "#332c5f80",
 
     // Background color of an empty editor group.
-    // "editorGroup.emptyBackground": "#",
+    "editorGroup.emptyBackground": "#2c2653",
 
     // Border color of an empty editor group that is focused.
-    // "editorGroup.focusedEmptyBorder": "#",
+   //  "editorGroup.focusedEmptyBorder": "#",
 
     // Foreground color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
-    // "editorGroup.dropIntoPromptForeground": "#",
+    "editorGroup.dropIntoPromptForeground": "#5eead4",
 
     // Background color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
-    // "editorGroup.dropIntoPromptBackground": "#",
+    "editorGroup.dropIntoPromptBackground": "#115e59",
 
     // Border color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
-    // "editorGroup.dropIntoPromptBorder": "#",
+    "editorGroup.dropIntoPromptBorder": "#5eead4",
 
     // Active Tab background color in an active group.
-    // "tab.activeBackground": "#",
+   //  "tab.activeBackground": "#",
 
     // Active Tab background color in an inactive editor group.
-    // "tab.unfocusedActiveBackground": "#",
+   //  "tab.unfocusedActiveBackground": "#",
 
     // Active Tab foreground color in an active group.
-    // "tab.activeForeground": "#",
+    "tab.activeForeground": "#a598e6",
 
     // Border to separate Tabs from each other.
-    // "tab.border": "#",
+    "tab.border": "#33245f80",
 
     // Bottom border for the active tab.
-    // "tab.activeBorder": "#",
+    "tab.activeBorder": "#a598e6",
 
     // Border to the top of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    // "tab.selectedBorderTop": "#",
+   //  "tab.selectedBorderTop": "#",
 
     // Background of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    // "tab.selectedBackground": "#",
+   //  "tab.selectedBackground": "#",
 
     // Foreground of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    // "tab.selectedForeground": "#",
+   //  "tab.selectedForeground": "#",
 
     // Border between tabs to indicate that a tab can be inserted between two tabs. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    // "tab.dragAndDropBorder": "#",
+    "tab.dragAndDropBorder": "#a598e6",
 
     // Bottom border for the active tab in an inactive editor group.
-    // "tab.unfocusedActiveBorder": "#",
+    "tab.unfocusedActiveBorder": "#a598e640",
 
     // Top border for the active tab.
-    // "tab.activeBorderTop": "#",
+   //  "tab.activeBorderTop": "#",
 
     // Top border for the active tab in an inactive editor group
     // "tab.unfocusedActiveBorderTop": "#",
 
     // Border on the right of the last pinned editor to separate from unpinned editors.
-    // "tab.lastPinnedBorder": "#",
+   //  "tab.lastPinnedBorder": "#",
 
     // Inactive Tab background color.
-    // "tab.inactiveBackground": "#",
+    "tab.inactiveBackground": "#211c3f",
 
     // Inactive Tab background color in an unfocused group
-    // "tab.unfocusedInactiveBackground": "#",
+    "tab.unfocusedInactiveBackground": "#211c3f",
 
     // Inactive Tab foreground color in an active group.
     // "tab.inactiveForeground": "#",
@@ -330,19 +330,19 @@
     // "editor.selectionHighlightBorder": "#",
 
     // Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque so as not to hide underlying decorations.
-    "editor.wordHighlightBackground": "#a77ce730",
+    "editor.wordHighlightBackground": "#a77ce722",
 
     // Border color of a symbol during read-access, for example when reading a variable.
     // "editor.wordHighlightBorder" : "#",
 
     // Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque so as not to hide underlying decorations.
-    "editor.wordHighlightStrongBackground": "#a77ce730",
+    "editor.wordHighlightStrongBackground": "#a77ce722",
 
     // Border color of a symbol during write-access, for example when writing to a variable.
     // "editor.wordHighlightStrongBorder" : "#",
 
     // Background color of a textual occurrence for a symbol. The color must not be opaque so as not to hide underlying decorations.
-    "editor.wordHighlightTextBackground": "#a77ce730",
+    "editor.wordHighlightTextBackground": "#a77ce722",
 
     // Border color of a textual occurrence for a symbol.
     // "editor.wordHighlightTextBorder" : "#",
@@ -360,75 +360,73 @@
     "editor.findMatchHighlightBackground": "#a77ce740",
 
     // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque so as not to hide underlying decorations.
-    "editor.findRangeHighlightBackground": "#2a244e44"
+    "editor.findRangeHighlightBackground": "#2a244e44",
 
     // Border color of the current search match.
-    // "editor.findMatchBorder" : "#",
+    "editor.findMatchBorder" : "#5071df40",
 
     // Border color of the other search matches.
-    // "editor.findMatchHighlightBorder" : "#",
+    "editor.findMatchHighlightBorder" : "#b28aec20",
 
     // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
     // "editor.findRangeHighlightBorder" : "#",
 
-    //-----------------------------------------------------------------------------------------------------------------
-
     // Color of the text in the search viewlet's completion message.
-    // "search.resultsInfoForeground" : "#",
+    "search.resultsInfoForeground" : "#e0f2fe",
 
     // Color of the editor's results.
-    // "searchEditor.findMatchBackground" : "#",
+    "searchEditor.findMatchBackground" : "#a77ce740",
 
     // Border color of the editor's results.
-    // "searchEditor.findMatchBorder" : "#",
+   //  "searchEditor.findMatchBorder" : "#",
 
     // Search editor text input box border.
     // "searchEditor.textInputBorder" : "#",
 
     // Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.
-    // "editor.hoverHighlightBackground" : "#",
+    "editor.hoverHighlightBackground" : "#a77ce720",
 
     // Background color for the highlight of line at the cursor position.
-    // "editor.lineHighlightBackground" : "#",
+    "editor.lineHighlightBackground" : "#28234d80",
 
     // Background color for the border around the line at the cursor position.
-    // "editor.lineHighlightBorder" : "#",
+    "editor.lineHighlightBorder" : "#38317060",
 
     // Foreground color for the labels in the editor watermark.
-    // "editorWatermark.foreground" : "#",
+   //  "editorWatermark.foreground" : "#",
 
     // Border color used to highlight unicode characters.
-    // "editorUnicodeHighlight.border" : "#",
+    "editorUnicodeHighlight.border" : "#28234dB0",
 
     // Background color used to highlight unicode characters.
-    // "editorUnicodeHighlight.background" : "#",
+   //  "editorUnicodeHighlight.background" : "#",
 
     // Color of active links.
-    // "editorLink.activeForeground" : "#",
+   //  "editorLink.activeForeground" : "#",
 
     // Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
-    // "editor.rangeHighlightBackground" : "#",
+   //  "editor.rangeHighlightBackground" : "#FF000020",
 
     // Background color of the border around highlighted ranges.
-    // "editor.rangeHighlightBorder" : "#",
+    "editor.rangeHighlightBorder" : "#7dd3fc80",
 
     // Background color of highlighted symbol. The color must not be opaque so as not to hide underlying decorations.
-    // "editor.symbolHighlightBackground" : "#",
+   //  "editor.symbolHighlightBackground" : "#",
 
     // Background color of the border around highlighted symbols.
-    // "editor.symbolHighlightBorder" : "#",
+    "editor.symbolHighlightBorder" : "#7dd3fc80",
 
     // Color of whitespace characters in the editor.
-    // "editorWhitespace.foreground" : "#",
-
+    "editorWhitespace.foreground" : "#3a326dB0",
+            
     // Color of the editor indentation guides.
-    // "editorIndentGuide.background" : "#",
-
+   //  "editorIndentGuide.background" : "#",
+               
     // Color of the editor indentation guides (1).
-    // "editorIndentGuide.background1" : "#",
+    "editorIndentGuide.background1" : "#3a326dB0",
 
     // Color of the editor indentation guides (2).
-    // "editorIndentGuide.background2" : "#",
+   //  "editorIndentGuide.background2" : "#",
 
     // Color of the editor indentation guides (3).
     // "editorIndentGuide.background3" : "#",
@@ -443,10 +441,10 @@
     // "editorIndentGuide.background6" : "#",
 
     // Color of the active editor indentation guide.
-    // "editorIndentGuide.activeBackground" : "#",
+   //  "editorIndentGuide.activeBackground" : "#",
 
     // Color of the active editor indentation guides (1).
-    // "editorIndentGuide.activeBackground1" : "#",
+    "editorIndentGuide.activeBackground1" : "#9360f380",
 
     // Color of the active editor indentation guides (2).
     // "editorIndentGuide.activeBackground2" : "#",
@@ -464,7 +462,7 @@
     // "editorIndentGuide.activeBackground6" : "#",
 
     // Background color of inline hints.
-    // "editorInlayHint.background" : "#",
+    // "editorInlayHint.background" : "",
 
     // Foreground color of inline hints.
     // "editorInlayHint.foreground" : "#",
@@ -485,25 +483,25 @@
     // "editor.linkedEditingBackground" : "#",
 
     // Foreground color of an editor CodeLens.
-    // "editorCodeLens.foreground" : "#",
+   //  "editorCodeLens.foreground" : "#",
 
     // The color used for the lightbulb actions icon.
-    // "editorLightBulb.foreground" : "#",
+    "editorLightBulb.foreground" : "#fbbf24",
 
     // The color used for the lightbulb auto fix actions icon.
-    // "editorLightBulbAutoFix.foreground" : "#",
+    "editorLightBulbAutoFix.foreground" : "#fb923c",
 
     // The color used for the lightbulb AI icon.
-    // "editorLightBulbAi.foreground" : "#",
+    "editorLightBulbAi.foreground" : "#5eead4",
 
     // Background color behind matching brackets.
-    // "editorBracketMatch.background" : "#",
+    "editorBracketMatch.background" : "#7dd3fc20",
 
     // Color for matching brackets boxes.
-    // "editorBracketMatch.border" : "#",
+    "editorBracketMatch.border" : "#7dd3fc40",
 
     // Foreground color of brackets (1). Requires enabling bracket pair colorization.
-    // "editorBracketHighlight.foreground1" : "#",
+   //  "editorBracketHighlight.foreground1" : "#",
 
     // Foreground color of brackets (2). Requires enabling bracket pair colorization.
     // "editorBracketHighlight.foreground2" : "#",
@@ -558,18 +556,19 @@
 
     // Background color of inactive bracket pair guides (6). Requires enabling bracket pair guides.
     // "editorBracketPairGuide.background6" : "#",
-
+    
+    
     // Background color for folded ranges. The color must not be opaque so as not to hide underlying decorations.
-    // "editor.foldBackground" : "#",
+   //  "editor.foldBackground" : "#",
 
     // Color of the collapsed text after the first line of a folded range.
     // "editor.foldPlaceholderForeground" : "#",
 
     // Background color of the editor overview ruler. Only used when the minimap is enabled and placed on the right side of the editor.
-    // "editorOverviewRuler.background" : "#",
+    "editorOverviewRuler.background" : "#262047",
 
     // Color of the overview ruler border.
-    // "editorOverviewRuler.border" : "#",
+    "editorOverviewRuler.border" : "#332c5f",
 
     // Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
     // "editorOverviewRuler.findMatchForeground" : "#",
@@ -617,67 +616,67 @@
     // "editorOverviewRuler.inlineChatRemoved" : "#",
 
     // Foreground color of error squiggles in the editor.
-    // "editorError.foreground" : "#",
+    "editorError.foreground" : "#dc2626",
 
     // Border color of error boxes in the editor.
-    // "editorError.border" : "#",
+   //  "editorError.border" : "#",
 
     // Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.
-    // "editorError.background" : "#",
+    "editorError.background" : "#991b1b40",
 
     // Foreground color of warning squiggles in the editor.
-    // "editorWarning.foreground" : "#",
+    "editorWarning.foreground" : "#d97706",
 
     // Border color of warning boxes in the editor.
-    // "editorWarning.border" : "#",
+   //  "editorWarning.border" : "#",
 
     // Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.
-    // "editorWarning.background" : "#",
+    "editorWarning.background" : "#9a341240",
 
     // Foreground color of info squiggles in the editor.
-    // "editorInfo.foreground" : "#",
+    // "editorInfo.foreground" : "#4ade80",
 
     // Border color of info boxes in the editor.
     // "editorInfo.border" : "#",
 
     // Background color of info text in the editor. The color must not be opaque so as not to hide underlying decorations.
-    // "editorInfo.background" : "#",
+    // "editorInfo.background" : "#16653440",
 
     // Foreground color of hints in the editor.
-    // "editorHint.foreground" : "#",
+    // "editorHint.foreground" : "#38bdf8",
 
     // Border color of hint boxes in the editor.
     // "editorHint.border" : "#",
 
     // The color used for the problems error icon.
-    // "problemsErrorIcon.foreground" : "#",
+    // "problemsErrorIcon.foreground" : "#07598540",
 
     // The color used for the problems warning icon.
-    // "problemsWarningIcon.foreground" : "#",
+    "problemsWarningIcon.foreground" : "#dc2626",
 
     // The color used for the problems info icon.
-    // "problemsInfoIcon.foreground" : "#",
+    "problemsInfoIcon.foreground" : "#d97706",
 
     // Border color of unnecessary (unused) source code in the editor.
-    // "editorUnnecessaryCode.border" : "#",
+   //  "editorUnnecessaryCode.border" : "#",
 
     // Opacity of unnecessary (unused) source code in the editor. For example, "#000000c0" will render the code with 75% opacity. For high contrast themes, use the "editorUnnecessaryCode.border" theme color to underline unnecessary code instead of fading it out.
-    // "editorUnnecessaryCode.opacity" : "#",
+    "editorUnnecessaryCode.opacity" : "#000000B0",
 
     // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
-    // "editorGutter.background" : "#",
+    "editorGutter.background" : "#00000000",
 
     // Editor gutter background color for lines that are modified.
-    // "editorGutter.modifiedBackground" : "#",
+    "editorGutter.modifiedBackground" : "#1d4ed8D0",
 
     // Editor gutter background color for lines that are added.
-    // "editorGutter.addedBackground" : "#",
+    "editorGutter.addedBackground" : "#22c55eD0",
 
     // Editor gutter background color for lines that are deleted.
-    // "editorGutter.deletedBackground" : "#",
+    "editorGutter.deletedBackground" : "#dc2626D0",
 
     // Editor gutter decoration color for commenting ranges.
-    // "editorGutter.commentRangeForeground" : "#",
+   //   "editorGutter.commentRangeForeground" : "#",
 
     // Editor gutter decoration color for commenting glyphs.
     // "editorGutter.commentGlyphForeground" : "#",
@@ -686,7 +685,7 @@
     // "editorGutter.commentUnresolvedGlyphForeground" : "#",
 
     // Color of the folding control in the editor gutter.
-    // "editorGutter.foldingControlForeground" : "#",
+   //  "editorGutter.foldingControlForeground" : "#",
 
     // Editor gutter decoration color for gutter item glyphs.
     // "editorGutter.itemGlyphForeground" : "#",
@@ -695,7 +694,7 @@
     // "editorGutter.itemBackground" : "#",
 
     // Color of borders and arrow for resolved comments.
-    // "editorCommentsWidget.resolvedBorder" : "#",
+   //  "editorCommentsWidget.resolvedBorder" : "#",
 
     // Color of borders and arrow for unresolved comments.
     // "editorCommentsWidget.unresolvedBorder" : "#",
@@ -902,817 +901,820 @@
     // ==============================
   },
   "tokenColors": [
-    {
-      "name": "COMMENT",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment",
-        "punctuation.definition.tag",
-        "comment.block.documentation punctuation.definition.bracket",
-        "source.ocaml comment constant.regexp meta.separator",
-        "markup.other.anchor support.constant",
-        "markup.fenced_code",
-        "markup.fenced_code punctuation.definition",
-        "punctuation.definition.heading",
-        "punctuation.definition.bold.markdown",
-        "punctuation.definition.italic.markdown",
-        "punctuation.definition.strikethrough.markdown"
-      ],
-      "settings": {
-        "foreground": "#716c93"
-      }
-    },
-    {
-      "name": "TEXT",
-      "scope": [
-        "constant.character",
-        "constant.escape",
-        "text.html.markdown",
-        "punctuation.definition.list_item",
-        "keyword.begin.tag.ejs",
-        "constant.name.attribute.tag.pug",
-        "source.clojure meta.symbol",
-        "constant.other.description.jsdoc",
-        "keyword.other.array.phpdoc.php",
-        "keyword.operator.other.powershell",
-        "meta.link.inline punctuation.definition.string",
-        "source.sql",
-        "source meta.brace",
-        "source punctuation",
-        "text.html punctuation",
-        "markup meta punctuation.definition",
-        "meta.bracket.julia",
-        "meta.array.julia",
-        "entity.name.footnote",
-        "source.ocaml punctuation.definition.tag",
-        "source.ocaml entity.name.filename",
-        "source.reason entity.name.filename",
-        "entity.other.attribute-name strong",
-        "binding.fsharp keyword.symbol.fsharp",
-        "entity.name.record.field.elm",
-        "entity.name.record.field.accessor.elm",
-        "storage.modifier.array.bracket",
-        "source.css entity.other",
-        "meta.attribute-selector punctuation.definition.entity",
-        "markup.other.anchor string",
-        "punctuation.separator",
-        "punctuation.section",
-        "punctuation.terminator"
-      ],
-      "settings": {
-        "foreground": "#c5c2d6"
-      }
-    },
-    {
-      "name": "KEYWORD",
-      "scope": [
-        "keyword",
-        "keyword.control",
-        "keyword.other.template",
-        "keyword.other.substitution",
-        "storage.modifier",
-        "meta.tag.sgml",
-        "punctuation.accessor",
-        "constant.other.color",
-        "entity.name.section",
-        "markup.heading",
-        "markup.heading punctuation.definition",
-        "entity.other.attribute-name.pseudo-class",
-        "entity.other.attribute-name.pseudo-element",
-        "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js",
-        "storage.type.function.pug",
-        "text.pug storage.type",
-        "text.pug meta.tag.other",
-        "source.clojure storage.control",
-        "meta.expression.clojure",
-        "punctuation.separator.slice.python",
-        "punctuation.separator.question-mark.cs",
-        "punctuation.definition.parameters.varargs",
-        "source.go keyword.operator",
-        "punctuation.separator.pointer-access",
-        "punctuation.separator.other.ruby",
-        "keyword.package",
-        "keyword.import",
-        "punctuation.definition.keyword",
-        "punctuation.separator.hash.cs",
-        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
-        "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
-        "source.kotlin storage.type.import",
-        "source.kotlin storage.type.package",
-        "constant.string.documentation.powershell",
-        "punctuation.section.directive",
-        "storage.type.rust",
-        "punctuation.definition.attribute",
-        "punctuation.definition.preprocessor",
-        "punctuation.separator.namespace",
-        "punctuation.separator.method",
-        "keyword.control punctuation.definition.function",
-        "source.ocaml variable.interpolation string",
-        "source.reason variable.interpolation",
-        "punctuation.definition.directive",
-        "storage.type.modifier",
-        "keyword.other.class.fileds",
-        "source.toml entity.other.attribute-name",
-        "source.css entity.name.tag.custom",
-        "sharing.modifier",
-        "keyword.control.class.ruby",
-        "keyword.control.def.ruby"
-      ],
-      "settings": {
-        "foreground": "#df769b"
-      }
-    },
-    {
-      "name": "VARIABLE",
-      "scope": [
-        "variable",
-        "variable.object",
-        "variable.other",
-        "variable.parameter",
-        "support",
-        "entity.name.module",
-        "variable.import.parameter",
-        "variable.other.class",
-        "meta.toc-list.id.html",
-        "source.json meta.structure.dictionary.json support.type.property-name.json",
-        "meta.var.clojure",
-        "entity.name.variable",
-        "source.java meta.class.body.java",
-        "entity.name.package.go",
-        "source.c",
-        "source.cpp",
-        "source.go",
-        "source.python",
-        "meta.function-call.arguments.python",
-        "source.ruby",
-        "source.coffee.embedded.source",
-        "source.coffee",
-        "storage.modifier.import",
-        "storage.modifier.package",
-        "storage.type.annotation",
-        "punctuation.definition.annotation",
-        "source.groovy.embedded.source",
-        "punctuation.definition.variable",
-        "source.powershell",
-        "string.quoted.interpolated.vala constant.character.escape.vala",
-        "source.apacheconf",
-        "source.objc",
-        "source.crystal",
-        "string.quoted.double.kotlin entity.string.template.element.kotlin",
-        "entity.name.package.kotlin",
-        "meta.template.expression.kotlin",
-        "parameter.variable.function",
-        "variable.other.constant.elixir",
-        "source.elixir.embedded.source",
-        "source.sql.embedded",
-        "punctuation.definition.placeholder",
-        "source.swift",
-        "source.julia",
-        "source.shell",
-        "variable.other.normal punctuation.definition.variable.shell",
-        "source.reason variable.language",
-        "source.reason variable.language string.other.link",
-        "source.elm meta.value",
-        "source.elm meta.declaration.module",
-        "meta.embedded.block variable punctuation.definition.variable.php",
-        "string.quoted.double.class.other",
-        "source.toml keyword",
-        "support.type.nim",
-        "source.tf meta.template.expression",
-        "source.scala entity.name.import",
-        "markup.code",
-        "markup.fenced_code.block"
-      ],
-      "settings": {
-        "foreground": "#e4b781"
-      }
-    },
-    {
-      "name": "ANNOTATION",
-      "scope": [
-        "support.variable.property",
-        "constant.other.symbol.hashkey.ruby",
-        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-        "entity.other.attribute-name.id",
-        "entity.other.attribute-name.id punctuation.definition.entity",
-        "entity.name.type.annotation.kotlin",
-        "support.type.primitive",
-        "meta.type.parameters entity.name.type",
-        "meta.type.annotation entity.name.type",
-        "punctuation.definition.typeparameters",
-        "source.python support.type.python",
-        "comment.block.documentation.phpdoc.php keyword.other.type.php",
-        "storage.type.php",
-        "keyword.type",
-        "storage.type.cs",
-        "storage.type.c",
-        "storage.type.objc",
-        "punctuation.definition.storage.type.objc",
-        "markup punctuation.definition",
-        "storage.type.powershell",
-        "comment.block.documentation entity.name.type",
-        "source.java storage.type",
-        "storage.type.primitive",
-        "source.groovy storage.type",
-        "storage.type.r",
-        "source.haskell storage.type",
-        "punctuation.separator.clause-head-body",
-        "source.go storage.type",
-        "storage.type.core.rust",
-        "storage.class.std.rust",
-        "storage.modifier.lifetime.rust",
-        "entity.name.lifetime.rust",
-        "support.type.vb",
-        "support.type.julia",
-        "constant.other.reference",
-        "source.graphql support.type",
-        "source.reason support.type string",
-        "source.elm storage.type",
-        "storage.type.user-defined",
-        "storage.type.built-in",
-        "support.type.builtin",
-        "source.swift support.type",
-        "support.class.crystal",
-        "storage.type.integral",
-        "source.cpp storage.type.cpp",
-        "source.vala storage.type",
-        "source.hlsl storage.type.basic",
-        "source.hlsl support.type.other",
-        "source.apex storage.type",
-        "source.nim storage.type",
-        "support.class.builtin",
-        "source.tf meta.keyword.string",
-        "source.tf meta.keyword.number",
-        "source.scala entity.name.class",
-        "markup.raw.monospace",
-        "markup.mark",
-        "entity.name.type"
-      ],
-      "settings": {
-        "foreground": "#d67e5c"
-      }
-    },
-    {
-      "name": "CONSTANT",
-      "scope": [
-        "constant",
-        "variable.other.constant",
-        "support.constant",
-        "punctuation.definition.entity",
-        "constant.character.entity",
-        "support.variable.magic",
-        "markup.quote",
-        "entity.name.type.type-parameter.cs",
-        "punctuation.bracket.angle",
-        "entity.name.function.preprocessor.c",
-        "storage.type.scala",
-        "entity.helper.apacheconf",
-        "variable.language.crystal",
-        "punctuation.definition.constant",
-        "support.constant punctuation.definition.variable",
-        "constant.character.math",
-        "support.class.math",
-        "source.graphql constant.character",
-        "source.reason constant.language.list",
-        "source.cpp variable.other.enummember",
-        "support.variable.class.hideshow",
-        "entity.other.attribute-name.class",
-        "meta.attribute.id entity.other.attribute-name",
-        "text.html entity.other.attribute-name",
-        "meta.tag.attributes entity.other.attribute-name",
-        "text.xml entity.other.attribute-name",
-        "source.cs entity.other.attribute-name",
-        "constant.character.format.placeholder",
-        "constant.other.placeholder",
-        "source.vue entity.other.attribute-name",
-        "entity.other.attribute-name.mjml",
-        "source.vue meta.directive punctuation.separator.key-value",
-        "meta.definition.attribute-entry punctuation.separator"
-      ],
-      "settings": {
-        "foreground": "#d5971a"
-      }
-    },
-    {
-      "name": "TAG",
-      "scope": [
-        "variable.language",
-        "variable.parameter.function.language.special",
-        "punctuation.definition.italic",
-        "punctuation.definition.bold",
-        "entity.name.tag",
-        "variable.language punctuation.definition.variable",
-        "keyword.control.clojure",
-        "support.type.exception.python",
-        "keyword.other.this.cs",
-        "keyword.other.base.cs",
-        "keyword.other.var.cs",
-        "storage.modifier.super",
-        "source.go keyword",
-        "keyword.function.go",
-        "meta.separator",
-        "keyword.other.fn.rust",
-        "storage.modifier.static.rust",
-        "source.r meta.function.r keyword.control.r",
-        "storage.type.def",
-        "meta.class.identifier storage.modifier",
-        "source.scala keyword.declaration",
-        "storage.type",
-        "comment.block.documentation punctuation.definition.block.tag",
-        "comment.block.documentation punctuation.definition.inline.tag",
-        "entity.tag.apacheconf",
-        "keyword.other.julia",
-        "source.julia storage.modifier",
-        "constant.language.empty-list.haskell",
-        "meta.function.powershell storage.type.powershell",
-        "keyword.control.fun",
-        "punctuation.terminator.function",
-        "keyword.other.rust",
-        "keyword.other.declaration-specifier.swift",
-        "keyword.control.class",
-        "keyword.control.def",
-        "source.ocaml keyword markup.underline",
-        "source.ocaml storage.type markup.underline",
-        "binding.fsharp keyword",
-        "function.anonymous keyword",
-        "function.anonymous keyword.symbol.fsharp",
-        "meta.embedded.block variable.language punctuation.definition.variable.php",
-        "keyword.declaration.dart",
-        "source.wsd keyword.other.class",
-        "source.wsd keyword.other.linebegin",
-        "keyword.other.skinparam.keyword",
-        "keyword.other.nim",
-        "markup.deleted.diff",
-        "source.tf support.class.variable",
-        "meta.function.lua keyword.control.lua",
-        "markup.block entity.name.tag",
-        "markup.meta.attribute-list",
-        "source.zig keyword.default",
-        "source.zig keyword.structure"
-      ],
-      "settings": {
-        "foreground": "#e66533"
-      }
-    },
-    {
-      "name": "STRING",
-      "scope": [
-        "string",
-        "punctuation.definition.string",
-        "source.css support.constant",
-        "entity.name.import.go",
-        "markup.raw.texttt",
-        "markup.inserted.diff",
-        "source.scala punctuation.definition.character",
-        "constant.character.literal.scala",
-        "source.tf entity.name"
-      ],
-      "settings": {
-        "foreground": "#49e9a6"
-      }
-    },
-    {
-      "name": "STRINGINTERPOLATED",
-      "scope": [
-        "string.template",
-        "punctuation.definition.string.template",
-        "string.interpolated.python string.quoted.single.python",
-        "string.quoted.double.heredoc",
-        "string.quoted.interpolated.vala",
-        "string.quoted.interpolated.vala punctuation.definition.string",
-        "string.regexp.apacheconf",
-        "markup.inline.raw.string",
-        "markup.inline.raw punctuation.definition.raw",
-        "string.quoted.double.interpolated.crystal",
-        "string.quoted.double.interpolated.crystal punctuation.definition.string",
-        "text.tex markup.raw"
-      ],
-      "settings": {
-        "foreground": "#16b673"
-      }
-    },
-    {
-      "name": "NUMBER",
-      "scope": [
-        "constant.numeric",
-        "constant.language",
-        "punctuation.separator.decimal.period.php",
-        "keyword.operator.null-conditional.cs",
-        "punctuation.separator.question-mark.cs",
-        "constant.integer.apacheconf",
-        "keyword.operator.nullable-type",
-        "constant.language punctuation.definition.variable",
-        "constant.others.fsharp",
-        "keyword.other.unit",
-        "string.quoted.double.skinparam.value",
-        "source.toml constant",
-        "source.zig keyword.constant.bool",
-        "source.zig keyword.constant.default"
-      ],
-      "settings": {
-        "foreground": "#7060eb"
-      }
-    },
-    {
-      "name": "FUNCTION",
-      "scope": [
-        "variable.function",
-        "support.type.property-name",
-        "entity.name.function",
-        "string.other.link",
-        "markup.link",
-        "support.type.vendored",
-        "support.other.variable",
-        "meta.function-call.generic.python",
-        "meta.method-call.groovy meta.method.groovy",
-        "meta.class.body.groovy meta.method.body.java storage.type.groovy",
-        "punctuation.definition.decorator",
-        "support.function.any-method",
-        "text.tex support.function",
-        "text.tex punctuation.definition.function",
-        "entity.name.section.fsharp entity.name.section.fsharp",
-        "support.variable.class.function",
-        "keyword.control.cucumber.table",
-        "punctuation.decorator",
-        "source.tf support.class"
-      ],
-      "settings": {
-        "foreground": "#16a3b6"
-      }
-    },
-    {
-      "name": "SUPPORT",
-      "scope": [
-        "entity.name",
-        "entity.other",
-        "support.orther.namespace.use.php",
-        "meta.use.php",
-        "support.other.namespace.php",
-        "support.type",
-        "support.class",
-        "punctuation.definition.parameters",
-        "support.function",
-        "support.function.construct",
-        "markup.changed.git_gutter",
-        "markup.underline.link",
-        "markup.underline.link.image",
-        "markup.underline",
-        "meta.symbol.namespace.clojure",
-        "entity.mime-type.apacheconf",
-        "keyword.operator.function.infix",
-        "entity.name.function.infix",
-        "entity.name.function.call.kotlin",
-        "text.tex support.function.verb",
-        "text.tex support.function.texttt",
-        "source.reason constant.language.unit",
-        "source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
-        "source.reason entity.other.attribute-name constant.language constant.numeric",
-        "constant.language.unit.fsharp",
-        "source.wsd support.class.preprocessings",
-        "keyword.language.gherkin.feature.scenario",
-        "source.nim keyword.other.common.function",
-        "entity.name.scope-resolution.function.call"
-      ],
-      "settings": {
-        "foreground": "#49d6e9"
-      }
-    },
-    {
-      "name": "MISC",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js",
-        "source.js punctuation.section.embedded",
-        "punctuation.definition.template-expression",
-        "support.class",
-        "storage.type.string.python",
-        "string.interpolated.pug",
-        "support.constant.handlebars",
-        "source.clojure punctuation.section.set",
-        "source.clojure punctuation.section.metadata",
-        "entity.global.clojure",
-        "source.python meta.function-call.python support.type.python",
-        "entity.other.inherited-class.python",
-        "punctuation.definition.interpolation",
-        "punctuation.section.embedded.begin.ruby",
-        "punctuation.section.embedded.end.ruby source.ruby",
-        "support.constant.math",
-        "entity.namespace.r",
-        "meta.method-call.groovy storage.type.groovy",
-        "source.scala entity.name.class.declaration",
-        "constant.character.escape",
-        "support.function.macro.julia",
-        "string.replacement.apacheconf",
-        "storage.modifier.using.vala",
-        "constant.other.haskell",
-        "source.objc entity.name.tag",
-        "string.quoted.other.literal.upper.crystal punctuation.definition.string",
-        "meta.embedded.line.crystal punctuation.section.embedded",
-        "meta.embedded.line.crystal punctuation.section.embedded source.crystal",
-        "punctuation.section.embedded",
-        "punctuation.section.tag",
-        "punctuation.section.embedded source.swift",
-        "variable.other.bracket punctuation.definition.variable",
-        "string.interpolated.dollar punctuation.definition.string",
-        "constant.character.escape punctuation.definition.keyword",
-        "source.ocaml entity.name.class constant.numeric",
-        "source.reason entity.name.class",
-        "keyword.format.specifier.fsharp",
-        "support.module.elm",
-        "meta.embedded.block.php punctuation.definition.variable.php",
-        "source.vala storage.type",
-        "support.variable.class.group",
-        "entity.name.type.class",
-        "source.tf meta.keyword.list",
-        "source.tf meta.keyword.map",
-        "entity.name.class.lua",
-        "markup.substitution",
-        "source.cs entity.name.type"
-      ],
-      "settings": {
-        "foreground": "#49ace9"
-      }
-    },
-    {
-      "name": "INVALID",
-      "scope": ["invalid", "invalid.illegal"],
-      "settings": {
-        "foreground": "#e3541c"
-      }
-    },
-    {
-      "name": "ITALIC",
-      "scope": [
-        "comment",
-        "storage.modifier",
-        "punctuation.definition.comment",
-        "entity.other",
-        "variable.language",
-        "support.type.vendored",
-        "support.constant.vendored",
-        "markup.quote",
-        "markup.italic",
-        "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js",
-        "keyword.control.clojure",
-        "source.clojure meta.symbol.dynamic",
-        "keyword.other.this.cs",
-        "keyword.other.base.cs",
-        "variable.other.member.c",
-        "support.type.core.rust",
-        "variable.other.object.property",
-        "variable.other.property",
-        "source.r meta.function.r keyword.control.r",
-        "comment.line.roxygen.r keyword",
-        "comment.line.roxygen.r variable.parameter.r",
-        "keyword.control.inheritance.coffee",
-        "comment.block.documentation.phpdoc.php keyword",
-        "keyword.other.array.phpdoc.php",
-        "storage.type.modifier",
-        "comment.block.javadoc.java keyword",
-        "comment.block.javadoc.java variable.parameter.java",
-        "keyword.operator.documentation.powershell",
-        "storage.type.scala",
-        "variable.parameter.function.language.special",
-        "comment.block.documentation.scala keyword",
-        "comment.block.documentation.scala variable.parameter",
-        "support.function.builtin.go",
-        "constant.other.symbol.hashkey.ruby",
-        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-        "constant.other.symbol.ruby",
-        "source.vala storage.type.generic",
-        "constant.other.table-name",
-        "constant.other.placeholder",
-        "variable.other.field",
-        "entity.alias.import.go",
-        "source.swift keyword.other.declaration-specifier",
-        "support.variable.swift",
-        "keyword.other.capture-specifier",
-        "text.tex support.function.emph",
-        "constant.other.math",
-        "support.function.textit",
-        "entity.name.footnote",
-        "entity.name.function.directive.graphql",
-        "source.graphql support.type.enum",
-        "source.ocaml entity.name.filename",
-        "source.reason entity.name.filename",
-        "abstract.definition.fsharp keyword",
-        "abstract.definition.fsharp entity",
-        "function.anonymous keyword",
-        "entity.name.record.field.accessor.elm",
-        "support.type.primitive",
-        "support.type.builtin",
-        "storage.type.built-in",
-        "storage.type.primitive",
-        "source.python support.type.python",
-        "storage.type.core.rust",
-        "source.swift support.type",
-        "source.go storage.type",
-        "storage.type.php",
-        "storage.type.function.kotlin",
-        "entity.name.type.kotlin",
-        "support.type.julia",
-        "variable.other.member",
-        "keyword.other.import",
-        "keyword.package",
-        "keyword.import",
-        "source.wsd keyword.control.diagram",
-        "keyword.language.gherkin.feature.step",
-        "source.hlsl storage.type.basic",
-        "source.apex keyword.type",
-        "sharing.modifier",
-        "source.nim storage.type.concrete",
-        "meta.preprocessor.pragma.nim",
-        "storage.type.integral",
-        "entity.name.scope-resolution.function.call",
-        "support.class.builtin",
-        "comment.block.documentation storage.type.class",
-        "source.tf meta.keyword.string",
-        "source.tf meta.keyword.number",
-        "source.scala entity.name.class",
-        "meta.import keyword.control",
-        "keyword.control.export",
-        "source.vue meta.directive punctuation.separator.key-value",
-        "keyword.local.lua",
-        "markup.mark.constrained markup.mark",
-        "markup.block.open",
-        "entity.name.type.primitive",
-        "entity.name.type.numeric",
-        "source.zig keyword.type",
-        "source.zig keyword.storage",
-        "source.zig keyword.structure",
-        "source.cs keyword.type"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "BOLD",
-      "scope": [
-        "keyword",
-        "keyword.control",
-        "keyword.operator",
-        "keyword.other.template",
-        "keyword.other.substitution",
-        "storage.type.function.arrow",
-        "constant.other.color",
-        "punctuation.accessor",
-        "entity.name.section",
-        "markdown.heading",
-        "markup.inline.raw punctuation.definition.raw",
-        "markup.heading",
-        "storage.type.function.pug",
-        "storage.type.function.python",
-        "storage.type.annotation",
-        "punctuation.bracket.angle",
-        "keyword.other.new",
-        "storage.type.generic.wildcard",
-        "source.go keyword.operator",
-        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
-        "variable.parameter",
-        "support.function.builtin.rust",
-        "storage.type.function.coffee",
-        "entity.name.variable.parameter",
-        "punctuation.separator.hash.cs",
-        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
-        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-        "meta.function.parameters variable.other",
-        "entity.name.type.annotation.kotlin",
-        "storage.type.objc",
-        "parameter.variable.function",
-        "markup punctuation.definition",
-        "punctuation.section.directive",
-        "punctuation.definition.preprocessor",
-        "source.ruby punctuation.definition.variable",
-        "support.function.textbf",
-        "source.graphql support.type.builtin",
-        "source.ocaml variable.interpolation string",
-        "entity.name.function.definition.special.constructor",
-        "entity.name.function.definition.special.member.destructor.",
-        "meta.function.parameters variable punctuation.definition.variable.php",
-        "source.wsd keyword.other.activity",
-        "keyword.control.class.ruby",
-        "keyword.control.def.ruby",
-        "keyword.function.go",
-        "keyword.other.fn.rust",
-        "markup.other.anchor",
-        "markup.list.bullet",
-        "markup.list punctuation.definition",
-        "keyword.control.default",
-        "punctuation.section",
-        "punctuation.separator",
-        "punctuation.terminator",
-        "markup.bold.markdown",
-        "source.zig storage.type.function"
-      ],
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "BOLD-ITALIC",
-      "scope": [
-        "markup.quote markup.bold",
-        "text.html punctuation.section.embedded",
-        "variable.other.c",
-        "storage.modifier.lifetime.rust",
-        "entity.name.lifetime.rust",
-        "source.rust meta.attribute.rust",
-        "meta.attribute.id entity.other.attribute-name",
-        "source.ocaml punctuation.definition.tag emphasis",
-        "source.tf entity.name",
-        "markup.quote punctuation.definition",
-        "markup.fenced_code punctuation.definition",
-        "fenced_code.block.language"
-      ],
-      "settings": {
-        "fontStyle": "bold italic"
-      }
-    },
-    {
-      "name": "NORMAL",
-      "scope": [
-        "keyword.begin.tag.ejs",
-        "source.python meta.function.decorator.python support.type.python",
-        "source.cs keyword.other",
-        "keyword.other.var.cs",
-        "source.go keyword",
-        "storage.modifier.static.rust",
-        "variable.parameter.r",
-        "variable.parameter.handlebars",
-        "storage.modifier.import",
-        "storage.modifier.package",
-        "meta.class.identifier storage.modifier",
-        "keyword.operator.other.powershell",
-        "source.css variable.parameter",
-        "string.interpolated variable.parameter",
-        "source.apacheconf keyword",
-        "keyword.other.julia",
-        "storage.modifier.using.vala",
-        "source.objc keyword.other.property.attribute",
-        "source.sql keyword.other",
-        "keyword.other.using.vala",
-        "keyword.operator.function.infix",
-        "keyword.control.directive",
-        "keyword.other.rust",
-        "keyword.other.declaration-specifier.swift",
-        "entity.name.function.swift",
-        "keyword.control.class",
-        "keyword.control.def",
-        "punctuation.definition.variable",
-        "entity.name.section.latex",
-        "source.ocaml keyword markup.underline",
-        "source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
-        "source.reason entity.other.attribute-name constant.language constant.numeric",
-        "keyword.format.specifier.fsharp",
-        "entity.name.section.fsharp",
-        "binding.fsharp keyword",
-        "binding.fsharp keyword.symbol",
-        "record.fsharp keyword",
-        "keyword.symbol.fsharp",
-        "entity.name.section.fsharp keyword",
-        "namespace.open.fsharp keyword",
-        "namespace.open.fsharp entity",
-        "storage.type",
-        "source.cpp keyword.other",
-        "source.c keyword.other",
-        "keyword.other.unit",
-        "storage.modifier.array.bracket",
-        "meta.import.haskell keyword",
-        "keyword.declaration.dart",
-        "source.wsd keyword.other",
-        "keyword.other.skinparam",
-        "source.css keyword.control",
-        "source.css keyword.operator",
-        "keyword.language.gherkin.feature.scenario",
-        "keyword.control.cucumber.table",
-        "source.toml entity.other.attribute-name",
-        "source.toml keyword",
-        "keyword.other.nim",
-        "source.nim keyword.other.common.function",
-        "source.nim keyword.other",
-        "source.scala keyword.declaration",
-        "source.scala entity.name.class.declaration",
-        "keyword.control.lua",
-        "source.css punctuation.section",
-        "punctuation.section.embedded",
-        "source.c punctuation.section",
-        "source.cpp punctuation.section",
-        "source.java punctuation.section",
-        "source.php punctuation.section",
-        "source.powershell punctuation.section",
-        "source.r punctuation.section",
-        "source.ruby punctuation.section",
-        "source.swift punctuation.section",
-        "source.objc punctuation.section",
-        "source.zig keyword.constant.bool",
-        "source.zig keyword.default",
-        "source.zig keyword.statement",
-        "source.zig keyword.constant.default"
-      ],
-      "settings": {
-        "fontStyle": ""
+      {
+         "name": "COMMENT",
+         "scope": [
+            "comment",
+            "punctuation.definition.comment",
+            "punctuation.definition.tag",
+            "comment.block.documentation punctuation.definition.bracket",
+            "source.ocaml comment constant.regexp meta.separator",
+            "markup.other.anchor support.constant",
+            "markup.fenced_code",
+            "markup.fenced_code punctuation.definition",
+            "punctuation.definition.heading",
+            "punctuation.definition.bold.markdown",
+            "punctuation.definition.italic.markdown",
+            "punctuation.definition.strikethrough.markdown"
+         ],
+         "settings": {
+            "foreground": "#716c93"
+         }
+      },
+      {
+         "name": "TEXT",
+         "scope": [
+            "constant.character",
+            "constant.escape",
+            "text.html.markdown",
+            "punctuation.definition.list_item",
+            "keyword.begin.tag.ejs",
+            "constant.name.attribute.tag.pug",
+            "source.clojure meta.symbol",
+            "constant.other.description.jsdoc",
+            "keyword.other.array.phpdoc.php",
+            "keyword.operator.other.powershell",
+            "meta.link.inline punctuation.definition.string",
+            "source.sql",
+            "source meta.brace",
+            "source punctuation",
+            "text.html punctuation",
+            "markup meta punctuation.definition",
+            "meta.bracket.julia",
+            "meta.array.julia",
+            "entity.name.footnote",
+            "source.ocaml punctuation.definition.tag",
+            "source.ocaml entity.name.filename",
+            "source.reason entity.name.filename",
+            "entity.other.attribute-name strong",
+            "binding.fsharp keyword.symbol.fsharp",
+            "entity.name.record.field.elm",
+            "entity.name.record.field.accessor.elm",
+            "storage.modifier.array.bracket",
+            "source.css entity.other",
+            "meta.attribute-selector punctuation.definition.entity",
+            "markup.other.anchor string",
+            "punctuation.separator",
+            "punctuation.section",
+            "punctuation.terminator"
+         ],
+         "settings": {
+            "foreground": "#c5c2d6"
+         }
+      },
+      {
+         "name": "KEYWORD",
+         "scope": [
+            "keyword",
+            "keyword.control",
+            "keyword.other.template",
+            "keyword.other.substitution",
+            "storage.modifier",
+            "meta.tag.sgml",
+            "punctuation.accessor",
+            "constant.other.color",
+            "entity.name.section",
+            "markup.heading",
+            "markup.heading punctuation.definition",
+            "entity.other.attribute-name.pseudo-class",
+            "entity.other.attribute-name.pseudo-element",
+            "tag.decorator.js entity.name.tag.js",
+            "tag.decorator.js punctuation.definition.tag.js",
+            "storage.type.function.pug",
+            "text.pug storage.type",
+            "text.pug meta.tag.other",
+            "source.clojure storage.control",
+            "meta.expression.clojure",
+            "punctuation.separator.slice.python",
+            "punctuation.separator.question-mark.cs",
+            "punctuation.definition.parameters.varargs",
+            "source.go keyword.operator",
+            "punctuation.separator.pointer-access",
+            "punctuation.separator.other.ruby",
+            "keyword.package",
+            "keyword.import",
+            "punctuation.definition.keyword",
+            "punctuation.separator.hash.cs",
+            "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+            "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+            "source.kotlin storage.type.import",
+            "source.kotlin storage.type.package",
+            "constant.string.documentation.powershell",
+            "punctuation.section.directive",
+            "storage.type.rust",
+            "punctuation.definition.attribute",
+            "punctuation.definition.preprocessor",
+            "punctuation.separator.namespace",
+            "punctuation.separator.method",
+            "keyword.control punctuation.definition.function",
+            "source.ocaml variable.interpolation string",
+            "source.reason variable.interpolation",
+            "punctuation.definition.directive",
+            "storage.type.modifier",
+            "keyword.other.class.fileds",
+            "source.toml entity.other.attribute-name",
+            "source.css entity.name.tag.custom",
+            "sharing.modifier",
+            "keyword.control.class.ruby",
+            "keyword.control.def.ruby"
+         ],
+         "settings": {
+            "foreground": "#df769b"
+         }
+      },
+      {
+         "name": "VARIABLE",
+         "scope": [
+            "variable",
+            "variable.object",
+            "variable.other",
+            "variable.parameter",
+            "support",
+            "entity.name.module",
+            "variable.import.parameter",
+            "variable.other.class",
+            "meta.toc-list.id.html",
+            "source.json meta.structure.dictionary.json support.type.property-name.json",
+            "meta.var.clojure",
+            "entity.name.variable",
+            "source.java meta.class.body.java",
+            "entity.name.package.go",
+            "source.c",
+            "source.cpp",
+            "source.go",
+            "source.python",
+            "meta.function-call.arguments.python",
+            "source.ruby",
+            "source.coffee.embedded.source",
+            "source.coffee",
+            "storage.modifier.import",
+            "storage.modifier.package",
+            "storage.type.annotation",
+            "punctuation.definition.annotation",
+            "source.groovy.embedded.source",
+            "punctuation.definition.variable",
+            "source.powershell",
+            "string.quoted.interpolated.vala constant.character.escape.vala",
+            "source.apacheconf",
+            "source.objc",
+            "source.crystal",
+            "string.quoted.double.kotlin entity.string.template.element.kotlin",
+            "entity.name.package.kotlin",
+            "meta.template.expression.kotlin",
+            "parameter.variable.function",
+            "variable.other.constant.elixir",
+            "source.elixir.embedded.source",
+            "source.sql.embedded",
+            "punctuation.definition.placeholder",
+            "source.swift",
+            "source.julia",
+            "source.shell",
+            "variable.other.normal punctuation.definition.variable.shell",
+            "source.reason variable.language",
+            "source.reason variable.language string.other.link",
+            "source.elm meta.value",
+            "source.elm meta.declaration.module",
+            "meta.embedded.block variable punctuation.definition.variable.php",
+            "string.quoted.double.class.other",
+            "source.toml keyword",
+            "support.type.nim",
+            "source.tf meta.template.expression",
+            "source.scala entity.name.import",
+            "markup.code",
+            "markup.fenced_code.block"
+         ],
+         "settings": {
+            "foreground": "#e4b781"
+         }
+      },
+      {
+         "name": "ANNOTATION",
+         "scope": [
+            "support.variable.property",
+            "constant.other.symbol.hashkey.ruby",
+            "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+            "entity.other.attribute-name.id",
+            "entity.other.attribute-name.id punctuation.definition.entity",
+            "entity.name.type.annotation.kotlin",
+            "support.type.primitive",
+            "meta.type.parameters entity.name.type",
+            "meta.type.annotation entity.name.type",
+            "punctuation.definition.typeparameters",
+            "source.python support.type.python",
+            "comment.block.documentation.phpdoc.php keyword.other.type.php",
+            "storage.type.php",
+            "keyword.type",
+            "storage.type.cs",
+            "storage.type.c",
+            "storage.type.objc",
+            "punctuation.definition.storage.type.objc",
+            "markup punctuation.definition",
+            "storage.type.powershell",
+            "comment.block.documentation entity.name.type",
+            "source.java storage.type",
+            "storage.type.primitive",
+            "source.groovy storage.type",
+            "storage.type.r",
+            "source.haskell storage.type",
+            "punctuation.separator.clause-head-body",
+            "source.go storage.type",
+            "storage.type.core.rust",
+            "storage.class.std.rust",
+            "storage.modifier.lifetime.rust",
+            "entity.name.lifetime.rust",
+            "support.type.vb",
+            "support.type.julia",
+            "constant.other.reference",
+            "source.graphql support.type",
+            "source.reason support.type string",
+            "source.elm storage.type",
+            "storage.type.user-defined",
+            "storage.type.built-in",
+            "support.type.builtin",
+            "source.swift support.type",
+            "support.class.crystal",
+            "storage.type.integral",
+            "source.cpp storage.type.cpp",
+            "source.vala storage.type",
+            "source.hlsl storage.type.basic",
+            "source.hlsl support.type.other",
+            "source.apex storage.type",
+            "source.nim storage.type",
+            "support.class.builtin",
+            "source.tf meta.keyword.string",
+            "source.tf meta.keyword.number",
+            "source.scala entity.name.class",
+            "markup.raw.monospace",
+            "markup.mark",
+            "entity.name.type"
+         ],
+         "settings": {
+            "foreground": "#d67e5c"
+         }
+      },
+      {
+         "name": "CONSTANT",
+         "scope": [
+            "constant",
+            "variable.other.constant",
+            "support.constant",
+            "punctuation.definition.entity",
+            "constant.character.entity",
+            "support.variable.magic",
+            "markup.quote",
+            "entity.name.type.type-parameter.cs",
+            "punctuation.bracket.angle",
+            "entity.name.function.preprocessor.c",
+            "storage.type.scala",
+            "entity.helper.apacheconf",
+            "variable.language.crystal",
+            "punctuation.definition.constant",
+            "support.constant punctuation.definition.variable",
+            "constant.character.math",
+            "support.class.math",
+            "source.graphql constant.character",
+            "source.reason constant.language.list",
+            "source.cpp variable.other.enummember",
+            "support.variable.class.hideshow",
+            "entity.other.attribute-name.class",
+            "meta.attribute.id entity.other.attribute-name",
+            "text.html entity.other.attribute-name",
+            "meta.tag.attributes entity.other.attribute-name",
+            "text.xml entity.other.attribute-name",
+            "source.cs entity.other.attribute-name",
+            "constant.character.format.placeholder",
+            "constant.other.placeholder",
+            "source.vue entity.other.attribute-name",
+            "entity.other.attribute-name.mjml",
+            "source.vue meta.directive punctuation.separator.key-value",
+            "meta.definition.attribute-entry punctuation.separator"
+         ],
+         "settings": {
+            "foreground": "#d5971a"
+         }
+      },
+      {
+         "name": "TAG",
+         "scope": [
+            "variable.language",
+            "variable.parameter.function.language.special",
+            "punctuation.definition.italic",
+            "punctuation.definition.bold",
+            "entity.name.tag",
+            "variable.language punctuation.definition.variable",
+            "keyword.control.clojure",
+            "support.type.exception.python",
+            "keyword.other.this.cs",
+            "keyword.other.base.cs",
+            "keyword.other.var.cs",
+            "storage.modifier.super",
+            "source.go keyword",
+            "keyword.function.go",
+            "meta.separator",
+            "keyword.other.fn.rust",
+            "storage.modifier.static.rust",
+            "source.r meta.function.r keyword.control.r",
+            "storage.type.def",
+            "meta.class.identifier storage.modifier",
+            "source.scala keyword.declaration",
+            "storage.type",
+            "comment.block.documentation punctuation.definition.block.tag",
+            "comment.block.documentation punctuation.definition.inline.tag",
+            "entity.tag.apacheconf",
+            "keyword.other.julia",
+            "source.julia storage.modifier",
+            "constant.language.empty-list.haskell",
+            "meta.function.powershell storage.type.powershell",
+            "keyword.control.fun",
+            "punctuation.terminator.function",
+            "keyword.other.rust",
+            "keyword.other.declaration-specifier.swift",
+            "keyword.control.class",
+            "keyword.control.def",
+            "source.ocaml keyword markup.underline",
+            "source.ocaml storage.type markup.underline",
+            "binding.fsharp keyword",
+            "function.anonymous keyword",
+            "function.anonymous keyword.symbol.fsharp",
+            "meta.embedded.block variable.language punctuation.definition.variable.php",
+            "keyword.declaration.dart",
+            "source.wsd keyword.other.class",
+            "source.wsd keyword.other.linebegin",
+            "keyword.other.skinparam.keyword",
+            "keyword.other.nim",
+            "markup.deleted.diff",
+            "source.tf support.class.variable",
+            "meta.function.lua keyword.control.lua",
+            "markup.block entity.name.tag",
+            "markup.meta.attribute-list",
+            "source.zig keyword.default",
+            "source.zig keyword.structure"
+         ],
+         "settings": {
+            "foreground": "#e66533"
+         }
+      },
+      {
+         "name": "STRING",
+         "scope": [
+            "string",
+            "punctuation.definition.string",
+            "source.css support.constant",
+            "entity.name.import.go",
+            "markup.raw.texttt",
+            "markup.inserted.diff",
+            "source.scala punctuation.definition.character",
+            "constant.character.literal.scala",
+            "source.tf entity.name"
+         ],
+         "settings": {
+            "foreground": "#49e9a6"
+         }
+      },
+      {
+         "name": "STRINGINTERPOLATED",
+         "scope": [
+            "string.template",
+            "punctuation.definition.string.template",
+            "string.interpolated.python string.quoted.single.python",
+            "string.quoted.double.heredoc",
+            "string.quoted.interpolated.vala",
+            "string.quoted.interpolated.vala punctuation.definition.string",
+            "string.regexp.apacheconf",
+            "markup.inline.raw.string",
+            "markup.inline.raw punctuation.definition.raw",
+            "string.quoted.double.interpolated.crystal",
+            "string.quoted.double.interpolated.crystal punctuation.definition.string",
+            "text.tex markup.raw"
+         ],
+         "settings": {
+            "foreground": "#16b673"
+         }
+      },
+      {
+         "name": "NUMBER",
+         "scope": [
+            "constant.numeric",
+            "constant.language",
+            "punctuation.separator.decimal.period.php",
+            "keyword.operator.null-conditional.cs",
+            "punctuation.separator.question-mark.cs",
+            "constant.integer.apacheconf",
+            "keyword.operator.nullable-type",
+            "constant.language punctuation.definition.variable",
+            "constant.others.fsharp",
+            "keyword.other.unit",
+            "string.quoted.double.skinparam.value",
+            "source.toml constant",
+            "source.zig keyword.constant.bool",
+            "source.zig keyword.constant.default"
+         ],
+         "settings": {
+            "foreground": "#7060eb"
+         }
+      },
+      {
+         "name": "FUNCTION",
+         "scope": [
+            "variable.function",
+            "support.type.property-name",
+            "entity.name.function",
+            "string.other.link",
+            "markup.link",
+            "support.type.vendored",
+            "support.other.variable",
+            "meta.function-call.generic.python",
+            "meta.method-call.groovy meta.method.groovy",
+            "meta.class.body.groovy meta.method.body.java storage.type.groovy",
+            "punctuation.definition.decorator",
+            "support.function.any-method",
+            "text.tex support.function",
+            "text.tex punctuation.definition.function",
+            "entity.name.section.fsharp entity.name.section.fsharp",
+            "support.variable.class.function",
+            "keyword.control.cucumber.table",
+            "punctuation.decorator",
+            "source.tf support.class"
+         ],
+         "settings": {
+            "foreground": "#16a3b6"
+         }
+      },
+      {
+         "name": "SUPPORT",
+         "scope": [
+            "entity.name",
+            "entity.other",
+            "support.orther.namespace.use.php",
+            "meta.use.php",
+            "support.other.namespace.php",
+            "support.type",
+            "support.class",
+            "punctuation.definition.parameters",
+            "support.function",
+            "support.function.construct",
+            "markup.changed.git_gutter",
+            "markup.underline.link",
+            "markup.underline.link.image",
+            "markup.underline",
+            "meta.symbol.namespace.clojure",
+            "entity.mime-type.apacheconf",
+            "keyword.operator.function.infix",
+            "entity.name.function.infix",
+            "entity.name.function.call.kotlin",
+            "text.tex support.function.verb",
+            "text.tex support.function.texttt",
+            "source.reason constant.language.unit",
+            "source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
+            "source.reason entity.other.attribute-name constant.language constant.numeric",
+            "constant.language.unit.fsharp",
+            "source.wsd support.class.preprocessings",
+            "keyword.language.gherkin.feature.scenario",
+            "source.nim keyword.other.common.function",
+            "entity.name.scope-resolution.function.call"
+         ],
+         "settings": {
+            "foreground": "#49d6e9"
+         }
+      },
+      {
+         "name": "MISC",
+         "scope": [
+            "source.js constant.other.object.key.js string.unquoted.label.js",
+            "source.js punctuation.section.embedded",
+            "punctuation.definition.template-expression",
+            "support.class",
+            "storage.type.string.python",
+            "string.interpolated.pug",
+            "support.constant.handlebars",
+            "source.clojure punctuation.section.set",
+            "source.clojure punctuation.section.metadata",
+            "entity.global.clojure",
+            "source.python meta.function-call.python support.type.python",
+            "entity.other.inherited-class.python",
+            "punctuation.definition.interpolation",
+            "punctuation.section.embedded.begin.ruby",
+            "punctuation.section.embedded.end.ruby source.ruby",
+            "support.constant.math",
+            "entity.namespace.r",
+            "meta.method-call.groovy storage.type.groovy",
+            "source.scala entity.name.class.declaration",
+            "constant.character.escape",
+            "support.function.macro.julia",
+            "string.replacement.apacheconf",
+            "storage.modifier.using.vala",
+            "constant.other.haskell",
+            "source.objc entity.name.tag",
+            "string.quoted.other.literal.upper.crystal punctuation.definition.string",
+            "meta.embedded.line.crystal punctuation.section.embedded",
+            "meta.embedded.line.crystal punctuation.section.embedded source.crystal",
+            "punctuation.section.embedded",
+            "punctuation.section.tag",
+            "punctuation.section.embedded source.swift",
+            "variable.other.bracket punctuation.definition.variable",
+            "string.interpolated.dollar punctuation.definition.string",
+            "constant.character.escape punctuation.definition.keyword",
+            "source.ocaml entity.name.class constant.numeric",
+            "source.reason entity.name.class",
+            "keyword.format.specifier.fsharp",
+            "support.module.elm",
+            "meta.embedded.block.php punctuation.definition.variable.php",
+            "source.vala storage.type",
+            "support.variable.class.group",
+            "entity.name.type.class",
+            "source.tf meta.keyword.list",
+            "source.tf meta.keyword.map",
+            "entity.name.class.lua",
+            "markup.substitution",
+            "source.cs entity.name.type"
+         ],
+         "settings": {
+            "foreground": "#49ace9"
+         }
+      },
+      {
+         "name": "INVALID",
+         "scope": [
+            "invalid",
+            "invalid.illegal"
+         ],
+         "settings": {
+            "foreground": "#e3541c"
+         }
+      },
+      {
+         "name": "ITALIC",
+         "scope": [
+            "comment",
+            "storage.modifier",
+            "punctuation.definition.comment",
+            "entity.other",
+            "variable.language",
+            "support.type.vendored",
+            "support.constant.vendored",
+            "markup.quote",
+            "markup.italic",
+            "tag.decorator.js entity.name.tag.js",
+            "tag.decorator.js punctuation.definition.tag.js",
+            "keyword.control.clojure",
+            "source.clojure meta.symbol.dynamic",
+            "keyword.other.this.cs",
+            "keyword.other.base.cs",
+            "variable.other.member.c",
+            "support.type.core.rust",
+            "variable.other.object.property",
+            "variable.other.property",
+            "source.r meta.function.r keyword.control.r",
+            "comment.line.roxygen.r keyword",
+            "comment.line.roxygen.r variable.parameter.r",
+            "keyword.control.inheritance.coffee",
+            "comment.block.documentation.phpdoc.php keyword",
+            "keyword.other.array.phpdoc.php",
+            "storage.type.modifier",
+            "comment.block.javadoc.java keyword",
+            "comment.block.javadoc.java variable.parameter.java",
+            "keyword.operator.documentation.powershell",
+            "storage.type.scala",
+            "variable.parameter.function.language.special",
+            "comment.block.documentation.scala keyword",
+            "comment.block.documentation.scala variable.parameter",
+            "support.function.builtin.go",
+            "constant.other.symbol.hashkey.ruby",
+            "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+            "constant.other.symbol.ruby",
+            "source.vala storage.type.generic",
+            "constant.other.table-name",
+            "constant.other.placeholder",
+            "variable.other.field",
+            "entity.alias.import.go",
+            "source.swift keyword.other.declaration-specifier",
+            "support.variable.swift",
+            "keyword.other.capture-specifier",
+            "text.tex support.function.emph",
+            "constant.other.math",
+            "support.function.textit",
+            "entity.name.footnote",
+            "entity.name.function.directive.graphql",
+            "source.graphql support.type.enum",
+            "source.ocaml entity.name.filename",
+            "source.reason entity.name.filename",
+            "abstract.definition.fsharp keyword",
+            "abstract.definition.fsharp entity",
+            "function.anonymous keyword",
+            "entity.name.record.field.accessor.elm",
+            "support.type.primitive",
+            "support.type.builtin",
+            "storage.type.built-in",
+            "storage.type.primitive",
+            "source.python support.type.python",
+            "storage.type.core.rust",
+            "source.swift support.type",
+            "source.go storage.type",
+            "storage.type.php",
+            "storage.type.function.kotlin",
+            "entity.name.type.kotlin",
+            "support.type.julia",
+            "variable.other.member",
+            "keyword.other.import",
+            "keyword.package",
+            "keyword.import",
+            "source.wsd keyword.control.diagram",
+            "keyword.language.gherkin.feature.step",
+            "source.hlsl storage.type.basic",
+            "source.apex keyword.type",
+            "sharing.modifier",
+            "source.nim storage.type.concrete",
+            "meta.preprocessor.pragma.nim",
+            "storage.type.integral",
+            "entity.name.scope-resolution.function.call",
+            "support.class.builtin",
+            "comment.block.documentation storage.type.class",
+            "source.tf meta.keyword.string",
+            "source.tf meta.keyword.number",
+            "source.scala entity.name.class",
+            "meta.import keyword.control",
+            "keyword.control.export",
+            "source.vue meta.directive punctuation.separator.key-value",
+            "keyword.local.lua",
+            "markup.mark.constrained markup.mark",
+            "markup.block.open",
+            "entity.name.type.primitive",
+            "entity.name.type.numeric",
+            "source.zig keyword.type",
+            "source.zig keyword.storage",
+            "source.zig keyword.structure",
+            "source.cs keyword.type"
+         ],
+         "settings": {
+            "fontStyle": "italic"
+         }
+      },
+      {
+         "name": "BOLD",
+         "scope": [
+            "keyword",
+            "keyword.control",
+            "keyword.operator",
+            "keyword.other.template",
+            "keyword.other.substitution",
+            "storage.type.function.arrow",
+            "constant.other.color",
+            "punctuation.accessor",
+            "entity.name.section",
+            "markdown.heading",
+            "markup.inline.raw punctuation.definition.raw",
+            "markup.heading",
+            "storage.type.function.pug",
+            "storage.type.function.python",
+            "storage.type.annotation",
+            "punctuation.bracket.angle",
+            "keyword.other.new",
+            "storage.type.generic.wildcard",
+            "source.go keyword.operator",
+            "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+            "variable.parameter",
+            "support.function.builtin.rust",
+            "storage.type.function.coffee",
+            "entity.name.variable.parameter",
+            "punctuation.separator.hash.cs",
+            "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+            "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+            "meta.function.parameters variable.other",
+            "entity.name.type.annotation.kotlin",
+            "storage.type.objc",
+            "parameter.variable.function",
+            "markup punctuation.definition",
+            "punctuation.section.directive",
+            "punctuation.definition.preprocessor",
+            "source.ruby punctuation.definition.variable",
+            "support.function.textbf",
+            "source.graphql support.type.builtin",
+            "source.ocaml variable.interpolation string",
+            "entity.name.function.definition.special.constructor",
+            "entity.name.function.definition.special.member.destructor.",
+            "meta.function.parameters variable punctuation.definition.variable.php",
+            "source.wsd keyword.other.activity",
+            "keyword.control.class.ruby",
+            "keyword.control.def.ruby",
+            "keyword.function.go",
+            "keyword.other.fn.rust",
+            "markup.other.anchor",
+            "markup.list.bullet",
+            "markup.list punctuation.definition",
+            "keyword.control.default",
+            "punctuation.section",
+            "punctuation.separator",
+            "punctuation.terminator",
+            "markup.bold.markdown",
+            "source.zig storage.type.function"
+         ],
+         "settings": {
+            "fontStyle": "bold"
+         }
+      },
+      {
+         "name": "BOLD-ITALIC",
+         "scope": [
+            "markup.quote markup.bold",
+            "text.html punctuation.section.embedded",
+            "variable.other.c",
+            "storage.modifier.lifetime.rust",
+            "entity.name.lifetime.rust",
+            "source.rust meta.attribute.rust",
+            "meta.attribute.id entity.other.attribute-name",
+            "source.ocaml punctuation.definition.tag emphasis",
+            "source.tf entity.name",
+            "markup.quote punctuation.definition",
+            "markup.fenced_code punctuation.definition",
+            "fenced_code.block.language"
+         ],
+         "settings": {
+            "fontStyle": "bold italic"
+         }
+      },
+      {
+         "name": "NORMAL",
+         "scope": [
+            "keyword.begin.tag.ejs",
+            "source.python meta.function.decorator.python support.type.python",
+            "source.cs keyword.other",
+            "keyword.other.var.cs",
+            "source.go keyword",
+            "storage.modifier.static.rust",
+            "variable.parameter.r",
+            "variable.parameter.handlebars",
+            "storage.modifier.import",
+            "storage.modifier.package",
+            "meta.class.identifier storage.modifier",
+            "keyword.operator.other.powershell",
+            "source.css variable.parameter",
+            "string.interpolated variable.parameter",
+            "source.apacheconf keyword",
+            "keyword.other.julia",
+            "storage.modifier.using.vala",
+            "source.objc keyword.other.property.attribute",
+            "source.sql keyword.other",
+            "keyword.other.using.vala",
+            "keyword.operator.function.infix",
+            "keyword.control.directive",
+            "keyword.other.rust",
+            "keyword.other.declaration-specifier.swift",
+            "entity.name.function.swift",
+            "keyword.control.class",
+            "keyword.control.def",
+            "punctuation.definition.variable",
+            "entity.name.section.latex",
+            "source.ocaml keyword markup.underline",
+            "source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
+            "source.reason entity.other.attribute-name constant.language constant.numeric",
+            "keyword.format.specifier.fsharp",
+            "entity.name.section.fsharp",
+            "binding.fsharp keyword",
+            "binding.fsharp keyword.symbol",
+            "record.fsharp keyword",
+            "keyword.symbol.fsharp",
+            "entity.name.section.fsharp keyword",
+            "namespace.open.fsharp keyword",
+            "namespace.open.fsharp entity",
+            "storage.type",
+            "source.cpp keyword.other",
+            "source.c keyword.other",
+            "keyword.other.unit",
+            "storage.modifier.array.bracket",
+            "meta.import.haskell keyword",
+            "keyword.declaration.dart",
+            "source.wsd keyword.other",
+            "keyword.other.skinparam",
+            "source.css keyword.control",
+            "source.css keyword.operator",
+            "keyword.language.gherkin.feature.scenario",
+            "keyword.control.cucumber.table",
+            "source.toml entity.other.attribute-name",
+            "source.toml keyword",
+            "keyword.other.nim",
+            "source.nim keyword.other.common.function",
+            "source.nim keyword.other",
+            "source.scala keyword.declaration",
+            "source.scala entity.name.class.declaration",
+            "keyword.control.lua",
+            "source.css punctuation.section",
+            "punctuation.section.embedded",
+            "source.c punctuation.section",
+            "source.cpp punctuation.section",
+            "source.java punctuation.section",
+            "source.php punctuation.section",
+            "source.powershell punctuation.section",
+            "source.r punctuation.section",
+            "source.ruby punctuation.section",
+            "source.swift punctuation.section",
+            "source.objc punctuation.section",
+            "source.zig keyword.constant.bool",
+            "source.zig keyword.default",
+            "source.zig keyword.statement",
+            "source.zig keyword.constant.default"
+         ],
+         "settings": {
+            "fontStyle": ""
       }
     },
     {
@@ -1724,4 +1726,3 @@
     }
   ]
 }
-
