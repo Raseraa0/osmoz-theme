@@ -90,6 +90,67 @@
     // Activity Bar
     // ==============================
 
+    // Activity Bar background color.
+    "activityBar.background": "#1e1a3a",
+
+    // Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+    "activityBar.dropBorder": "#8c7dd3",
+
+    // Activity Bar foreground color (for example used for the icons).
+    "activityBar.foreground": "#9c8fda",
+
+    // Activity Bar item foreground color when it is inactive.
+    "activityBar.inactiveForeground": "#50477a",
+
+    // Activity Bar border color with the Side Bar.
+    "activityBar.border": "#332c5f",
+
+    // Activity notification badge background color.
+    "activityBarBadge.background": "#afa7d8",
+
+    // Activity notification badge foreground color.
+    "activityBarBadge.foreground": "#332c5f",
+
+    // Activity Bar active indicator border color.
+    "activityBar.activeBorder": "#9c8fda",
+
+    // Activity Bar optional background color for the active element.
+    "activityBar.activeBackground": "#00000000",
+
+    // Activity bar focus border color for the active item.
+   //  "activityBar.activeFocusBorder": "#",
+
+    // Active foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
+   //  "activityBarTop.foreground": "#",
+
+    // Focus border color for the active item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
+   //  "activityBarTop.activeBorder": "#",
+
+    // Inactive foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
+   //  "activityBarTop.inactiveForeground": "#",
+
+    // Drag and drop feedback color for the items in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
+    // "activityBarTop.dropBorder": "#",
+
+    // Background color of the activity bar when set to top / bottom.
+   //  "activityBarTop.background": "#",
+
+    // Background color for the active item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
+    // "activityBarTop.activeBackground": "#",
+
+    // Foreground color of the warning activity badge
+   //  "activityWarningBadge.foreground": "#",
+
+    // Background color of the warning activity badge
+    // "activityWarningBadge.background": "#",
+
+    // Foreground color of the error activity badge
+    // "activityErrorBadge.foreground": "#",
+
+    // Background color of the error activity badge
+    // "activityErrorBadge.background": "#",
+    
+    
     // ==============================
     // Profiles
     // ==============================
