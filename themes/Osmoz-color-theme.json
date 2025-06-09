@@ -1381,41 +1381,41 @@
     "titleBar.inactiveForeground": "#706e7a",
 
     //  Title bar border color.
-    "titleBar.border": "#332c5f"
+    "titleBar.border": "#332c5f",
 
     // ==============================
     // Menu Bar colors
     // ==============================
 
     //  Foreground color of the selected menu item in the menubar.
-    // "menubar.selectionForeground" : "#",
+    "menubar.selectionForeground": "#b9afff",
 
     //  Background color of the selected menu item in the menubar.
-    // "menubar.selectionBackground" : "#",
+    "menubar.selectionBackground": "#b9afff44",
 
     //  Border color of the selected menu item in the menubar.
-    // "menubar.selectionBorder" : "#",
+    "menubar.selectionBorder": "#8c7dd3",
 
     //  Foreground color of menu items.
-    // "menu.foreground" : "#",
+    "menu.foreground": "#ece9ff",
 
     //  Background color of menu items.
-    // "menu.background" : "#",
+    "menu.background": "#262047",
 
     //  Foreground color of the selected menu item in menus.
-    // "menu.selectionForeground" : "#",
+    "menu.selectionForeground": "#ece9ff",
 
     //  Background color of the selected menu item in menus.
-    // "menu.selectionBackground" : "#",
+    "menu.selectionBackground": "#332c5f",
 
     //  Border color of the selected menu item in menus.
-    // "menu.selectionBorder" : "#",
+    "menu.selectionBorder": "#8c7dd3",
 
     //  Color of a separator menu item in menus.
-    // "menu.separatorBackground" : "#",
+    "menu.separatorBackground": "#8c7dd388",
 
     //  Border color of menus.
-    // "menu.border" : "#",
+    "menu.border": "#8c7dd3",
 
     // ==============================
     // Command Center colors
@@ -1425,13 +1425,97 @@
     // Notification colors
     // ==============================
 
+    //  Notification Center border color.
+    "notificationCenter.border": "#8c7dd3",
+
+    //  Notification Center header foreground color.
+    "notificationCenterHeader.foreground": "#ece9ff",
+
+    //  Notification Center header background color.
+    "notificationCenterHeader.background": "#262047",
+
+    //  Notification toast border color.
+    "notificationToast.border": "#8c7dd3",
+
+    //  Notification foreground color.
+    "notifications.foreground": "#ece9ff",
+
+    //  Notification background color.
+    "notifications.background": "#262047",
+
+    //  Notification border color separating from other notifications in the Notification Center.
+    "notifications.border": "#8c7dd388",
+
+    //  Notification links foreground color.
+    "notificationLink.foreground": "#b9afff",
+
+    //  The color used for the notification error icon.
+    "notificationsErrorIcon.foreground": "#dc2626",
+
+    //  The color used for the notification warning icon.
+    "notificationsWarningIcon.foreground": "#d97706",
+
+    //  The color used for the notification info icon.
+    "notificationsInfoIcon.foreground": "#4ade80",
+
     // ==============================
     // Banner colors
     // ==============================
 
+    //  Banner background color.
+    // "banner.background" : "#",
+
+    //  Banner foreground color.
+    // "banner.foreground" : "#",
+
+    //  Color for the icon in front of the banner text.
+    // "banner.iconForeground" : "#",
+
     // ==============================
     // Extensions colors
     // ==============================
+
+    //  Extension view button foreground color (for example Install button).
+    "extensionButton.prominentForeground" : "#b9afff",
+
+    //  Extension view button background color.
+    // "extensionButton.prominentBackground" : "#",
+
+    //  Extension view button background hover color.
+    // "extensionButton.prominentHoverBackground" : "#",
+
+    //  Button background color for extension actions.
+    // "extensionButton.background" : "#",
+
+    //  Button foreground color for extension actions.
+    // "extensionButton.foreground" : "#",
+
+    //  Button background hover color for extension actions.
+    // "extensionButton.hoverBackground" : "#",
+
+    //  Button separator color for extension actions.
+    // "extensionButton.separator" : "#",
+
+    //  Background color for the remote badge in the extensions view.
+    // "extensionBadge.remoteBackground" : "#",
+
+    //  Foreground color for the remote badge in the extensions view.
+    // "extensionBadge.remoteForeground" : "#",
+
+    //  The icon color for extension ratings.
+    "extensionIcon.starForeground" : "#b9afff",
+
+    //  The icon color for extension verified publisher.
+    "extensionIcon.verifiedForeground" : "#b9afff",
+
+    //  The icon color for pre-release extension.
+    // "extensionIcon.preReleaseForeground" : "#",
+
+    //  The icon color for extension sponsor.
+    // "extensionIcon.sponsorForeground" : "#",
+
+    //  The icon color for private extensions.
+    // "extensionIcon.privateForeground" : "#",
 
     // ==============================
     // Quick picker colors
@@ -1516,6 +1600,7 @@
     // ==============================
     // Gauge colors
     // ==============================
+    "a": "a"
   },
   "tokenColors": [
     {
