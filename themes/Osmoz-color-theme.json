@@ -54,40 +54,85 @@
     // Text colors
     // ==============================
 
+    //  Background color for block quotes in text.
+    "textBlockQuote.background": "#5f559b44",
+
+    //  Border color for block quotes in text.
+    // "textBlockQuote.border": "#",
+
+    //  Background color for code blocks in text.
+    "textCodeBlock.background": "#5f559b88",
+
+    //  Foreground color for links in text when clicked on and on mouse hover.
+    "textLink.activeForeground": "#a9f5e9",
+
+    //  Foreground color for links in text.
+    "textLink.foreground": "#79d0c2",
+
+    //  Foreground color for preformatted text segments.
+    // "textPreformat.foreground": "#",
+
+    //  Background color for preformatted text segments.
+    // "textPreformat.background": "#",
+
+    //  Color for text separators.
+    // "textSeparator.foreground": "#",
+
     // ==============================
     // Action colors
     // ==============================
+
+    //  Toolbar background when hovering over actions using the mouse
+    "toolbar.hoverBackground": "#5f559b",
+
+    //  Toolbar outline when hovering over actions using the mouse
+    "toolbar.hoverOutline": "#796cbf",
+
+    //  Toolbar background when holding the mouse over actions
+    "toolbar.activeBackground": "#6d62ad",
+
+    //  Action List background color.
+    //  "editorActionList.background" : "#",
+
+    //  Action List foreground color.
+    //  "editorActionList.foreground" : "#",
+
+    //  Action List foreground color for the focused item.
+    //  "editorActionList.focusForeground" : "#",
+
+    //  Action List background color for the focused item.
+    //  "editorActionList.focusBackground" : "#",
 
     // ==============================
     // Button control
     // ==============================
 
     //  Button background color.
-    "button.background" : "#443b77",
+    "button.background": "#443b77",
 
     //  Button foreground color.
-    "button.foreground" : "#cac6e0",
+    "button.foreground": "#cac6e0",
 
     //  Button border color.
-    "button.border" : "#796cbf44",
+    "button.border": "#796cbf44",
 
     //  Button separator color.
-    "button.separator" : "#cac6e0",
+    "button.separator": "#cac6e0",
 
     //  Button background color when hovering.
-    "button.hoverBackground" : "#5f559b",
+    "button.hoverBackground": "#5f559b",
 
     //  Secondary button foreground color.
     // "button.secondaryForeground" : "#cac6e0",
 
     //  Secondary button background color.
-    "button.secondaryBackground" : "#4f4586",
+    "button.secondaryBackground": "#4f4586",
 
     //  Secondary button background color when hovering.
-    "button.secondaryHoverBackground" : "#5f559b",
+    "button.secondaryHoverBackground": "#5f559b",
 
     //  Background color of checkbox widget.
-    "checkbox.background" : "#",
+    // "checkbox.background" : "#",
 
     //  Foreground color of checkbox widget.
     // "checkbox.foreground" : "#",
@@ -400,6 +445,15 @@
     // Profiles
     // ==============================
 
+    //  Profile badge background color. The profile badge shows on top of the settings gear icon in the activity bar.
+    // "profileBadge.background" : "#",
+
+    //  Profile badge foreground color. The profile badge shows on top of the settings gear icon in the activity bar.
+    // "profileBadge.foreground" : "#",
+
+    //  The color of the Profiles editor splitview sash border.
+    // "profiles.sashBorder" : "#",
+
     // ==============================
     // Side Bar
     // ==============================
@@ -446,6 +500,54 @@
     // ==============================
     // Minimap
     // ==============================
+
+    //  Highlight color for matches from search within files.
+    "minimap.findmatchhighlight": "#cac6e0",
+
+    //  highlight color for the editor selection.
+    "minimap.selectionHighlight": "#cac6e044",
+
+    //  Highlight color for errors within the editor.
+    "minimap.errorHighlight": "#dc2626",
+
+    //  Highlight color for warnings within the editor.
+    "minimap.warningHighlight": "#d97706",
+
+    //  Minimap background color.
+    "minimap.background": "#26204788",
+
+    //  Minimap marker color for repeating editor selections.
+    "minimap.selectionOccurrenceHighlight": "#cac6e033",
+
+    //  Opacity of foreground elements rendered in the minimap. For example, "#000000c0" will render the elements with 75% opacity.
+    "minimap.foregroundOpacity": "#000000EE",
+
+    //  Minimap marker color for infos.
+    "minimap.infoHighlight": "#4ade80",
+
+    //  Color of pending edit regions in the minimap.
+    // "minimap.chatEditHighlight" : "#",
+
+    //  Minimap slider background color.
+    "minimapSlider.background": "#5f559b33",
+
+    //  Minimap slider background color when hovering.
+    "minimapSlider.hoverBackground": "#5f559b55",
+
+    //  Minimap slider background color when clicked on.
+    "minimapSlider.activeBackground": "#5f559b77",
+
+    //  Minimap gutter color for added content.
+    "minimapGutter.addedBackground": "#22c55eD0",
+
+    //  Minimap gutter color for modified content.
+    "minimapGutter.modifiedBackground": "#d8a61dd0",
+
+    //  Minimap gutter color for deleted content.
+    "minimapGutter.deletedBackground": "#dc2626D0",
+
+    //  Minimap marker color for inline chat inserted content.
+    // "editorMinimap.inlineChatInserted" : "#",
 
     // ==============================
     // Editor Groups & Tabs
@@ -972,13 +1074,13 @@
     "editorGutter.background": "#00000000",
 
     // Editor gutter background color for lines that are modified.
-    "editorGutter.modifiedBackground": "#1d4ed8D0",
+    "editorGutter.modifiedBackground": "#d8a61dd0",
 
     // Editor gutter background color for lines that are added.
     "editorGutter.addedBackground": "#22c55eD0",
 
     // Editor gutter background color for lines that are deleted.
-    "editorGutter.deletedBackground": "#dc2626D0"
+    "editorGutter.deletedBackground": "#dc2626D0",
 
     // Editor gutter decoration color for commenting ranges.
     //   "editorGutter.commentRangeForeground" : "#",
@@ -1093,17 +1195,227 @@
     // Panel colors
     // ==============================
 
+    //  Panel background color.
+    "panel.background": "#1e1a3a",
+
+    //  Panel border color to separate the panel from the editor.
+    "panel.border": "#332c5f",
+
+    //  Drag and drop feedback color for the panel titles. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panel.dropBorder": "#b9afff",
+
+    //  Border color for the active panel title.
+    "panelTitle.activeBorder": "#b9afff",
+
+    //  Title color for the active panel.
+    "panelTitle.activeForeground": "#e5e2f8",
+
+    //  Title color for the inactive panel.
+    "panelTitle.inactiveForeground": "#e5e2f888",
+
+    //  Panel title border color on the bottom, separating the title from the views. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panelTitle.border": "#332c5f",
+
+    //  Panel title badge background color. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panelTitleBadge.background": "#b9afff",
+
+    //  Panel title badge foreground color. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panelTitleBadge.foreground": "#191431",
+
+    //  Input box border for inputs in the panel.
+    "panelInput.border": "#796cbf",
+
+    //  Panel section border color used when multiple views are stacked horizontally in the panel. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panelSection.border": "#332c5f",
+
+    //  Drag and drop feedback color for the panel sections. The color should have transparency so that the panel sections can still shine through. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panelSection.dropBackground": "#60569933",
+
+    //  Panel section header background color. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panelSectionHeader.background": "#2b2650",
+
+    //  Panel section header foreground color. Panels are shown below the editor area and contain views like output and integrated terminal.
+    "panelSectionHeader.foreground": "#b5b1ca",
+
+    //  Background color of sticky scroll in the panel.
+    // "panelStickyScroll.background": "#",
+
+    //  Border color of sticky scroll in the panel.
+    // "panelStickyScroll.border": "#",
+
+    //  Shadow color of sticky scroll in the panel.
+    // "panelStickyScroll.shadow": "#",
+
+    //  Panel section header border color used when multiple views are stacked vertically in the panel. Panels are shown below the editor area and contain views like output and integrated terminal.
+    // "panelSectionHeader.border": "#",
+
+    //  Output view background color.
+    "outputView.background": "#1e1a3a",
+
+    //  Output view sticky scroll background color.
+    // "outputViewStickyScroll.background": "#",
+
     // ==============================
     // Status Bar colors
     // ==============================
+
+    //  Standard Status Bar background color.
+    "statusBar.background": "#141228",
+
+    //  Status Bar foreground color.
+    "statusBar.foreground": "#cac6e0",
+
+    //  Status Bar border color separating the Status Bar and editor.
+    "statusBar.border": "#332c5f",
+
+    //  Status Bar background color when a program is being debugged.
+    "statusBar.debuggingBackground": "#12281a",
+
+    //  Status Bar foreground color when a program is being debugged.
+    "statusBar.debuggingForeground": "#c6e0d7",
+
+    //  Status Bar border color separating the Status Bar and editor when a program is being debugged.
+    "statusBar.debuggingBorder": "#2c5f4d",
+
+    //  Status Bar foreground color when no folder is opened.
+    "statusBar.noFolderForeground": "#cac6e0",
+
+    //  Status Bar background color when no folder is opened.
+    "statusBar.noFolderBackground": "#141228",
+
+    //  Status Bar border color separating the Status Bar and editor when no folder is opened.
+    "statusBar.noFolderBorder": "#332c5f",
+
+    //  Status Bar item background color when clicking.
+    "statusBarItem.activeBackground": "#6d62ad88",
+
+    //  Status bar item foreground color when hovering. The status bar is shown in the bottom of the window.
+    "statusBarItem.hoverForeground": "#cac6e0",
+
+    //  Status Bar item background color when hovering.
+    "statusBarItem.hoverBackground": "#5f559b55",
+
+    //  Status Bar prominent items foreground color.
+    // "statusBarItem.prominentForeground": "#",
+
+    //  Status Bar prominent items background color.
+    // "statusBarItem.prominentBackground": "#",
+
+    //  Status bar prominent items foreground color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
+    // "statusBarItem.prominentHoverForeground": "#",
+
+    //  Status Bar prominent items background color when hovering.
+    // "statusBarItem.prominentHoverBackground": "#",
+
+    //  Background color for the remote indicator on the status bar.
+    "statusBarItem.remoteBackground": "#aca3df",
+
+    //  Foreground color for the remote indicator on the status bar.
+    "statusBarItem.remoteForeground": "#231c49",
+
+    //  Background color for the remote indicator on the status bar when hovering.
+    "statusBarItem.remoteHoverBackground": "#796cbf",
+
+    //  Foreground color for the remote indicator on the status bar when hovering.
+    "statusBarItem.remoteHoverForeground": "#cac6e0",
+
+    //  Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions.
+    "statusBarItem.errorBackground": "#7e1a1a",
+
+    //  Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions.
+    "statusBarItem.errorForeground": "#cac6e0",
+
+    //  Status bar error items background color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.errorHoverBackground": "#af3434",
+
+    //  Status bar error items foreground color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.errorHoverForeground": "#cac6e0",
+
+    //  Status bar warning items background color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.warningBackground": "#80501a",
+
+    //  Status bar warning items foreground color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.warningForeground": "#cac6e0",
+
+    //  Status bar warning items background color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.warningHoverBackground": "#c98c46",
+
+    //  Status bar warning items foreground color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+    "statusBarItem.warningHoverForeground": "#cac6e0",
+
+    //  Status bar item background color when hovering an item that contains two hovers. The status bar is shown in the bottom of the window.
+    "statusBarItem.compactHoverBackground": "#5f559bAA",
+
+    //  Status bar item border color when focused on keyboard navigation. The status bar is shown in the bottom of the window.
+    // "statusBarItem.focusBorder": "#",
+
+    //  Status bar border color when focused on keyboard navigation. The status bar is shown in the bottom of the window.
+    // "statusBar.focusBorder": "#",
+
+    //  Status bar item background color when the workbench is offline.
+    // "statusBarItem.offlineBackground": "#",
+
+    //  Status bar item foreground color when the workbench is offline.
+    // "statusBarItem.offlineForeground": "#",
+
+    //  Status bar item foreground hover color when the workbench is offline.
+    // "statusBarItem.offlineHoverForeground": "#",
+
+    //  Status bar item background hover color when the workbench is offline.
+    // "statusBarItem.offlineHoverBackground": "#",
 
     // ==============================
     // Title Bar colors
     // ==============================
 
+    //  Title Bar background when the window is active.
+    "titleBar.activeBackground": "#312b55",
+
+    //  Title Bar foreground when the window is active.
+    "titleBar.activeForeground": "#e5e2f8",
+
+    //  Title Bar background when the window is inactive.
+    "titleBar.inactiveBackground": "#231e3b",
+
+    //  Title Bar foreground when the window is inactive.
+    "titleBar.inactiveForeground": "#706e7a",
+
+    //  Title bar border color.
+    "titleBar.border": "#332c5f"
+
     // ==============================
     // Menu Bar colors
     // ==============================
+
+    //  Foreground color of the selected menu item in the menubar.
+    // "menubar.selectionForeground" : "#",
+
+    //  Background color of the selected menu item in the menubar.
+    // "menubar.selectionBackground" : "#",
+
+    //  Border color of the selected menu item in the menubar.
+    // "menubar.selectionBorder" : "#",
+
+    //  Foreground color of menu items.
+    // "menu.foreground" : "#",
+
+    //  Background color of menu items.
+    // "menu.background" : "#",
+
+    //  Foreground color of the selected menu item in menus.
+    // "menu.selectionForeground" : "#",
+
+    //  Background color of the selected menu item in menus.
+    // "menu.selectionBackground" : "#",
+
+    //  Border color of the selected menu item in menus.
+    // "menu.selectionBorder" : "#",
+
+    //  Color of a separator menu item in menus.
+    // "menu.separatorBackground" : "#",
+
+    //  Border color of menus.
+    // "menu.border" : "#",
 
     // ==============================
     // Command Center colors
