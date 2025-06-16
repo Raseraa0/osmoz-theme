@@ -67,7 +67,7 @@
     "textLink.activeForeground": "#bfb6f1",
 
     //  Foreground color for links in text.
-    "textLink.foreground": "#9888f7",
+    "textLink.foreground": "#b4a7ff",
 
     //  Foreground color for preformatted text segments.
     // "textPreformat.foreground": "#",
@@ -459,7 +459,7 @@
     // ================================================================================
 
     // Side Bar background color.
-    "sideBar.background": "#262047",
+    "sideBar.background": "#251f46",
 
     // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
     "sideBar.foreground": "#b5b1ca",
@@ -514,7 +514,7 @@
     "minimap.warningHighlight": "#d97706",
 
     //  Minimap background color.
-    "minimap.background": "#26204788",
+    "minimap.background": "#251f4688",
 
     //  Minimap marker color for repeating editor selections.
     "minimap.selectionOccurrenceHighlight": "#cac6e033",
@@ -563,7 +563,7 @@
     //  "editorGroupHeader.noTabsBackground": "#",
 
     // Background color of the Tabs container.
-    "editorGroupHeader.tabsBackground": "#262047",
+    "editorGroupHeader.tabsBackground": "#251f46",
 
     // Border color below the editor tabs control when tabs are enabled.
     "editorGroupHeader.tabsBorder": "#33245f80",
@@ -723,7 +723,7 @@
     "editor.compositionBorder": "#aba5d0",
 
     // Color of the editor selection.
-    "editor.selectionBackground": "#4568db50",
+    "editor.selectionBackground": "#5d40c450",
 
     // Color of the selected text for high contrast.
     // "editor.selectionForeground": "#",
@@ -972,7 +972,7 @@
     // "editor.foldPlaceholderForeground" : "#",
 
     // Background color of the editor overview ruler. Only used when the minimap is enabled and placed on the right side of the editor.
-    "editorOverviewRuler.background": "#262047",
+    "editorOverviewRuler.background": "#251f46",
 
     // Color of the overview ruler border.
     "editorOverviewRuler.border": "#332c5f",
@@ -1313,7 +1313,7 @@
     "editorWidget.foreground": "#e5e2f8",
 
     //  Background color of editor widgets, such as Find/Replace.
-    "editorWidget.background": "#262047",
+    "editorWidget.background": "#251f46",
 
     //  Border color of the editor widget unless the widget does not contain a border or defines its own border color.
     "editorWidget.border": "#8c7dd3",
@@ -1373,13 +1373,13 @@
     // "editorGhostText.foreground" : "#",
 
     //  Editor sticky scroll background color.
-    "editorStickyScroll.background": "#1e1a3a44",
+    "editorStickyScroll.background": "#1e1a3a66",
 
     //  Border color of sticky scroll in the editor.
-    "editorStickyScroll.border": "#8c7dd3",
+    "editorStickyScroll.border": "#8c7dd388",
 
     //  Shadow color of sticky scroll in the editor.
-    "editorStickyScroll.shadow": "#8c7dd388",
+    "editorStickyScroll.shadow": "#8c7dd344",
 
     //  Editor sticky scroll on hover background color.
     "editorStickyScrollHover.background": "#332c5f",
@@ -1533,7 +1533,7 @@
     // ================================================================================
 
     //  Standard Status Bar background color.
-    "statusBar.background": "#141228",
+    "statusBar.background": "#1e1a3a",
 
     //  Status Bar foreground color.
     "statusBar.foreground": "#cac6e0",
@@ -1673,7 +1673,7 @@
     "menu.foreground": "#ece9ff",
 
     //  Background color of menu items.
-    "menu.background": "#262047",
+    "menu.background": "#251f46",
 
     //  Foreground color of the selected menu item in menus.
     "menu.selectionForeground": "#ece9ff",
@@ -1705,7 +1705,7 @@
     "notificationCenterHeader.foreground": "#ece9ff",
 
     //  Notification Center header background color.
-    "notificationCenterHeader.background": "#262047",
+    "notificationCenterHeader.background": "#251f46",
 
     //  Notification toast border color.
     "notificationToast.border": "#8c7dd3",
@@ -1714,7 +1714,7 @@
     "notifications.foreground": "#ece9ff",
 
     //  Notification background color.
-    "notifications.background": "#262047",
+    "notifications.background": "#251f46",
 
     //  Notification border color separating from other notifications in the Notification Center.
     "notifications.border": "#8c7dd388",
@@ -2006,7 +2006,7 @@
     "breadcrumb.activeSelectionForeground": "#5648a0",
 
     //  Background color of breadcrumb item picker
-    "breadcrumbPicker.background": "#262047",
+    "breadcrumbPicker.background": "#251f46",
 
     // ================================================================================
     // Snippets colors
