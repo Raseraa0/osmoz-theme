@@ -1,7 +1,7 @@
 {
   "name": "Osmoz Dark",
   "type": "dark",
-  "author": "Osmoz",
+  "author": "Arthur",
   "colorSpaceName": "sRGB",
   "colors": {
     // ================================================================================
@@ -11,44 +11,44 @@
     "focusBorder": "#5eead4",
 
     // Overall foreground color. This color is only used if not overridden by a component.
-    // "foreground": "#f0f9ff",
+    "foreground": "#cac6e0",
 
     // Overall foreground for disabled elements. This color is only used if not overridden by a component.
-    // "disabledForeground": "#FF0000",
+    // "disabledForeground": "#FF00FF",
 
     // Border color of widgets such as Find/Replace inside the editor.
-    // "widget.border": "#",
+    // "widget.border": "#FF00FF",
 
     // Shadow color of widgets such as Find/Replace inside the editor.
-    // "widget.shadow": "#",
+    // "widget.shadow": "#FF00FF",
 
     // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
-    // "selection.background": "#",
+    // "selection.background": "#FF00FF",
 
     // Foreground color for description text providing additional information, for example for a label.
-    // "descriptionForeground": "#",
+    // "descriptionForeground": "#FF00FF",
 
     // Overall foreground color for error messages (this color is only used if not overridden by a component).
-    // "errorForeground": "#",
+    // "errorForeground": "#FF00FF",
 
     // The default color for icons in the workbench.
-    // "icon.foreground": "#",
+    // "icon.foreground": "#FF00FF",
 
     // The hover border color for draggable sashes.
-    // "sash.hoverBorder": "#",
+    // "sash.hoverBorder": "#FF00FF",
 
     // The hover border color for draggable sashes.
-    // "sash.hoverBorder": "#",
+    // "sash.hoverBorder": "#FF00FF",
 
     // ================================================================================
     // Window border
     // ================================================================================
 
     // Border color for the active (focused) window.
-    // "window.activeBorder" : "#",
+    "window.activeBorder": "#FF00FF",
 
     // Border color for the inactive (unfocused) windows.
-    // "window.inactiveBorder" : "#",
+    "window.inactiveBorder": "#FF00FF",
 
     // ================================================================================
     // Text colors
@@ -58,7 +58,7 @@
     "textBlockQuote.background": "#5f559b44",
 
     //  Border color for block quotes in text.
-    // "textBlockQuote.border": "#",
+    "textBlockQuote.border": "#FF00FF",
 
     //  Background color for code blocks in text.
     "textCodeBlock.background": "#5f559b88",
@@ -70,13 +70,13 @@
     "textLink.foreground": "#b4a7ff",
 
     //  Foreground color for preformatted text segments.
-    // "textPreformat.foreground": "#",
+    "textPreformat.foreground": "#fbbf24",
 
     //  Background color for preformatted text segments.
-    // "textPreformat.background": "#",
+    "textPreformat.background": "#b4a7ff33",
 
     //  Color for text separators.
-    // "textSeparator.foreground": "#",
+    "textSeparator.foreground": "#FF00FF",
 
     // ================================================================================
     // Action colors
@@ -92,16 +92,16 @@
     "toolbar.activeBackground": "#6d62ad",
 
     //  Action List background color.
-    //  "editorActionList.background" : "#",
+    "editorActionList.background": "#FF00FF",
 
     //  Action List foreground color.
-    //  "editorActionList.foreground" : "#",
+    "editorActionList.foreground": "#FF00FF",
 
     //  Action List foreground color for the focused item.
-    //  "editorActionList.focusForeground" : "#",
+    "editorActionList.focusForeground": "#FF00FF",
 
     //  Action List background color for the focused item.
-    //  "editorActionList.focusBackground" : "#",
+    "editorActionList.focusBackground": "#FF00FF",
 
     // ================================================================================
     // Button control
@@ -132,46 +132,46 @@
     "button.secondaryHoverBackground": "#5f559b",
 
     //  Background color of checkbox widget.
-    // "checkbox.background" : "#",
+    "checkbox.background": "#5f559b",
 
     //  Foreground color of checkbox widget.
-    // "checkbox.foreground" : "#",
+    "checkbox.foreground": "#5648a0",
 
     //  Background of a disabled checkbox.
-    // "checkbox.disabled.background" : "#",
+    "checkbox.disabled.background": "#FF00FF",
 
     //  Foreground of a disabled checkbox.
-    // "checkbox.disabled.foreground" : "#",
+    "checkbox.disabled.foreground": "#FF00FF",
 
     //  Border color of checkbox widget.
-    // "checkbox.border" : "#",
+    "checkbox.border": "#9c8fda",
 
     //  Background color of checkbox widget when the element it's in is selected.
-    // "checkbox.selectBackground" : "#",
+    "checkbox.selectBackground": "#FF00FF",
 
     //  Border color of checkbox widget when the element it's in is selected.
-    // "checkbox.selectBorder" : "#",
+    "checkbox.selectBorder": "#FF00FF",
 
     //  Foreground color of active radio option.
-    // "radio.activeForeground" : "#",
+    "radio.activeForeground": "#FF00FF",
 
     //  Background color of active radio option.
-    // "radio.activeBackground" : "#",
+    "radio.activeBackground": "#FF00FF",
 
     //  Border color of the active radio option.
-    // "radio.activeBorder" : "#",
+    "radio.activeBorder": "#FF00FF",
 
     //  Foreground color of inactive radio option.
-    // "radio.inactiveForeground" : "#",
+    "radio.inactiveForeground": "#FF00FF",
 
     //  Background color of inactive radio option.
-    // "radio.inactiveBackground" : "#",
+    "radio.inactiveBackground": "#FF00FF",
 
     //  Border color of the inactive radio option.
-    // "radio.inactiveBorder" : "#",
+    "radio.inactiveBorder": "#FF00FF",
 
     //  Background color of inactive active radio option when hovering.
-    // "radio.inactiveHoverBackground" : "#",
+    "radio.inactiveHoverBackground": "#FF00FF",
 
     // ================================================================================
     // Dropdown control
@@ -181,10 +181,10 @@
     "dropdown.background": "#443b77",
 
     //  Dropdown list background.
-    // "dropdown.listBackground" : "#",
+    "dropdown.listBackground": "#443b77",
 
     //  Dropdown border.
-    // "dropdown.border" : "#",
+    "dropdown.border": "#796cbf",
 
     //  Dropdown foreground.
     "dropdown.foreground": "#cac6e0",
@@ -265,17 +265,17 @@
     // ================================================================================
 
     //  Badge foreground color.
-    // "badge.foreground" : "#",
+    "badge.foreground": "#bcafff",
 
     //  Badge background color.
-    // "badge.background" : "#",
+    "badge.background": "#4c4381",
 
     // ================================================================================
     // Progress bar
     // ================================================================================
 
     // Background color of the progress bar shown for long running operations.
-    //  "progressBar.background" :
+    "progressBar.background": "#FF00FF",
 
     // ================================================================================
     // Lists and trees
@@ -294,22 +294,22 @@
     "list.dropBackground": "#c5aae833",
 
     //  List/Tree background color for the focused item when the list/tree is active.
-    // list.focusBackground" : "#",
+    "list.focusBackground": "#342b656e",
 
     //  List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
     "list.focusForeground": "#c3bfd9",
 
     //  List/Tree foreground color of the match highlights on actively focused items when searching inside the list/tree.
-    "list.focusHighlightForeground": "#c3bfd9",
+    "list.focusHighlightForeground": "#a08fff",
 
     //  List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
-    "list.focusOutline": "#5eead4DD",
+    "list.focusOutline": "#5eead4DD",c3bfd9
 
     //  List/Tree outline color for the focused item when the list/tree is active and selected. An active list/tree has keyboard focus, an inactive does not.
     "list.focusAndSelectionOutline": "#5eead4DD",
 
     //  List/Tree foreground color of the match highlights when searching inside the list/tree.
-    // "list.highlightForeground" : "#",
+    "list.highlightForeground": "#b4a7ff",
 
     //  List/Tree background when hovering over items using the mouse.
     "list.hoverBackground": "#c5aae833",
@@ -321,16 +321,16 @@
     "list.inactiveSelectionBackground": "#342b65",
 
     //  List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
-    // "list.inactiveSelectionForeground" : "#",
+    "list.inactiveSelectionForeground": "#bcafff",
 
     //  List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
-    // "list.inactiveSelectionIconForeground" : "#",
+    "list.inactiveSelectionIconForeground": "#bcafff",
 
     //  List background color for the focused item when the list is inactive. An active list has keyboard focus, an inactive does not. Currently only supported in lists.
-    // "list.inactiveFocusBackground" : "#",
+    "list.inactiveFocusBackground": "#342b656e",
 
     //  List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
-    // "list.inactiveFocusOutline" : "#"
+    "list.inactiveFocusOutline": "#00000000",
 
     //  List/Tree foreground color for invalid items, for example an unresolved root in explorer.
     "list.invalidItemForeground": "#450a0a",
@@ -342,28 +342,28 @@
     "list.warningForeground": "#d97706",
 
     //  List/Tree Filter background color of typed text when searching inside the list/tree.
-    // "listFilterWidget.background" : "#",
+    "listFilterWidget.background": "#FF00FF",
 
     //  List/Tree Filter Widget's outline color of typed text when searching inside the list/tree.
-    // "listFilterWidget.outline" : "#",
+    "listFilterWidget.outline": "#FF00FF",
 
     //  List/Tree Filter Widget's outline color when no match is found of typed text when searching inside the list/tree.
-    // "listFilterWidget.noMatchesOutline" : "#",
+    "listFilterWidget.noMatchesOutline": "#FF00FF",
 
     //  Shadow color of the type filter widget in lists and tree.
-    // "listFilterWidget.shadow" : "#",
+    "listFilterWidget.shadow": "#FF00FF",
 
     //  Background color of the filtered matches in lists and trees.
-    // "list.filterMatchBackground" : "#",
+    "list.filterMatchBackground": "#FF00FF",
 
     //  Border color of the filtered matches in lists and trees.
-    // "list.filterMatchBorder" : "#",
+    "list.filterMatchBorder": "#FF00FF",
 
     //  List/Tree foreground color for items that are deemphasized.
-    // "list.deemphasizedForeground" : "#",
+    "list.deemphasizedForeground": "#FF00FF",
 
     //  List/Tree drag and drop border color when moving items between items when using the mouse.
-    // "list.dropBetweenBackground" : "#",
+    "list.dropBetweenBackground": "#FF00FF",
 
     //  Tree Widget's stroke color for indent guides.
     "tree.indentGuidesStroke": "#b0aad3",
@@ -372,10 +372,10 @@
     "tree.inactiveIndentGuidesStroke": "#b0aad344",
 
     //  Tree stroke color for the indentation guides.
-    // "tree.tableColumnsBorder" : "#",
+    "tree.tableColumnsBorder": "#FF00FF",
 
     //  Background color for odd table rows.
-    // "tree.tableOddRowsBackground" : "#",
+    "tree.tableOddRowsBackground": "#FF00FF",
 
     // ================================================================================
     // Activity Bar
@@ -409,50 +409,50 @@
     "activityBar.activeBackground": "#00000000",
 
     // Activity bar focus border color for the active item.
-    //  "activityBar.activeFocusBorder": "#",
+    "activityBar.activeFocusBorder": "#FF00FF",
 
     // Active foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    //  "activityBarTop.foreground": "#",
+    "activityBarTop.foreground": "#FF00FF",
 
     // Focus border color for the active item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    //  "activityBarTop.activeBorder": "#",
+    "activityBarTop.activeBorder": "#FF00FF",
 
     // Inactive foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    //  "activityBarTop.inactiveForeground": "#",
+    "activityBarTop.inactiveForeground": "#FF00FF",
 
     // Drag and drop feedback color for the items in the Activity bar when it is on top. The activity allows to switch between views of the side bar.
-    // "activityBarTop.dropBorder": "#",
+    "activityBarTop.dropBorder": "#FF00FF",
 
     // Background color of the activity bar when set to top / bottom.
-    //  "activityBarTop.background": "#",
+    "activityBarTop.background": "#FF00FF",
 
     // Background color for the active item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
-    // "activityBarTop.activeBackground": "#",
+    "activityBarTop.activeBackground": "#FF00FF",
 
     // Foreground color of the warning activity badge
-    //  "activityWarningBadge.foreground": "#",
+    "activityWarningBadge.foreground": "#FF00FF",
 
     // Background color of the warning activity badge
-    // "activityWarningBadge.background": "#",
+    "activityWarningBadge.background": "#FF00FF",
 
     // Foreground color of the error activity badge
-    // "activityErrorBadge.foreground": "#",
+    "activityErrorBadge.foreground": "#FF00FF",
 
     // Background color of the error activity badge
-    // "activityErrorBadge.background": "#",
+    "activityErrorBadge.background": "#FF00FF",
 
     // ================================================================================
     // Profiles
     // ================================================================================
 
     //  Profile badge background color. The profile badge shows on top of the settings gear icon in the activity bar.
-    // "profileBadge.background" : "#",
+    "profileBadge.background": "#FF00FF",
 
     //  Profile badge foreground color. The profile badge shows on top of the settings gear icon in the activity bar.
-    // "profileBadge.foreground" : "#",
+    "profileBadge.foreground": "#FF00FF",
 
     //  The color of the Profiles editor splitview sash border.
-    // "profiles.sashBorder" : "#",
+    "profiles.sashBorder": "#FF00FF",
 
     // ================================================================================
     // Side Bar
@@ -526,7 +526,7 @@
     "minimap.infoHighlight": "#4ade80",
 
     //  Color of pending edit regions in the minimap.
-    // "minimap.chatEditHighlight" : "#",
+    "minimap.chatEditHighlight": "#FF00FF",
 
     //  Minimap slider background color.
     "minimapSlider.background": "#5f559b33",
@@ -547,7 +547,7 @@
     "minimapGutter.deletedBackground": "#dc2626D0",
 
     //  Minimap marker color for inline chat inserted content.
-    // "editorMinimap.inlineChatInserted" : "#",
+    "editorMinimap.inlineChatInserted": "#FF00FF",
 
     // ================================================================================
     // Editor Groups & Tabs
@@ -560,7 +560,7 @@
     "editorGroup.dropBackground": "#b9afff60",
 
     // Background color of the editor group title header when using single Tab (set "workbench.editor.showTabs": "single").
-    //  "editorGroupHeader.noTabsBackground": "#",
+    "editorGroupHeader.noTabsBackground": "#FF00FF",
 
     // Background color of the Tabs container.
     "editorGroupHeader.tabsBackground": "#251f46",
@@ -575,7 +575,7 @@
     "editorGroup.emptyBackground": "#2c2653",
 
     // Border color of an empty editor group that is focused.
-    //  "editorGroup.focusedEmptyBorder": "#",
+    "editorGroup.focusedEmptyBorder": "#FF00FF",
 
     // Foreground color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
     "editorGroup.dropIntoPromptForeground": "#5eead4",
@@ -587,13 +587,13 @@
     "editorGroup.dropIntoPromptBorder": "#5eead4",
 
     // Active Tab background color in an active group.
-    //  "tab.activeBackground": "#",
+    "tab.activeBackground": "#1e1a3a",
 
     // Active Tab background color in an inactive editor group.
-    //  "tab.unfocusedActiveBackground": "#",
+    "tab.unfocusedActiveBackground": "#1e1a3aAA",
 
     // Active Tab foreground color in an active group.
-    "tab.activeForeground": "#a598e6",
+    "tab.activeForeground": "#907fe2",
 
     // Border to separate Tabs from each other.
     "tab.border": "#33245f80",
@@ -602,82 +602,82 @@
     "tab.activeBorder": "#a598e6",
 
     // Border to the top of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    //  "tab.selectedBorderTop": "#",
+    "tab.selectedBorderTop": "#00000000",
 
     // Background of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    //  "tab.selectedBackground": "#",
+    "tab.selectedBackground": "#FF00FF",
 
     // Foreground of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
-    //  "tab.selectedForeground": "#",
+    "tab.selectedForeground": "#FF00FF",
 
     // Border between tabs to indicate that a tab can be inserted between two tabs. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
     "tab.dragAndDropBorder": "#a598e6",
 
     // Bottom border for the active tab in an inactive editor group.
-    "tab.unfocusedActiveBorder": "#a598e640",
+    "tab.unfocusedActiveBorder": "#a598e660",
 
     // Top border for the active tab.
-    //  "tab.activeBorderTop": "#",
+    "tab.activeBorderTop": "#00000000",
 
     // Top border for the active tab in an inactive editor group
-    // "tab.unfocusedActiveBorderTop": "#",
+    "tab.unfocusedActiveBorderTop": "#00000000",
 
     // Border on the right of the last pinned editor to separate from unpinned editors.
-    //  "tab.lastPinnedBorder": "#",
+    "tab.lastPinnedBorder": "#FF00FF",
 
     // Inactive Tab background color.
-    "tab.inactiveBackground": "#211c3f",
+    "tab.inactiveBackground": "#231d42",
 
     // Inactive Tab background color in an unfocused group
-    "tab.unfocusedInactiveBackground": "#211c3f",
+    "tab.unfocusedInactiveBackground": "#30295a22",
 
     // Inactive Tab foreground color in an active group.
-    // "tab.inactiveForeground": "#",
+    "tab.inactiveForeground": "#a598e688",
 
     // Active tab foreground color in an inactive editor group.
-    // "tab.unfocusedActiveForeground": "#",
+    "tab.unfocusedActiveForeground": "#b1a8e088",
 
     // Inactive tab foreground color in an inactive editor group.
-    // "tab.unfocusedInactiveForeground": "#",
+    "tab.unfocusedInactiveForeground": "#b1a8e066",
 
     // Tab background color when hovering
-    // "tab.hoverBackground": "#",
+    "tab.hoverBackground": "#403b6d",
 
     // Tab background color in an unfocused group when hovering
-    // "tab.unfocusedHoverBackground": "#",
+    "tab.unfocusedHoverBackground": "#403b6dAA",
 
     // Tab foreground color when hovering
-    // "tab.hoverForeground": "#",
+    "tab.hoverForeground": "#a598e688",
 
     // Tab foreground color in an unfocused group when hovering
-    // "tab.unfocusedHoverForeground": "#",
+    "tab.unfocusedHoverForeground": "#a598e655",
 
     // Border to highlight tabs when hovering
-    // "tab.hoverBorder": "#",
+    "tab.hoverBorder": "#00000000",
 
     // Border to highlight tabs in an unfocused group when hovering
-    // "tab.unfocusedHoverBorder": "#",
+    "tab.unfocusedHoverBorder": "#00000000",
 
     // Border on the top of modified (dirty) active tabs in an active group.
-    // "tab.activeModifiedBorder": "#",
+    "tab.activeModifiedBorder": "#FF00FF",
 
     // Border on the top of modified (dirty) inactive tabs in an active group.
-    // "tab.inactiveModifiedBorder": "#",
+    "tab.inactiveModifiedBorder": "#FF00FF",
 
     // Border on the top of modified (dirty) active tabs in an unfocused group.
-    // "tab.unfocusedActiveModifiedBorder": "#",
+    "tab.unfocusedActiveModifiedBorder": "#FF00FF",
 
     // Border on the top of modified (dirty) inactive tabs in an unfocused group.
-    // "tab.unfocusedInactiveModifiedBorder": "#",
+    "tab.unfocusedInactiveModifiedBorder": "#FF00FF",
 
     // Background color of the editor pane visible on the left and right side of the centered editor layout.
-    // "editorPane.background": "#",
+    "editorPane.background": "#FF00FF",
 
     // Color to separate two editors from each other when shown side by side in an editor group from top to bottom.
-    // "sideBySideEditor.horizontalBorder": "#",
+    "sideBySideEditor.horizontalBorder": "#FF00FF",
 
     // Color to separate two editors from each other when shown side by side in an editor group from left to right.
-    // "sideBySideEditor.verticalBorder": "#",
+    "sideBySideEditor.verticalBorder": "#FF00FF",
 
     // ================================================================================
     // Editor colors
@@ -705,10 +705,10 @@
     "editorCursor.background": "#1e1a3a",
 
     // Color of the primary editor cursor when multiple cursors are present.
-    //   "editorMultiCursor.primary.foreground": "#",
+    "editorMultiCursor.primary.foreground": "#FF00FF",
 
     // The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
-    //   "editorMultiCursor.primary.background": "#",
+    "editorMultiCursor.primary.background": "#FF00FF",
 
     // Color of secondary editor cursors when multiple cursors are present.
     "editorMultiCursor.secondary.foreground": "#948fb4",
@@ -717,7 +717,7 @@
     "editorMultiCursor.secondary.background": "#1e1a3a",
 
     // Foreground color of the placeholder text in the editor.
-    //   "editor.placeholder.foreground": "#",
+    "editor.placeholder.foreground": "#FF00FF",
 
     // The border color for an IME composition.
     "editor.compositionBorder": "#aba5d0",
@@ -726,34 +726,34 @@
     "editor.selectionBackground": "#5d40c450",
 
     // Color of the selected text for high contrast.
-    // "editor.selectionForeground": "#",
+    "editor.selectionForeground": "#FF00FF",
 
     // Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
-    // "editor.inactiveSelectionBackground": "#,
+    "editor.inactiveSelectionBackground": "#5d40c420",
 
     // Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.
     "editor.selectionHighlightBackground": "#a77ce730",
 
     // Border color for regions with the same content as the selection.
-    // "editor.selectionHighlightBorder": "#",
+    "editor.selectionHighlightBorder": "#00000000",
 
     // Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque so as not to hide underlying decorations.
     "editor.wordHighlightBackground": "#a77ce722",
 
     // Border color of a symbol during read-access, for example when reading a variable.
-    // "editor.wordHighlightBorder" : "#",
+    "editor.wordHighlightBorder": "#00000000",
 
     // Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque so as not to hide underlying decorations.
     "editor.wordHighlightStrongBackground": "#a77ce722",
 
     // Border color of a symbol during write-access, for example when writing to a variable.
-    // "editor.wordHighlightStrongBorder" : "#",
+    "editor.wordHighlightStrongBorder": "#00000000",
 
     // Background color of a textual occurrence for a symbol. The color must not be opaque so as not to hide underlying decorations.
     "editor.wordHighlightTextBackground": "#a77ce722",
 
     // Border color of a textual occurrence for a symbol.
-    // "editor.wordHighlightTextBorder" : "#",
+    "editor.wordHighlightTextBorder": "#00000000",
 
     // Color of the current search match.
     "editor.findMatchBackground": "#4568db80",
@@ -1257,7 +1257,7 @@
 
     //  Background color of a Front Matter header block.
     // "prompt.frontMatter.background" : "#",
-    
+
     //  Background color of an inactive Front Matter header block.
     // "prompt.frontMatter.inactiveBackground" : "#",
 
