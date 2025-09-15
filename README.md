@@ -1,11 +1,9 @@
-Local installation:
+# OSMOZ THEME
 
-```sh
-vsce package
-```
+TODO
 
-```sh
-code --profile "Nvim" --install-extension osmoz-0.0.1.vsix
-```
+(this is my theme blabla)
 
+link
 
+dont hesitate to telle if something is missing (unused param in pink)

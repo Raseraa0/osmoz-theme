@@ -24,7 +24,7 @@
 
     // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
     // "selection.background": "#FF00FF",
-
+ 
     // Foreground color for description text providing additional information, for example for a label.
     // "descriptionForeground": "#FF00FF",
 
@@ -252,13 +252,13 @@
     "scrollbar.shadow": "#0a0721",
 
     //  Scrollbar slider background color when clicked on.
-    "scrollbarSlider.activeBackground": "#7e72bf",
+    "scrollbarSlider.activeBackground": "#4c4381DD",
 
     //  Scrollbar slider background color.
-    "scrollbarSlider.background": "#4c4381",
+    "scrollbarSlider.background": "#4c438166",
 
     //  Scrollbar slider background color when hovering.
-    "scrollbarSlider.hoverBackground": "#5f549b",
+    "scrollbarSlider.hoverBackground": "#4c4381AA",
 
     // ================================================================================
     // Badge
@@ -275,7 +275,7 @@
     // ================================================================================
 
     // Background color of the progress bar shown for long running operations.
-    "progressBar.background": "#FF00FF",
+    "progressBar.background": "#5eead4",
 
     // ================================================================================
     // Lists and trees
@@ -303,7 +303,7 @@
     "list.focusHighlightForeground": "#a08fff",
 
     //  List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
-    "list.focusOutline": "#5eead4DD",c3bfd9
+    "list.focusOutline": "#5eead4DD",
 
     //  List/Tree outline color for the focused item when the list/tree is active and selected. An active list/tree has keyboard focus, an inactive does not.
     "list.focusAndSelectionOutline": "#5eead4DD",
@@ -717,7 +717,7 @@
     "editorMultiCursor.secondary.background": "#1e1a3a",
 
     // Foreground color of the placeholder text in the editor.
-    "editor.placeholder.foreground": "#FF00FF",
+    "editor.placeholder.foreground": "#8c7dd3AA",
 
     // The border color for an IME composition.
     "editor.compositionBorder": "#aba5d0",
@@ -1373,16 +1373,16 @@
     // "editorGhostText.foreground" : "#",
 
     //  Editor sticky scroll background color.
-    "editorStickyScroll.background": "#1e1a3a66",
+    "editorStickyScroll.background": "#1e1a3a88",
 
     //  Border color of sticky scroll in the editor.
     "editorStickyScroll.border": "#8c7dd388",
 
     //  Shadow color of sticky scroll in the editor.
-    "editorStickyScroll.shadow": "#8c7dd344",
+    "editorStickyScroll.shadow": "#8c7dd355",
 
     //  Editor sticky scroll on hover background color.
-    "editorStickyScrollHover.background": "#332c5f",
+    "editorStickyScrollHover.background": "#332c5fBB",
 
     //  Exception widget background color.
     // "debugExceptionWidget.background" : "#",
@@ -1536,7 +1536,7 @@
     "statusBar.background": "#1e1a3a",
 
     //  Status Bar foreground color.
-    "statusBar.foreground": "#cac6e0",
+    "statusBar.foreground": "#9a8edb88",
 
     //  Status Bar border color separating the Status Bar and editor.
     "statusBar.border": "#332c5f",
@@ -1545,7 +1545,7 @@
     "statusBar.debuggingBackground": "#12281a",
 
     //  Status Bar foreground color when a program is being debugged.
-    "statusBar.debuggingForeground": "#c6e0d7",
+    "statusBar.debuggingForeground": "#c6e0d788",
 
     //  Status Bar border color separating the Status Bar and editor when a program is being debugged.
     "statusBar.debuggingBorder": "#2c5f4d",
@@ -1563,25 +1563,25 @@
     "statusBarItem.activeBackground": "#6d62ad88",
 
     //  Status bar item foreground color when hovering. The status bar is shown in the bottom of the window.
-    "statusBarItem.hoverForeground": "#cac6e0",
+    "statusBarItem.hoverForeground": "#afa6e4",
 
     //  Status Bar item background color when hovering.
     "statusBarItem.hoverBackground": "#5f559b55",
 
     //  Status Bar prominent items foreground color.
-    // "statusBarItem.prominentForeground": "#",
+    "statusBarItem.prominentForeground": "#FF00FF",
 
     //  Status Bar prominent items background color.
-    // "statusBarItem.prominentBackground": "#",
+    "statusBarItem.prominentBackground": "#FF00FF",
 
     //  Status bar prominent items foreground color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
-    // "statusBarItem.prominentHoverForeground": "#",
+    "statusBarItem.prominentHoverForeground": "#FF00FF",
 
     //  Status Bar prominent items background color when hovering.
-    // "statusBarItem.prominentHoverBackground": "#",
+    "statusBarItem.prominentHoverBackground": "#FF00FF",
 
     //  Background color for the remote indicator on the status bar.
-    "statusBarItem.remoteBackground": "#aca3df",
+    "statusBarItem.remoteBackground": "#aca3dfAA",
 
     //  Foreground color for the remote indicator on the status bar.
     "statusBarItem.remoteForeground": "#231c49",
