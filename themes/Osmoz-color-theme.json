@@ -45,10 +45,10 @@
     // ================================================================================
 
     // Border color for the active (focused) window.
-    "window.activeBorder": "#FF00FF",
+    "window.activeBorder": "#9c8fda",
 
     // Border color for the inactive (unfocused) windows.
-    "window.inactiveBorder": "#FF00FF",
+    "window.inactiveBorder": "#443b77",
 
     // ================================================================================
     // Text colors
