@@ -1,8 +1,9 @@
 {
   "name": "osmoz",
-  "displayName": "osmoz themes",
+  "displayName": "Osmoz Dark Themes",
+  "icon": "osmoz-icon.png",
   "description": "Themes for Visual Studio code",
-  "version": "0.0.1",  
+  "version": "1.0.0",  
   "publisher": "ArthurRasera",
   "repository": {
     "type": "git",
