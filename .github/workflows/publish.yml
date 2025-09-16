@@ -23,4 +23,4 @@ jobs:
         run: npm install -g vsce
 
       - name: Publish extension
-        run: vsce publish -p ${{ secrets.VSCE_TOKEN }}
+        run: vsce publish -p ${{ secrets.AZUR_TOKEN }}
