@@ -24,7 +24,7 @@
 
     // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
     // "selection.background": "#FF00FF",
- 
+
     // Foreground color for description text providing additional information, for example for a label.
     // "descriptionForeground": "#FF00FF",
 
@@ -108,13 +108,13 @@
     // ================================================================================
 
     //  Button background color.
-    "button.background": "#443b77",
+    "button.background": "#2c2651",
 
     //  Button foreground color.
     "button.foreground": "#cac6e0",
 
     //  Button border color.
-    "button.border": "#796cbf44",
+    "button.border": "#796cbf",
 
     //  Button separator color.
     "button.separator": "#cac6e0",
@@ -132,7 +132,7 @@
     "button.secondaryHoverBackground": "#5f559b",
 
     //  Background color of checkbox widget.
-    "checkbox.background": "#5f559b",
+    "checkbox.background": "#2c2651",
 
     //  Foreground color of checkbox widget.
     "checkbox.foreground": "#5648a0",
@@ -144,7 +144,7 @@
     "checkbox.disabled.foreground": "#FF00FF",
 
     //  Border color of checkbox widget.
-    "checkbox.border": "#9c8fda",
+    "checkbox.border": "#796cbf",
 
     //  Background color of checkbox widget when the element it's in is selected.
     "checkbox.selectBackground": "#FF00FF",
@@ -178,7 +178,7 @@
     // ================================================================================
 
     //  Dropdown background.
-    "dropdown.background": "#443b77",
+    "dropdown.background": "#2c2651",
 
     //  Dropdown list background.
     "dropdown.listBackground": "#443b77",
@@ -194,7 +194,7 @@
     // ================================================================================
 
     //  Input box background.
-    "input.background": "#443b77",
+    "input.background": "#2c2651",
 
     //  Input box border.
     "input.border": "#796cbf",
@@ -1805,6 +1805,187 @@
     // ================================================================================
     // Integrated Terminal colors
     // ================================================================================
+
+    // The background of the Integrated Terminal's viewport.
+    "terminal.background": "#1a1733",
+
+    // The color of the border that separates split panes within the terminal. This defaults to panel.border.
+    "terminal.border": "#332c5f",
+
+    // The default foreground color of the Integrated Terminal.
+    "terminal.foreground": "#b9b5cf",
+
+    // 'Black' ANSI color in the terminal.
+    "terminal.ansiBlack": "#1e1e1e",
+
+    // 'BrightBlack' ANSI color in the terminal.
+    "terminal.ansiBrightBlack": "#666666",
+
+    // 'Red' ANSI color in the terminal.
+    "terminal.ansiRed": "#e06c75",
+
+    // 'BrightRed' ANSI color in the terminal.
+    "terminal.ansiBrightRed": "#ff7b82",
+
+    // 'Green' ANSI color in the terminal.
+    "terminal.ansiGreen": "#98c379",
+
+    // 'BrightGreen' ANSI color in the terminal.
+    "terminal.ansiBrightGreen": "#b4f59e",
+
+    // 'Yellow' ANSI color in the terminal.
+    "terminal.ansiYellow": "#e5c07b",
+
+    // 'BrightYellow' ANSI color in the terminal.
+    "terminal.ansiBrightYellow": "#ffd98f",
+
+    // 'Blue' ANSI color in the terminal.
+    "terminal.ansiBlue": "#61afef",
+
+    // 'BrightBlue' ANSI color in the terminal.
+    "terminal.ansiBrightBlue": "#82cfff",
+
+    // 'Magenta' ANSI color in the terminal.
+    "terminal.ansiMagenta": "#c678dd",
+
+    // 'BrightMagenta' ANSI color in the terminal.
+    "terminal.ansiBrightMagenta": "#e19ef5",
+
+    // 'Cyan' ANSI color in the terminal.
+    "terminal.ansiCyan": "#56b6c2",
+
+    // 'BrightCyan' ANSI color in the terminal.
+    "terminal.ansiBrightCyan": "#6fe7f7",
+
+    // 'White' ANSI color in the terminal.
+    "terminal.ansiWhite": "#d0d0d0",
+
+    // 'BrightWhite' ANSI color in the terminal.
+    "terminal.ansiBrightWhite": "#ffffff",
+
+
+    // The selection background color of the terminal.
+    "terminal.selectionBackground": "#342b65",   
+
+    // The selection foreground color of the terminal. When this is null the selection foreground will be retained and have the minimum contrast ratio feature applied.
+    // "terminal.selectionForeground": "#",    DEFAULT
+
+    // The selection background color of the terminal when it does not have focus.
+    "terminal.inactiveSelectionBackground": "#342b6588",
+
+    // Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+    "terminal.findMatchBackground": "#4568dbD0",
+
+    // Border color of the current search match in the terminal.
+    "terminal.findMatchBorder": "#4568dbD0",
+
+    // Color of the other search matches in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+    "terminal.findMatchHighlightBackground": "#a77ce740",
+
+    // Border color of the other search matches in the terminal.
+    "terminal.findMatchHighlightBorder": "#a77ce740",
+
+    // Color of the highlight when hovering a link in the terminal.
+    "terminal.hoverHighlightBackground": "#a77ce760",
+
+    // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
+    // "terminalCursor.background": "#",   DEFAULT
+
+    // The foreground color of the terminal cursor.
+    // "terminalCursor.foreground": "#",   DEFAULT
+
+    // The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through.
+    "terminal.dropBackground": "#60569933",
+
+    // Border on the side of the terminal tab in the panel. This defaults to tab.activeBorder.
+    "terminal.tab.activeBorder": "#afa6e4",
+
+    // The default terminal command decoration background color.
+    "terminalCommandDecoration.defaultBackground": "#b9afff80",
+
+    // The terminal command decoration background color for successful commands.
+    "terminalCommandDecoration.successBackground": "#4ade80A0",
+
+    // The terminal command decoration background color for error commands.
+    "terminalCommandDecoration.errorBackground": "#dc2626A0",
+
+    // The overview ruler cursor color.
+    // "terminalOverviewRuler.cursorForeground": "#",
+
+    // Overview ruler marker color for find matches in the terminal.
+    // "terminalOverviewRuler.findMatchForeground": "#",
+
+    // The background color of the sticky scroll overlay in the terminal.
+    "terminalStickyScroll.background": "#1f1a3aBB",
+
+    // The border of the sticky scroll overlay in the terminal.
+    "terminalStickyScroll.border": "#afa6e477",
+
+    // The background color of the sticky scroll overlay in the terminal when hovered.
+    "terminalStickyScrollHover.background": "#241f46bb",
+
+    // Foreground color of the terminal initial hint.
+    // "terminal.initialHintForeground": "#",
+
+    // The overview ruler left-side border color.
+    "terminalOverviewRuler.border": "#443c79",
+
+    // The foreground color of the terminal command guide that appears to the left of a command and its output on hover.
+    "terminalCommandGuide.foreground": "#afa6e4",
+
+    // The foreground color for an alias icon. These icons will appear in the terminal suggest widget
+    // "terminalSymbolIcon.aliasForeground": "#",
+
+    // The foreground color for a branch icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.branchForeground": "#",
+
+    // The foreground color for a commit icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.commitForeground": "#",
+
+    // The foreground color for an flag icon. These icons will appear in the terminal suggest widget
+    // "terminalSymbolIcon.flagForeground": "#",
+
+    // The foreground color for an option icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.optionForeground": "#",
+
+    // The foreground color for an enum member icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.optionValueForeground": "#",
+
+    // The foreground color for a method icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.methodForeground": "#",
+
+    // The foreground color for an argument icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.argumentForeground": "#",
+
+    // The foreground color for an inline suggestion icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.inlineSuggestionForeground": "#",
+
+    // The foreground color for a file icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.fileForeground": "#",
+
+    // The foreground color for a folder icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.folderForeground": "#",
+
+    // The foreground color for a completed pull request icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.pullRequestDoneForeground": "#",
+
+    // The foreground color for a pull request icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.pullRequestForeground": "#",
+
+    // The foreground color for a remote icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.remoteForeground": "#",
+
+    // The foreground color for a stash icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.stashForeground": "#",
+
+    // The foreground color for a symbolic link file icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.symbolicLinkFileForeground": "#",
+
+    // The foreground color for a symbolic link folder icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.symbolicLinkFolderForeground": "#",
+
+    // The foreground color for a tag icon. These icons will appear in the terminal suggest widget.
+    // "terminalSymbolIcon.tagForeground": "#",
 
     // ================================================================================
     // Debug colors
