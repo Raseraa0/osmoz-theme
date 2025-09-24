@@ -32,7 +32,7 @@
     // "errorForeground": "#FF00FF",
 
     // The default color for icons in the workbench.
-    // "icon.foreground": "#FF00FF",
+    "icon.foreground": "#cbc2ff",
 
     // The hover border color for draggable sashes.
     // "sash.hoverBorder": "#FF00FF",
@@ -83,13 +83,13 @@
     // ================================================================================
 
     //  Toolbar background when hovering over actions using the mouse
-    "toolbar.hoverBackground": "#5f559b",
+    "toolbar.hoverBackground": "#b9afff22",
 
     //  Toolbar outline when hovering over actions using the mouse
-    "toolbar.hoverOutline": "#796cbf",
+    "toolbar.hoverOutline": "#8c7dd355",
 
     //  Toolbar background when holding the mouse over actions
-    "toolbar.activeBackground": "#6d62ad",
+    "toolbar.activeBackground": "#b9afff66",
 
     //  Action List background color.
     "editorActionList.background": "#FF00FF",
@@ -756,7 +756,7 @@
     "editor.wordHighlightTextBorder": "#00000000",
 
     // Color of the current search match.
-    "editor.findMatchBackground": "#4568db80",
+    "editor.findMatchBackground": "#6748da66",
 
     // Text color of the current search match.
     // "editor.findMatchForeground" : "#",
@@ -771,7 +771,7 @@
     "editor.findRangeHighlightBackground": "#2a244e44",
 
     // Border color of the current search match.
-    "editor.findMatchBorder": "#5071df40",
+    "editor.findMatchBorder": "#8f77e755",
 
     // Border color of the other search matches.
     "editor.findMatchHighlightBorder": "#b28aec20",
@@ -1346,22 +1346,22 @@
     "editorSuggestWidget.selectedIconForeground": "#b4a7fd",
 
     //  Foreground color of the suggest widget status.
-    // "editorSuggestWidgetStatus.foreground" : "#",
+    // "editorSuggestWidgetStatus.foreground" : "#",  DEFAULT
 
     //  Foreground color of the editor hover.
-    // "editorHoverWidget.foreground" : "#",
+    // "editorHoverWidget.foreground" : "#",  DEFAULT
 
     //  Background color of the editor hover.
-    // "editorHoverWidget.background" : "#",
+    // "editorHoverWidget.background" : "#",  DEFAULT
 
     //  Border color of the editor hover.
-    // "editorHoverWidget.border" : "#",
+    // "editorHoverWidget.border" : "#",    DEFAULT
 
     //  Foreground color of the active item in the parameter hint.
-    // "editorHoverWidget.highlightForeground" : "#",
+    // "editorHoverWidget.highlightForeground" : "#",      DEFAULT
 
     //  Background color of the editor hover status bar.
-    "editorHoverWidget.statusBarBackground": "#3f366d",
+    "editorHoverWidget.statusBarBackground": "#3f366d66",
 
     //  Border color of the ghost text shown by inline completion providers and the suggest preview.
     // "editorGhostText.border" : "#",
@@ -1664,10 +1664,10 @@
     "menubar.selectionForeground": "#b9afff",
 
     //  Background color of the selected menu item in the menubar.
-    "menubar.selectionBackground": "#b9afff44",
+    "menubar.selectionBackground": "#b9afff22",
 
     //  Border color of the selected menu item in the menubar.
-    "menubar.selectionBorder": "#8c7dd3",
+    "menubar.selectionBorder": "#8c7dd355",
 
     //  Foreground color of menu items.
     "menu.foreground": "#ece9ff",

@@ -6,6 +6,8 @@
 
 - Le hover des elements dans la header header barre
 
+- search current match plus petant et moin bleu
+
 ### Upgrade
 
 - Theme light
