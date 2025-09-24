@@ -1,9 +1,84 @@
 # Change Log
 
-All notable changes to the "osmoz" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [Version 0.0.1]
 
 - Initial release
+
+
+## [Version 0.0.2]
+
+### Added colors
+
+- `icon.foreground`
+
+- `windows.activeBorder`
+- `windows.inactiveBorder`
+
+- `tree.tableColumnsBorder`
+- `tree.tableOddRowsBackground`
+
+### Modified colors
+
+- `toolbar.hoverBackground`
+- `toolbar.hoverOutline`
+- `toolbar.activeBackground`
+
+- `button.background`
+- `button.border`
+
+
+- `checkbox.background`
+- `checkbox.border`
+
+- `dropdown.background`
+
+- `input.background`
+
+- `editor.findMatchBackground`
+- `editor.findMatchBorder`
+
+- `editorHoverWidget.statusBarBackground`
+
+- `menubar.selectionBackground`
+- `menubar.selectionBorder`
+
+- `terminal.background`
+- `terminal.border`
+- `terminal.foreground`
+- `terminal.ansiBlack`
+- `terminal.ansiBrightBlack`
+- `terminal.ansiRed`
+- `terminal.ansiBrightRed`
+- `terminal.ansiGreen`
+- `terminal.ansiBrightGreen`
+- `terminal.ansiYellow`
+- `terminal.ansiBrightYellow`
+- `terminal.ansiBlue`
+- `terminal.ansiBrightBlue`
+- `terminal.ansiMagenta`
+- `terminal.ansiBrightMagenta`
+- `terminal.ansiCyan`
+- `terminal.ansiBrightCyan`
+- `terminal.ansiWhite`
+- `terminal.ansiBrightWhite`
+- `terminal.selectionBackground`
+- `terminal.selectionForeground`
+- `terminal.inactiveSelectionBackground`
+- `terminal.findMatchBackground`
+- `terminal.findMatchBorder`
+- `terminal.findMatchHighlightBackground`
+- `terminal.findMatchHighlightBorder`
+- `terminal.hoverHighlightBackground`
+- `terminalCursor.background`
+- `terminalCursor.foreground`
+- `terminal.dropBackground`
+- `terminal.tab.activeBorder`
+- `terminalCommandDecoration.defaultBackground`
+- `terminalCommandDecoration.successBackground`
+- `terminalCommandDecoration.errorBackground`
+- `terminalOverviewRuler.cursorForeground`
+- `terminalOverviewRuler.findMatchForeground`
+- `terminalStickyScroll.background`
+- `terminalStickyScroll.border`
+- `terminalStickyScrollHover.background`
+- `terminal.initialHintForeground`
