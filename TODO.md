@@ -2,8 +2,6 @@
 
 ### Colors not done
 
-- Open Kayboard shortcut color
-
 ### Fix
 
 - Le hover des elements dans la header header barre

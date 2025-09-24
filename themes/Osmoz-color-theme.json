@@ -372,10 +372,10 @@
     "tree.inactiveIndentGuidesStroke": "#b0aad344",
 
     //  Tree stroke color for the indentation guides.
-    "tree.tableColumnsBorder": "#FF00FF",
+    "tree.tableColumnsBorder": "#796cbf",
 
     //  Background color for odd table rows.
-    "tree.tableOddRowsBackground": "#FF00FF",
+    "tree.tableOddRowsBackground": "#796cbf1A",
 
     // ================================================================================
     // Activity Bar
