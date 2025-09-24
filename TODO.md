@@ -1,18 +1,27 @@
 ## Thing to do
 
+### Colors not done
+
+- Open Kayboard shortcut color
+
+### Fix
+
+- Le hover des elements dans la header header barre
+
+### Upgrade
+
+- Theme light
+
+- Changer le couleurs syntaxique ?
+
+
+### Others
+
 - Ajout d'une icon pour l'extension
 
 - Ajout d'une photo de profil pour le publisher
 
 - Readme
-
-- Theme light
-
-- Terminal color
-
-- Certaine partie pas encore faites
-
-- Changer le couleurs syntaxique ?
 
 
 ## Useful link
