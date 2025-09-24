@@ -1,5 +1,8 @@
 name: Publish VS Code Extension
 
+# git tag vX.X.X 
+# git push origin vX.X.X 
+# 
 on:
   push:
     tags:
