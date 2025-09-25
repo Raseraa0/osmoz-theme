@@ -1,10 +1,5 @@
 # Change Log
 
-## [Version 0.0.1]
-
-- Initial release
-
-
 ## [Version 1.0.0]
 
 ### Added colors
@@ -82,3 +77,9 @@
 - `terminalStickyScroll.border`
 - `terminalStickyScrollHover.background`
 - `terminal.initialHintForeground`
+
+
+## [Version 0.0.1]
+
+- Initial release
+
