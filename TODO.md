@@ -2,22 +2,28 @@
 
 ### Colors not done
 
+*Nothing*
+
+
 ### Fix
+
+*Nothing*
+
 
 ### Upgrade
 
-- Theme light
+- Add a light theme
 
-- Changer le couleurs syntaxique ?
+- Change the syntax color ?
 
 
 ### Others
 
-- Ajout d'une icon pour l'extension
+- Add icon for the extension
 
-- Ajout d'une photo de profil pour le publisher
+- Add profil picture
 
-- Readme
+- Do the README.md
 
 
 ## Useful link

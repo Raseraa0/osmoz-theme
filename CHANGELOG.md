@@ -1,5 +1,13 @@
 # Change Log
 
+
+## [Version 1.0.1]
+
+### Modified colors
+
+`editorMultiCursor.primary.foreground`
+
+
 ## [Version 1.0.0]
 
 ### Added colors

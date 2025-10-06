@@ -705,10 +705,10 @@
     "editorCursor.background": "#1e1a3a",
 
     // Color of the primary editor cursor when multiple cursors are present.
-    "editorMultiCursor.primary.foreground": "#FF00FF",
+    "editorMultiCursor.primary.foreground": "#7968dc",
 
     // The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
-    "editorMultiCursor.primary.background": "#FF00FF",
+    // "editorMultiCursor.primary.background": "#FF00FF",   # DEFAULT probably
 
     // Color of secondary editor cursors when multiple cursors are present.
     "editorMultiCursor.secondary.foreground": "#948fb4",
