@@ -7,8 +7,11 @@
 
 ### Fix
 
-*Nothing*
+- Color of the mark on checkbox (extension auto-update)
 
+- Change the color of resizing from aqua to light purple
+
+*Nothing*
 
 ### Upgrade
 
@@ -19,7 +22,7 @@
 
 ### Others
 
-- Add icon for the extension
+- Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
 
 - Add profil picture
 
