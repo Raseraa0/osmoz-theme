@@ -2,17 +2,13 @@
 
 ### Colors not done
 
-- ALL quick picker colors
+- Debug barre
 
-- ALL keybinding label colors
-
-- ALL Keyboard shortcut table colors
-
-*Nothing*
+_Nothing_
 
 ### Fix
 
-*Nothing*
+_Nothing_
 
 ### Upgrade
 
@@ -33,10 +29,13 @@
 ## Useful link
 
 ### Online theme maker
+
 https://themes.vscode.one/edit/local/
 
 ### VSCode marketplace
+
 https://marketplace.visualstudio.com/publishers/ArthurRasera
 
 ### Reference theme color
+
 https://code.visualstudio.com/api/references/theme-color
