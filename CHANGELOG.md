@@ -1,16 +1,20 @@
 # Change Log
 
+## [Version 1.0.2]
+
+### **Modified colors**
+
+`checkbox.foreground`
 
 ## [Version 1.0.1]
 
-### Modified colors
+### **Modified colors**
 
 `editorMultiCursor.primary.foreground`
 
-
 ## [Version 1.0.0]
 
-### Added colors
+### **Added colors**
 
 - `icon.foreground`
 
@@ -20,7 +24,7 @@
 - `tree.tableColumnsBorder`
 - `tree.tableOddRowsBackground`
 
-### Modified colors
+### **Modified colors**
 
 - `toolbar.hoverBackground`
 - `toolbar.hoverOutline`
@@ -28,7 +32,6 @@
 
 - `button.background`
 - `button.border`
-
 
 - `checkbox.background`
 - `checkbox.border`
@@ -86,8 +89,6 @@
 - `terminalStickyScrollHover.background`
 - `terminal.initialHintForeground`
 
-
 ## [Version 0.0.1]
 
 - Initial release
-

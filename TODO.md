@@ -2,14 +2,15 @@
 
 ### Colors not done
 
+- ALL quick picker colors
+
+- ALL keybinding label colors
+
+- ALL Keyboard shortcut table colors
+
 *Nothing*
 
-
 ### Fix
-
-- Color of the mark on checkbox (extension auto-update)
-
-- Change the color of resizing from aqua to light purple
 
 *Nothing*
 
@@ -19,7 +20,6 @@
 
 - Change the syntax color ?
 
-
 ### Others
 
 - Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
@@ -28,6 +28,7 @@
 
 - Do the README.md
 
+- Ensure that all colors is #FF00FF are // DEFAULT are completed
 
 ## Useful link
 
