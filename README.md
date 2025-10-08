@@ -2,8 +2,8 @@
 
 TODO
 
-(this is my theme blabla)
+-This is my theme blabla
+-Screenshoot
+-Dont hesitate to tell if something is missing (not done parameter are in pink to better see tham)
 
-link
-
-dont hesitate to telle if something is missing (unused param in pink)
+- Link
