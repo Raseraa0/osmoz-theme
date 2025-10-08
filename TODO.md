@@ -2,13 +2,17 @@
 
 ### Colors not done
 
-*Nothing*
+- ALL quick picker colors
 
+- ALL keybinding label colors
+
+- ALL Keyboard shortcut table colors
+
+*Nothing*
 
 ### Fix
 
 *Nothing*
-
 
 ### Upgrade
 
@@ -16,15 +20,15 @@
 
 - Change the syntax color ?
 
-
 ### Others
 
-- Add icon for the extension
+- Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
 
 - Add profil picture
 
 - Do the README.md
 
+- Ensure that all colors is #FF00FF are // DEFAULT are completed
 
 ## Useful link
 

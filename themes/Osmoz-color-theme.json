@@ -135,7 +135,7 @@
     "checkbox.background": "#2c2651",
 
     //  Foreground color of checkbox widget.
-    "checkbox.foreground": "#5648a0",
+    "checkbox.foreground": "#cac6e0",
 
     //  Background of a disabled checkbox.
     "checkbox.disabled.background": "#FF00FF",
