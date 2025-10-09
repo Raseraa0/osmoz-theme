@@ -1863,9 +1863,8 @@
     // 'BrightWhite' ANSI color in the terminal.
     "terminal.ansiBrightWhite": "#ffffff",
 
-
     // The selection background color of the terminal.
-    "terminal.selectionBackground": "#342b65",   
+    "terminal.selectionBackground": "#342b65",
 
     // The selection foreground color of the terminal. When this is null the selection foreground will be retained and have the minimum contrast ratio feature applied.
     // "terminal.selectionForeground": "#",    DEFAULT
@@ -1990,6 +1989,60 @@
     // ================================================================================
     // Debug colors
     // ================================================================================
+
+    // Debug toolbar background color.
+    "debugToolBar.background": "#8c7dd3",
+
+    // Debug toolbar border color.
+    "debugToolBar.border": "#342c63",
+
+    // Background color of the top stack frame highlight in the editor.
+    // "editor.stackFrameHighlightBackground": "#",
+
+    // Background color of the focused stack frame highlight in the editor.
+    // "editor.focusedStackFrameHighlightBackground": "#",
+
+    // Color for the debug inline value text.
+    // "editor.inlineValuesForeground": "#",
+
+    // Color for the debug inline value background.
+    // "editor.inlineValuesBackground": "#",
+
+    // Foreground color for a label shown in the CALL STACK view when the debugger breaks on an exception.
+    // "debugView.exceptionLabelForeground": "#",
+
+    // Background color for a label shown in the CALL STACK view when the debugger breaks on an exception.
+    // "debugView.exceptionLabelBackground": "#",
+
+    // Foreground color for a label in the CALL STACK view showing the current session's or thread's state.
+    // "debugView.stateLabelForeground": "#",
+
+    // Background color for a label in the CALL STACK view showing the current session's or thread's state.
+    // "debugView.stateLabelBackground": "#",
+
+    // Color used to highlight value changes in the debug views (such as in the Variables view).
+    // "debugView.valueChangedHighlight": "#",
+
+    // Foreground color for the token names shown in debug views (such as in the Variables or Watch view).
+    // "debugTokenExpression.name": "#",
+
+    // Foreground color for the token values shown in debug views.
+    // "debugTokenExpression.value": "#",
+
+    // Foreground color for strings in debug views.
+    // "debugTokenExpression.string": "#",
+
+    // Foreground color for booleans in debug views.
+    // "debugTokenExpression.boolean": "#",
+
+    // Foreground color for numbers in debug views.
+    // "debugTokenExpression.number": "#",
+
+    // Foreground color for expression errors in debug views.
+    // "debugTokenExpression.error": "#",
+
+    // Foreground color for the token types shown in the debug views (ie. the Variables or Watch view).
+    // "debugTokenExpression.type": "#",
 
     // ================================================================================
     // Testing colors
@@ -2319,7 +2372,7 @@
     "debugIcon.breakpointDisabledForeground": "#d37b7b88",
 
     //  Icon color for unverified breakpoints.
-    "debugIcon.breakpointUnverifiedForeground": "#d97706"
+    "debugIcon.breakpointUnverifiedForeground": "#d97706",
 
     //  Icon color for the current breakpoint stack frame.
     // "debugIcon.breakpointCurrentStackframeForeground" : "#",
@@ -2328,34 +2381,34 @@
     // "debugIcon.breakpointStackframeForeground" : "#",
 
     //  Debug toolbar icon for start debugging.
-    // "debugIcon.startForeground" : "#",
+    "debugIcon.startForeground": "#4ade80",
 
     //  Debug toolbar icon for pause.
-    // "debugIcon.pauseForeground" : "#",
+    "debugIcon.pauseForeground": "#38aa62",
 
     //  Debug toolbar icon for stop.
-    // "debugIcon.stopForeground" : "#",
+    "debugIcon.stopForeground": "#dc2626",
 
     //  Debug toolbar icon for disconnect.
-    // "debugIcon.disconnectForeground" : "#",
+    "debugIcon.disconnectForeground": "#a51d1d",
 
     //  Debug toolbar icon for restart.
-    // "debugIcon.restartForeground" : "#",
+    "debugIcon.restartForeground": "#2699dc",
 
     //  Debug toolbar icon for step over.
-    // "debugIcon.stepOverForeground" : "#",
+    "debugIcon.stepOverForeground": "#d97706",
 
     //  Debug toolbar icon for step into.
-    // "debugIcon.stepIntoForeground" : "#",
+    "debugIcon.stepIntoForeground": "#d97706",
 
     //  Debug toolbar icon for step over.
-    // "debugIcon.stepOutForeground" : "#",
+    "debugIcon.stepOutForeground": "#d97706",
 
     //  Debug toolbar icon for continue.
-    // "debugIcon.continueForeground" : "#",
+    "debugIcon.continueForeground": "#d97706",
 
     //  Debug toolbar icon for step back.
-    // "debugIcon.stepBackForeground" : "#",
+    "debugIcon.stepBackForeground": "#d97706"
 
     //  Foreground color for info messages in debug REPL console.
     // "debugConsole.infoForeground" : "#",

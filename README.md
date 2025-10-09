@@ -19,9 +19,9 @@
 
 ### Preview
 
-![Example 1](./assets/example1.png)
+![Example 1](./assets/Preview-1.png)
 
-![Example 2](./assets/example2.png)
+![Example 2](./assets/Preview-2.png)
 
 ### Constant Improvements
 
