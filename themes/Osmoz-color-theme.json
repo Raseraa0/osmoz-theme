@@ -1651,7 +1651,7 @@
     "titleBar.inactiveBackground": "#231e3b",
 
     //  Title Bar foreground when the window is inactive.
-    "titleBar.inactiveForeground": "#706e7a",
+    "titleBar.inactiveForeground": "#5d5875",
 
     //  Title bar border color.
     "titleBar.border": "#332c5f",
@@ -1991,10 +1991,10 @@
     // ================================================================================
 
     // Debug toolbar background color.
-    "debugToolBar.background": "#8c7dd3",
+    "debugToolBar.background": "#312b55",
 
     // Debug toolbar border color.
-    "debugToolBar.border": "#342c63",
+    "debugToolBar.border": "#8c7dd3",
 
     // Background color of the top stack frame highlight in the editor.
     // "editor.stackFrameHighlightBackground": "#",
@@ -2384,7 +2384,7 @@
     "debugIcon.startForeground": "#4ade80",
 
     //  Debug toolbar icon for pause.
-    "debugIcon.pauseForeground": "#38aa62",
+    "debugIcon.pauseForeground": "#4ade80",
 
     //  Debug toolbar icon for stop.
     "debugIcon.stopForeground": "#dc2626",
@@ -2405,7 +2405,7 @@
     "debugIcon.stepOutForeground": "#d97706",
 
     //  Debug toolbar icon for continue.
-    "debugIcon.continueForeground": "#d97706",
+    "debugIcon.continueForeground": "#4ade80",
 
     //  Debug toolbar icon for step back.
     "debugIcon.stepBackForeground": "#d97706"
