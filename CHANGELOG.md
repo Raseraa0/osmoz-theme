@@ -1,18 +1,36 @@
-# Change Log
+# Changelog
 
-## [Version 1.0.2]
+## 1.0.3
+
+### **Added colors**
+
+- `debugToolBar.background`
+- `debugToolBar.border`
+
+- `debugIcon.startForeground`
+- `debugIcon.pauseForeground`
+- `debugIcon.stopForeground`
+- `debugIcon.disconnectForeground`
+- `debugIcon.restartForeground`
+- `debugIcon.stepOverForeground`
+- `debugIcon.stepIntoForeground`
+- `debugIcon.stepOutForeground`
+- `debugIcon.continueForeground`
+- `debugIcon.stepBackForeground`
+
+## 1.0.2
 
 ### **Modified colors**
 
-`checkbox.foreground`
+- `checkbox.foreground`
 
-## [Version 1.0.1]
+## 1.0.1
 
 ### **Modified colors**
 
-`editorMultiCursor.primary.foreground`
+- `editorMultiCursor.primary.foreground`
 
-## [Version 1.0.0]
+## 1.0.0
 
 ### **Added colors**
 
@@ -89,6 +107,6 @@
 - `terminalStickyScrollHover.background`
 - `terminal.initialHintForeground`
 
-## [Version 0.0.1]
+## 0.0.1
 
 - Initial release
