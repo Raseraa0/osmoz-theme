@@ -26,7 +26,8 @@
 ### Constant Improvements
 
 We are continuously improving Osmoz!  
-If you notice anything missing or any issue (elements not yet defined appear in **pink** for easier visibility), feel free to create an **issue** here: [Create a GitHub Issue](https://github.com/Raseraa0/osmoz-theme/issues).
+If you notice anything missing or any issue (elements not yet defined appear in **pink** for easier visibility),
+feel free to create an **issue** here: [Create a GitHub Issue](https://github.com/Raseraa0/osmoz-theme/issues).
 
 ### Links
 
