@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.0.3
+
+### **Added colors**
+
+- `debugToolBar.background`
+- `debugToolBar.border`
+
+- `debugIcon.startForeground`
+- `debugIcon.pauseForeground`
+- `debugIcon.stopForeground`
+- `debugIcon.disconnectForeground`
+- `debugIcon.restartForeground`
+- `debugIcon.stepOverForeground`
+- `debugIcon.stepIntoForeground`
+- `debugIcon.stepOutForeground`
+- `debugIcon.continueForeground`
+- `debugIcon.stepBackForeground`
+
 ## 1.0.2
 
 ### **Modified colors**

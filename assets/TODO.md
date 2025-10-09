@@ -2,7 +2,7 @@
 
 ### Colors not done
 
-- Debug barre
+- Debug barre is ok ?
 
 _Nothing_
 
