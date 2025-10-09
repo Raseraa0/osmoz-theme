@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.4
+
+### **Modified colors**
+
+- `titleBar.inactiveForeground`
+- `debugToolBar.background`
+- `debugToolBar.border`
+- `debugIcon.continueForeground`
+- `debugIcon.pauseForeground`
+
 ## 1.0.3
 
 ### **Added colors**

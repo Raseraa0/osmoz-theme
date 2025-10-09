@@ -8,6 +8,8 @@ _Nothing_
 
 ### Fix
 
+- Improve Readme previews, with rounded border and highlight (cf aura theme), and maybe a zoom in when taking screen shoot to better see texte (maybe trying to use the extension for taking screenshoot),put bold word rather with `backtick`, subtitle should be bigger
+
 _Nothing_
 
 ### Upgrade
