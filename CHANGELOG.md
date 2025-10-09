@@ -7,7 +7,8 @@
 - `titleBar.inactiveForeground`
 - `debugToolBar.background`
 - `debugToolBar.border`
-- ``
+- `debugIcon.continueForeground`
+- `debugIcon.pauseForeground`
 
 ## 1.0.3
 
