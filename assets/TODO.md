@@ -2,8 +2,6 @@
 
 ### Colors not done
 
-- Debug barre is ok ?
-
 _Nothing_
 
 ### Fix
@@ -22,9 +20,9 @@ _Nothing_
 
 - Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
 
-- Add profil picture
+Le readme ajouter du html pour plus de personnalisation
 
-- Do the README.md
+- Add profil picture
 
 - Ensure that all colors is #FF00FF are // DEFAULT are completed
 

@@ -1,8 +1,8 @@
 {
   "name": "osmoz",
   "displayName": "Osmoz Dark Themes",
-  "description": "Themes for Visual Studio code",
-  "version": "1.0.4",
+  "description": "Dark theme for Visual Studio Code with smooth colors",
+  "version": "1.0.5",
   "publisher": "ArthurRasera",
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "./assets/Logo/logo-v2.png",
   "contributes": {
     "themes": [
       {

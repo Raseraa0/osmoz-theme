@@ -2,6 +2,10 @@
 
 ## 1.0.4
 
+- Identity change
+
+## 1.0.4
+
 ### **Modified colors**
 
 - `titleBar.inactiveForeground`
