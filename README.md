@@ -2,6 +2,8 @@
 
 **Osmoz** is a dark theme for Visual Studio Code, designed to be clean, efficient, and visually pleasing.
 
+![Logo ](./assets/Logo/logo-v2.png)
+
 ### Installation
 
 1. Open the **Extensions** panel in VSCode.
@@ -17,9 +19,9 @@
 
 ### Preview
 
-![Example 1](./assets/Previews/Preview-1.png)
+![Preview 1](./assets/Previews/Preview-1.png)
 
-![Example 2](./assets/Previews/Preview-2.png)
+![Preview 2](./assets/Previews/Preview-2.png)
 
 ### Constant Improvements
 

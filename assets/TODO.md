@@ -8,8 +8,6 @@ _Nothing_
 
 - Improve Readme previews, with rounded border and highlight (cf aura theme), and maybe a zoom in when taking screen shoot to better see texte (maybe trying to use the extension for taking screenshoot),put bold word rather with `backtick`, subtitle should be bigger
 
-- Add logo at the begining of the README.md file
-
 _Nothing_
 
 ### Upgrade
@@ -22,7 +20,7 @@ _Nothing_
 
 - Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
 
-- CROP IMAGE LOGO (et en meme temps crop de la meme facon tt les version du logo, et d'architecture pour assurer la compatibilité)
+Le readme ajouter du html pour plus de personnalisation
 
 - Add profil picture
 
