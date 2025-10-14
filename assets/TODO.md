@@ -22,6 +22,8 @@ _Nothing_
 
 - Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
 
+- CROP IMAGE LOGO (et en meme temps crop de la meme facon tt les version du logo, et d'architecture pour assurer la compatibilité)
+
 - Add profil picture
 
 - Ensure that all colors is #FF00FF are // DEFAULT are completed
