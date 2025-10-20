@@ -2,7 +2,11 @@
 
 ### Colors not done
 
-_Nothing_
+- Loading button bottom right, when changing file ({} Plain Text)
+
+- Jupyter Notbook
+
+  _Nothing_
 
 ### Fix
 
@@ -17,6 +21,8 @@ _Nothing_
 - Change the syntax color ?
 
 ### Others
+
+- Rajouter un pourtour blanc autour du logo pour que sur vscode ça rend bien
 
 - Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
 
