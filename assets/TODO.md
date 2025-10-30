@@ -1,8 +1,6 @@
-## Thing to do
+## Thing todo
 
 ### Colors not done
-
-- Loading button bottom right, when changing file ({} Plain Text)
 
 - Jupyter Notbook
 
@@ -10,7 +8,7 @@
 
 ### Fix
 
-- Improve Readme previews, with rounded border and highlight (cf aura theme), and maybe a zoom in when taking screen shoot to better see texte (maybe trying to use the extension for taking screenshoot),put bold word rather with `backtick`, subtitle should be bigger
+- Go back to logo V2 if V3 not look good (or maybe create a V4 with thinner border)
 
 _Nothing_
 
@@ -21,14 +19,6 @@ _Nothing_
 - Change the syntax color ?
 
 ### Others
-
-- Rajouter un pourtour blanc autour du logo pour que sur vscode ça rend bien
-
-- Improve the icon logo-v0.png (remove background, redo in paint.net , use small gradient instead of plain color ?)
-
-Le readme ajouter du html pour plus de personnalisation
-
-- Add profil picture
 
 - Ensure that all colors is #FF00FF are // DEFAULT are completed
 

@@ -1,6 +1,10 @@
 # Changelog
 
-## 1.0.4
+## 1.0.6
+
+- `statusBarItem.prominentBackground`
+
+## 1.0.5
 
 - Identity change
 
