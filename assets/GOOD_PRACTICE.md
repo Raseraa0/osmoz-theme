@@ -14,6 +14,6 @@
 
 7. Checkout on master
 
-8. Create new tag version (git tag vX.X.X)
+8. Create new tag version (git tag vX.X.X) //OUTDATED
 
-9. Push the new tag (git push origin vX.X.X)
+9. Push the new tag (git push origin vX.X.X) //OUTDATED

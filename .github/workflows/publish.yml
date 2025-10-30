@@ -1,16 +1,17 @@
 name: Publish VS Code Extension
 
-# git tag vX.X.X 
-# git push origin vX.X.X 
-# 
+# git tag vX.X.X
+# git push origin vX.X.X
+#
 on:
-  push:
-    tags:
-      - 'v*.*.*'  
-
+  pull_request:
+    types: [closed]
+    branches:
+      - master
 
 jobs:
   publish:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
