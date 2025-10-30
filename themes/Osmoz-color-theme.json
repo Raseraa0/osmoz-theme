@@ -1569,10 +1569,10 @@
     "statusBarItem.hoverBackground": "#5f559b55",
 
     //  Status Bar prominent items foreground color.
-    "statusBarItem.prominentForeground": "#FF00FF",
+    // "statusBarItem.prominentForeground": "#",   // DEFAULT
 
     //  Status Bar prominent items background color.
-    "statusBarItem.prominentBackground": "#FF00FF",
+    "statusBarItem.prominentBackground": "#796cbf77",
 
     //  Status bar prominent items foreground color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
     "statusBarItem.prominentHoverForeground": "#FF00FF",
