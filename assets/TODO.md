@@ -10,6 +10,8 @@
 
 - Go back to logo V2 if V3 not look good (or maybe create a V4 with thinner border)
 
+- Warning Custom CSS seems not be supported ...
+
 _Nothing_
 
 ### Upgrade
@@ -21,6 +23,8 @@ _Nothing_
 ### Others
 
 - Ensure that all colors is #FF00FF are // DEFAULT are completed
+
+- Just put one preveiw for dark theme and one preview for light theme
 
 ## Useful link
 

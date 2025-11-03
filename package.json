@@ -18,9 +18,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Osmoz",
+        "label": "Osmoz Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Osmoz-color-theme.json"
+        "path": "./themes/Osmoz-dark-color-theme.json"
+      },
+      {
+        "label": "Osmoz Light",
+        "uiTheme": "vs",
+        "path": "./themes/Osmoz-light-color-theme.json"
       }
     ]
   }
