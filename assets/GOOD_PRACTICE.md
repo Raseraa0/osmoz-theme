@@ -13,7 +13,3 @@
 6. Create and merge pull request
 
 7. Checkout on master
-
-8. Create new tag version (git tag vX.X.X) //OUTDATED
-
-9. Push the new tag (git push origin vX.X.X) //OUTDATED
