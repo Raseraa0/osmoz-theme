@@ -27,11 +27,11 @@
 ### 🌑 Osmoz Dark
 
 <div>
-    <img src="./assets/Previews/Preview-3.png" style="filter: drop-shadow(3px 3px 10px #8b6ea380);">
+    <img src="./assets/Previews/Preview-3.png">
 </div>
 
 <div>
-    <img src="./assets/Previews/Preview-2.png" style="filter: drop-shadow(3px 3px 10px #8b6ea380); border-radius: 10px;">
+    <img src="./assets/Previews/Preview-2.png">
 </div>
 
 ### ☀️ Osmoz Light
@@ -43,8 +43,8 @@
 ## Constant Improvements
 
 We are continuously improving `Osmoz`!  
-If you notice anything missing or any issue (elements not yet defined appear in **pink** for easier visibility),
-feel free to create an **issue** here: [Create a GitHub Issue](https://github.com/Raseraa0/osmoz-theme/issues).
+If you notice anything missing or any issue, feel free to create an **issue** here:
+[Create a GitHub Issue](https://github.com/Raseraa0/osmoz-theme/issues).
 
 ## Links
 
