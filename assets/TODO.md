@@ -4,6 +4,10 @@
 
 - Jupyter Notbook
 
+- Badge next to extension icon (not the clock, another one, maybe a warning ?)
+
+- On the vscode release update, the vertical line the to some information
+
   _Nothing_
 
 ### Fix
