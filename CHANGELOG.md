@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1
+
+### **Modified colors**
+
+- `inputOption.activeBackground`
+- `inputOption.hoverBackground`
+- `editorWatermark.foreground`
+
 ## 1.1.0
 
 ### **Modified colors**
